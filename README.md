@@ -9,9 +9,10 @@ Here's what you'll find inside:
 ### 1. **HTML-CLASS-01**
    - **Focus**: Getting started with HTML5 structure.
    - **Key Files**:
-     - `Contact.html`: A sample contact form layout.
+     - `Contact.html`: A sample contact form layout (updated).
      - `File2.html`: Experiments with basic tags.
      - `MyFile.html`: Initial HTML document structure test.
+     - `dark.css`: Stylesheet for dark theme styling.
 
 *(More modules to be added as the cohort progresses)*
 
