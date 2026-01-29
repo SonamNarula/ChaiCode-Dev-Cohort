@@ -14,6 +14,11 @@ Here's what you'll find inside:
      - `MyFile.html`: Initial HTML document structure test.
      - `dark.css`: Stylesheet for dark theme styling.
 
+### 2. **ASSIGNMENTS**
+   - **Focus**: Practical application of concepts.
+   - **Key Files**:
+     - `HTML Resume Page Assignment.html`: A structured resume created using pure HTML.
+
 *(More modules to be added as the cohort progresses)*
 
 ## 🛠️ Built With
