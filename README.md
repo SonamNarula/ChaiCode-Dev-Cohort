@@ -18,6 +18,7 @@ Here's what you'll find inside:
    - **Focus**: Practical application of concepts.
    - **Key Files**:
      - `HTML Resume Page Assignment.html`: A structured resume created using pure HTML.
+     - **Previews**: Screenshots of the rendered output.
 
 *(More modules to be added as the cohort progresses)*
 
