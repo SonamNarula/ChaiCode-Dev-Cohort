@@ -26,3 +26,10 @@ Here's what you'll find inside:
    git clone https://github.com/SonamNarula/ChaiCode-Dev-Cohort.git
    ```
 2. Open any `.html` file in your browser to see the results!
+
+## 🌟 About the Cohort
+The **ChaiCode Dev Cohort** is an intensive development program designed to build strong foundations in web development. It covers everything from HTML/CSS to advanced backend concepts. This repo serves as my personal log of assignments, challenges, and growth throughout the program.
+
+## ✍️ Sign-off
+*Coding with chai, one line at a time.* ☕💻  
+**– Sonam Narula**
