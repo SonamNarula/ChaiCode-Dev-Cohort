@@ -10,14 +10,34 @@ Here's what you'll find inside:
    - **Focus**: Getting started with HTML5 structure.
    - **Key Files**:
      - `Contact.html`: A sample contact form layout (updated).
+     - `Contact2.html`: Demonstration of Internal CSS using `<style>` tags.
      - `index.html`: Main entry point with foundational structure.
-     - `Index2.html`: Additional structure and layout experiments.
+     - `Index2.html`: Mixed styling examples including Inline and External CSS.
      - `File2.html`: Experiments with basic tags.
-     - `style.css`: Core stylesheet for the project.
+     - `style.css`: Main External CSS file for the project.
+     - `atomic.css`: Utility-first External CSS examples.
      - `MyFile.html`: Initial HTML document structure test.
      - `dark.css`: Stylesheet for dark theme styling.
 
-### 2. **ASSIGNMENTS**
+### 3. **CSS Styling Techniques**
+This project explores the three main ways to apply CSS to HTML:
+
+1.  **Inline CSS**
+    - **What it is**: Styles applied directly to an element using the `style` attribute.
+    - **Where to find it**: See `Index2.html` (e.g., `<button style="...">`).
+    - **Pros/Cons**: Good for quick tests, but hard to maintain.
+
+2.  **Internal CSS**
+    - **What it is**: Styles defined within a `<style>` block in the `<head>` of the HTML document.
+    - **Where to find it**: See `Contact2.html`.
+    - **Pros/Cons**: Good for single-page styles, but not reusable across pages.
+
+3.  **External CSS**
+    - **What it is**: Styles defined in a separate `.css` file and linked using the `<link>` tag.
+    - **Where to find it**: `style.css` and `atomic.css` (linked in `Index2.html`).
+    - **Pros/Cons**: Best practice! Keeps structure (HTML) and style (CSS) separate and reusable.
+
+### 4. **ASSIGNMENTS**
    - **Focus**: Practical application of concepts.
    - **Key Files**:
      - `HTML Resume Page Assignment.html`: A structured resume created using pure HTML.
