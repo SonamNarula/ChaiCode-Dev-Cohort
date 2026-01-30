@@ -10,7 +10,10 @@ Here's what you'll find inside:
    - **Focus**: Getting started with HTML5 structure.
    - **Key Files**:
      - `Contact.html`: A sample contact form layout (updated).
+     - `index.html`: Main entry point with foundational structure.
+     - `Index2.html`: Additional structure and layout experiments.
      - `File2.html`: Experiments with basic tags.
+     - `style.css`: Core stylesheet for the project.
      - `MyFile.html`: Initial HTML document structure test.
      - `dark.css`: Stylesheet for dark theme styling.
 
