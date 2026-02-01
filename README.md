@@ -33,7 +33,7 @@ Flexbox (Flexible Box Layout) is a one-dimensional layout method for laying out 
 #### **Key Concepts Diagram**
 ```mermaid
 graph TD
-    subgraph FlexContainer [Flex Container (Parent)]
+    subgraph FlexContainer ["Flex Container (Parent)"]
         direction LR
         Item1[Item 1]
         Item2[Item 2]
