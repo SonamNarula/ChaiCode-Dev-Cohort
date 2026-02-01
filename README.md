@@ -18,6 +18,14 @@ Here's what you'll find inside:
      - `atomic.css`: Utility-first External CSS examples.
      - `MyFile.html`: Initial HTML document structure test.
      - `dark.css`: Stylesheet for dark theme styling.
+     - `dark.css`: Stylesheet for dark theme styling.
+
+### 2. **CLASS-02**
+   - **Focus**: Flexbox and Navigation.
+   - **Key Files**:
+     - `FlexBox.html`: Learning Flexbox layout properties.
+     - `nav.html`: Creating a navigation bar structure.
+     - `Style.css`: CSS for Flexbox and navigation examples.
 
 ### 3. **CSS Styling Techniques**
 This project explores the three main ways to apply CSS to HTML:
