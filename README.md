@@ -45,8 +45,8 @@ graph TD
     style Item2 fill:#9f9,stroke:#333,stroke-width:1px,color:black
     style Item3 fill:#99f,stroke:#333,stroke-width:1px,color:black
 
-    axisMain[Main Axis (justify-content)] --> FlexContainer
-    axisCross[Cross Axis (align-items)] -.-> FlexContainer
+    axisMain["Main Axis (justify-content)"] --> FlexContainer
+    axisCross["Cross Axis (align-items)"] -.-> FlexContainer
 ```
 
 #### **Core Properties**
