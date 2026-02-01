@@ -27,7 +27,35 @@ Here's what you'll find inside:
      - `nav.html`: Creating a navigation bar structure.
      - `Style.css`: CSS for Flexbox and navigation examples.
 
-### 3. **CSS Styling Techniques**
+### 3. **Flexbox Architecture 📦**
+Flexbox (Flexible Box Layout) is a one-dimensional layout method for laying out items in rows or columns.
+
+#### **Key Concepts Diagram**
+```mermaid
+graph TD
+    subgraph FlexContainer [Flex Container (Parent)]
+        direction LR
+        Item1[Item 1]
+        Item2[Item 2]
+        Item3[Item 3]
+    end
+    
+    style FlexContainer fill:#f9f,stroke:#333,stroke-width:2px,color:black
+    style Item1 fill:#ff9,stroke:#333,stroke-width:1px,color:black
+    style Item2 fill:#9f9,stroke:#333,stroke-width:1px,color:black
+    style Item3 fill:#99f,stroke:#333,stroke-width:1px,color:black
+
+    axisMain[Main Axis (justify-content)] --> FlexContainer
+    axisCross[Cross Axis (align-items)] -.-> FlexContainer
+```
+
+#### **Core Properties**
+- **`display: flex;`**: Activates flexbox on the container.
+- **`justify-content`**: Aligns items along the **Main Axis** (e.g., `center`, `space-between`).
+- **`align-items`**: Aligns items along the **Cross Axis** (e.g., `center`, `flex-start`).
+- **`flex-direction`**: Defines the direction of the Main Axis (`row` or `column`).
+
+### 4. **CSS Styling Techniques**
 This project explores the three main ways to apply CSS to HTML:
 
 1.  **Inline CSS**
