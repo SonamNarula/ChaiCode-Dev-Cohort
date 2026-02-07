@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor | The AI Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="nav-links">
+                <a href="#" class="logo">Cursor</a>
+                <div class="nav-items">
+                    <a href="#">Pricing</a>
+                    <a href="#">Enterprise</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Forum</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="#" class="btn btn-secondary">Sign In</a>
+                    <a href="#" class="btn btn-primary">Download</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    Built to make you <br>
+                    extraordinarily productive, <br>
+                    <span class="text-gradient">Cursor is the best way</span> <br>
+                    to code with AI.
+                </h1>
+                <p class="hero-subtitle">
+                    Writing code is the best way to leverage AI. Cursor is the IDE built to make you
+                    extraordinarily productive.
+                </p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary btn-large">Download for macOS</a>
+                    <div class="copy-command">
+                        <code>brew install --cask cursor</code>
+                        <button class="copy-btn" aria-label="Copy command">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-trusted">
+                    <p>Trusted by engineers at</p>
+                    <div class="logo-row">
+                        <span>OpenAI</span>
+                        <span>Midjourney</span>
+                        <span>Perplexity</span>
+                        <span>Scale</span>
+                        <span>Instacart</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Placeholder for Hero Video/Image -->
+            <div class="hero-visual">
+                <div class="mac-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="expand"></span>
+                        </div>
+                        <div class="window-title">main.tsx — Cursor</div>
+                    </div>
+                    <div class="window-content">
+                        <pre><code class="language-typescript">
+import { useEffect, useState } from 'react';
+
+export function AIComponent() {
+  // Cursor Tab will autoclave this...
+  const [data, setData] = useState(null);
+  
+  return (
+    <div className="ai-wrapper">
+      {/* AI Generated Content */}
+    </div>
+  );
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Mission Control Interface</h2>
+                </div>
+
+                <div class="feature-grid">
+                    <!-- Feature 1: Tab -->
+                    <div class="feature-card large-card">
+                        <div class="card-content">
+                            <h3>Magically accurate autocomplete</h3>
+                            <p>Our specialized Tab model predicts your next action with striking speed and precision.
+                            </p>
+                            <a href="#" class="learn-more">Learn about Tab →</a>
+                        </div>
+                        <div class="card-visual code-preview">
+                            <pre><code class="language-tsx">
+// Cursor Tab predicts the next edit
+function calculateTotal(items) {
+  return items.reduce((acc, item) => {
+    return acc + item.price * item.quantity;
+  }, 0);
+}
+                            </code></pre>
+                            <div class="cursor-pointer"></div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2: Chat -->
+                    <div class="feature-card">
+                        <div class="card-content">
+                            <h3>Chat with your codebase</h3>
+                            <p>Get answers from your codebase using the best models.</p>
+                        </div>
+                        <div class="card-visual chat-preview">
+                            <div class="chat-message user">How do I add authentication?</div>
+                            <div class="chat-message ai">I can help with that. First, install...</div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3: Composer -->
+                    <div class="feature-card">
+                        <div class="card-content">
+                            <h3>Composer</h3>
+                            <p>Edit multiple files at once with natural language.</p>
+                        </div>
+                        <div class="card-visual composer-preview">
+                            <div class="file-edit">Updated User.tsx</div>
+                            <div class="file-edit">Updated api.ts</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="privacy-section">
+                    <h2>Stay on the frontier</h2>
+                    <div class="grid-3">
+                        <div class="info-card">
+                            <h3>Use the best model for every task</h3>
+                            <p>Claude 3.5 Sonnet, GPT-4o, and more.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Complete codebase understanding</h3>
+                            <p>Cursor indexes your code for semantic search.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Develop enduring software</h3>
+                            <p>Built for privacy and security first.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials">
+                    <h2>Trusted by the best</h2>
+                    <div class="testimonial-grid">
+                        <div class="testimonial-card">
+                            <p>"It was night and day... adoption went from single digits to over 80%. It just spread
+                                like wildfire."</p>
+                            <span class="author">— Engineering Lead at Midjourney</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p>"My favorite enterprise AI service is Cursor. Productivity has gone up incredibly."</p>
+                            <span class="author">— User at Perplexity</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p>"The most useful AI tool that I currently pay for, hands down, is Cursor."</p>
+                            <span class="author">— Senior Engineer at Stripe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="#">Download</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Changelog</a>
+                    <a href="#">Docs</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="#">Forum</a>
+                    <a href="#">Discord</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cursor. Clone by Sonam.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
