@@ -350,7 +350,7 @@ a {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
     /* Clean border */
     overflow: hidden;
-    height: 640px;
+    min-height: 600px;
 }
 
 .doc-sidebar {
