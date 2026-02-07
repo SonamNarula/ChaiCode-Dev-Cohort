@@ -48,14 +48,48 @@
                         <span class="badge-new">NEW</span>
                         Self-updating docs with agent suggestions <span>→</span>
                     </div>
-                    <h1>The Intelligent Knowledge Platform</h1>
+                    <h1>The Intelligent<br>Knowledge Platform</h1>
                     <p class="hero-subtext">
-                        Turn your company's knowledge into accurate, agent-ready context
+                        Turn your company's knowledge into accurate, agent-ready context.
+                        The new standard for beautiful, performant documentation.
                     </p>
 
                     <div class="email-signup">
-                        <input type="email" placeholder="Email address" aria-label="Work Email">
-                        <button class="btn btn-primary">Start now</button>
+                        <input type="email" placeholder="Enter your email..." aria-label="Work Email">
+                        <button class="btn btn-primary">Start for free</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual: Detailed Code Block -->
+            <div class="hero-visual-container">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="window-title">mint.json</div>
+                    </div>
+                    <div class="window-body">
+                        <div class="code-line"><span class="line-num">1</span><span class="c-key">"name"</span>: <span
+                                class="c-str">"Mintlify"</span>,</div>
+                        <div class="code-line"><span class="line-num">2</span><span class="c-key">"navigation"</span>: [
+                        </div>
+                        <div class="code-line"><span class="line-num">3</span> {</div>
+                        <div class="code-line"><span class="line-num">4</span> <span class="c-key">"group"</span>: <span
+                                class="c-str">"Getting Started"</span>,</div>
+                        <div class="code-line"><span class="line-num">5</span> <span class="c-key">"pages"</span>:
+                            [<span class="c-str">"quickstart"</span>, <span class="c-str">"introduction"</span>]</div>
+                        <div class="code-line"><span class="line-num">6</span> },</div>
+                        <div class="code-line"><span class="line-num">7</span> {</div>
+                        <div class="code-line"><span class="line-num">8</span> <span class="c-key">"group"</span>: <span
+                                class="c-str">"API Reference"</span>,</div>
+                        <div class="code-line"><span class="line-num">9</span> <span class="c-key">"pages"</span>:
+                            [<span class="c-str">"authentication"</span>, <span class="c-str">"endpoints"</span>]</div>
+                        <div class="code-line"><span class="line-num">10</span> }</div>
+                        <div class="code-line"><span class="line-num">11</span>]</div>
                     </div>
                 </div>
             </div>
@@ -66,47 +100,75 @@
             <div class="container doc-container">
                 <div class="doc-sidebar">
                     <div class="sidebar-logo">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="#15bd83"></path>
                         </svg>
-                        mintlify
+                        <span style="font-size:1.1rem; color: #0f172a;">mintlify</span>
                     </div>
-                    <div class="sidebar-item">✨ Ask Assistant</div>
-                    <div class="sidebar-item active">📚 Quickstart</div>
-                    <div class="sidebar-item">⚙️ Global Settings</div>
-                    <div class="sidebar-item">🧠 AI Optimization</div>
-                    <div class="sidebar-item">🧩 Components</div>
-                    <div class="sidebar-item">🎨 Themes</div>
+
+                    <div class="sidebar-group">
+                        <div class="group-title">Platform</div>
+                        <div class="sidebar-item active">
+                            <span>📚</span> Quickstart
+                        </div>
+                        <div class="sidebar-item">
+                            <span>⚡️</span> Integration
+                        </div>
+                        <div class="sidebar-item">
+                            <span>🎨</span> Customization
+                        </div>
+                    </div>
+
+                    <div class="sidebar-group">
+                        <div class="group-title">API Reference</div>
+                        <div class="sidebar-item">
+                            <span>🔐</span> Authentication
+                        </div>
+                        <div class="sidebar-item">
+                            <span>🔄</span> Endpoints
+                        </div>
+                    </div>
                 </div>
 
                 <div class="doc-content">
                     <div class="doc-nav-top">
-                        <div class="doc-tabs">
-                            <span class="doc-tab active">Guides</span>
-                            <span class="doc-tab">API Reference</span>
-                            <span class="doc-tab">Changelog</span>
+                        <div class="breadcrumb">
+                            <span>Docs</span> <span class="divider">/</span> <span class="active">Quickstart</span>
                         </div>
                         <div class="doc-search">
-                            🔍 Search or ask...
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <span>Search...</span>
+                            <span class="cmd-k">⌘K</span>
                         </div>
                     </div>
 
                     <div class="doc-main">
-                        <div class="breadcrumb"
-                            style="color:#15bd83; font-size:0.8rem; margin-bottom:12px; font-weight:600;">Getting
-                            Started</div>
-                        <h2>Quickstart Guide</h2>
-                        <p>Start building intelligent documentation in under five minutes</p>
+                        <h1>Quickstart Guide</h1>
+                        <p class="doc-lead">Start building intelligent documentation in minutes. This guide covers the
+                            basics of setting up Mintlify for your project.</p>
 
-                        <div class="preview-cards">
-                            <div class="preview-card">
-                                <!-- Abstract lines -->
-                                <div style="width:60px; height:80px; border:2px solid #e2e8f0; border-radius:4px;">
-                                </div>
+                        <div class="doc-block">
+                            <h3>Installation</h3>
+                            <p>Run the following command in your terminal to initialize a new project:</p>
+                            <div class="snippet">
+                                <span class="prefix">$</span> npm i -g mintlify
                             </div>
-                            <div class="preview-card">
-                                <div style="width:60px; height:80px; border:2px solid #e2e8f0; border-radius:4px;">
-                                </div>
+                        </div>
+
+                        <div class="preview-grid">
+                            <div class="grid-item">
+                                <div class="item-icon">🚀</div>
+                                <h4>Deploy Instantly</h4>
+                                <p>Push to git and we handle the rest.</p>
+                            </div>
+                            <div class="grid-item">
+                                <div class="item-icon">💅</div>
+                                <h4>Customizable</h4>
+                                <p>Match your brand identity perfectly.</p>
                             </div>
                         </div>
                     </div>
