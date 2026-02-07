@@ -26,16 +26,16 @@
                     <span>mintlify</span>
                 </a>
                 <nav class="nav-links">
-                    <a href="#">Customers</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
+                    <a href="#">Resources</a>
                     <a href="#">Documentation</a>
-                    <a href="#">Careers</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pricing</a>
                 </nav>
             </div>
             <div class="nav-right">
-                <a href="#" class="btn btn-text">Sign In</a>
-                <a href="#" class="btn btn-primary">Get Started</a>
+                <a href="#" class="btn btn-text">Contact sales</a>
+                <a href="#" class="btn btn-primary">Start for free</a>
             </div>
         </div>
     </header>
@@ -44,116 +44,71 @@
         <section class="hero">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <div class="badge">The Intelligent Knowledge Platform</div>
-                    <h1>
-                        Built to make you <br>
-                        extraordinarily productive
-                    </h1>
+                    <div class="badge">
+                        <span class="badge-new">NEW</span>
+                        Self-updating docs with agent suggestions <span>→</span>
+                    </div>
+                    <h1>The Intelligent Knowledge Platform</h1>
                     <p class="hero-subtext">
-                        The documentation platform that understands your code.
-                        Beautiful out-of-the-box, easy to maintain, and built for the AI age.
+                        Turn your company's knowledge into accurate, agent-ready context
                     </p>
 
                     <div class="email-signup">
-                        <input type="email" placeholder="Enter work email..." aria-label="Work Email">
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-
-                    <p class="small-text">No credit card required</p>
-                </div>
-
-                <div class="hero-visual">
-                    <!-- CSS-only Representation of Mintlify's abstract graphics -->
-                    <div class="glow-bg"></div>
-                    <div class="visual-card-stack">
-                        <div class="card card-back"></div>
-                        <div class="card card-front">
-                            <div class="code-header">
-                                <span class="dot red"></span>
-                                <span class="dot yellow"></span>
-                                <span class="dot green"></span>
-                            </div>
-                            <div class="code-content">
-                                <div class="line"><span class="keyword">export</span> <span
-                                        class="keyword">default</span> <span class="function">defineConfig</span>({
-                                </div>
-                                <div class="line indent"> name: <span class="string">'mintlify'</span>,</div>
-                                <div class="line indent"> theme: {</div>
-                                <div class="line indent-2"> colors: {</div>
-                                <div class="line indent-3"> primary: <span class="string">'#0f4c3a'</span></div>
-                                <div class="line indent-2"> }</div>
-                                <div class="line indent"> }</div>
-                                <div class="line">});</div>
-                            </div>
-                        </div>
+                        <input type="email" placeholder="Email address" aria-label="Work Email">
+                        <button class="btn btn-primary">Start now</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Documentation Preview Section -->
+        <!-- Documentation Preview Section (Floating) -->
         <section class="doc-preview">
             <div class="container doc-container">
                 <div class="doc-sidebar">
-                    <div class="sidebar-group">
-                        <h3>Getting Started</h3>
-                        <a href="#" class="active">Introduction</a>
-                        <a href="#">Quickstart</a>
-                        <a href="#">Design</a>
+                    <div class="sidebar-logo">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="#15bd83"></path>
+                        </svg>
+                        mintlify
                     </div>
-                    <div class="sidebar-group">
-                        <h3>API Reference</h3>
-                        <a href="#">Authentication</a>
-                        <a href="#">Endpoints</a>
-                        <a href="#">Errors</a>
-                    </div>
-                    <div class="sidebar-group">
-                        <h3>Components</h3>
-                        <a href="#">Buttons</a>
-                        <a href="#">Cards</a>
-                        <a href="#">Forms</a>
-                    </div>
+                    <div class="sidebar-item">✨ Ask Assistant</div>
+                    <div class="sidebar-item active">📚 Quickstart</div>
+                    <div class="sidebar-item">⚙️ Global Settings</div>
+                    <div class="sidebar-item">🧠 AI Optimization</div>
+                    <div class="sidebar-item">🧩 Components</div>
+                    <div class="sidebar-item">🎨 Themes</div>
                 </div>
 
                 <div class="doc-content">
-                    <div class="doc-header">
-                        <h2>Introduction</h2>
-                        <p>Welcome to the Mintlify documentation. Here you'll find everything you need to build amazing
-                            documentation.</p>
-                    </div>
-
-                    <div class="card-grid">
-                        <div class="doc-card">
-                            <div class="card-icon">🚀</div>
-                            <h3>Quickstart</h3>
-                            <p>Get up and running with Mintlify in less than 5 minutes.</p>
+                    <div class="doc-nav-top">
+                        <div class="doc-tabs">
+                            <span class="doc-tab active">Guides</span>
+                            <span class="doc-tab">API Reference</span>
+                            <span class="doc-tab">Changelog</span>
                         </div>
-                        <div class="doc-card">
-                            <div class="card-icon">🎨</div>
-                            <h3>Customization</h3>
-                            <p>Make your documentation look exactly like your brand.</p>
-                        </div>
-                        <div class="doc-card">
-                            <div class="card-icon">⚡️</div>
-                            <h3>Performance</h3>
-                            <p>Built for speed and SEO optimization out of the box.</p>
-                        </div>
-                        <div class="doc-card">
-                            <div class="card-icon">🤖</div>
-                            <h3>AI Capabilities</h3>
-                            <p>Leverage our AI to write and maintain your docs.</p>
+                        <div class="doc-search">
+                            🔍 Search or ask...
                         </div>
                     </div>
 
-                    <div class="code-block">
-                        <div class="code-title">mint.json</div>
-                        <pre><code>{
-  "name": "My Docs",
-  "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg"
-  }
-}</code></pre>
+                    <div class="doc-main">
+                        <div class="breadcrumb"
+                            style="color:#15bd83; font-size:0.8rem; margin-bottom:12px; font-weight:600;">Getting
+                            Started</div>
+                        <h2>Quickstart Guide</h2>
+                        <p>Start building intelligent documentation in under five minutes</p>
+
+                        <div class="preview-cards">
+                            <div class="preview-card">
+                                <!-- Abstract lines -->
+                                <div style="width:60px; height:80px; border:2px solid #e2e8f0; border-radius:4px;">
+                                </div>
+                            </div>
+                            <div class="preview-card">
+                                <div style="width:60px; height:80px; border:2px solid #e2e8f0; border-radius:4px;">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +126,6 @@
             </div>
         </section>
 
-
         <!-- Features Section -->
         <section class="features">
             <div class="container">
@@ -182,8 +136,7 @@
                     <div class="feature-text">
                         <h3>Self-updating knowledge</h3>
                         <p>Draft, edit, and maintain content with a context-aware agent. Move faster and more
-                            consistently
-                            without the documentation debt.</p>
+                            consistently without the documentation debt.</p>
                         <ul class="feature-list">
                             <li>Auto-sync with codebase</li>
                             <li>Semantic search built-in</li>
@@ -201,8 +154,7 @@
                     <div class="feature-text">
                         <h3>Intelligent Assistance</h3>
                         <p>Turn every documentation visit into a guided conversation. Your AI assistant understands
-                            context
-                            and delivers what users need.</p>
+                            context and delivers what users need.</p>
                         <button class="btn btn-secondary">Learn more</button>
                     </div>
                     <div class="feature-visual">
