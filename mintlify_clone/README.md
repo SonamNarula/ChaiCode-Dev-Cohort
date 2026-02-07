@@ -7,11 +7,12 @@ This project was built as part of the ChaiCode Dev Cohort 8-hour challenge.
 ## 🎯 Sections Recreated
 
 ✅ **Top Navigation Bar**: Sticky header with logo, navigation links, and CTA buttons.
-✅ **Hero Section**: Main value proposition, email signup input, and a CSS-only visual representation of code/cards.
-✅ **Documentation Preview**: Sidebar navigation and grid layout for documentation topics.
-✅ **Trusted By**: Company logo row.
+✅ **Hero Section**: Main value proposition, email signup input, and a CSS-only visual cloud illustration.
+✅ **Documentation Preview**: Floating card with sidebar navigation and main content area.
+✅ **Trusted By**: Company logo row using SVGs.
 ✅ **Feature Highlights**: Alternating feature rows with text and visual placeholders.
 ✅ **Enterprise Features**: Grid layout showcasing security compliance and support.
+✅ **Case Studies**: Card-based customer testimonials with SVG logos.
 ✅ **Footer**: Multi-column layout with links and copyright information.
 
 ## 🎨 Design System
