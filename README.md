@@ -33,6 +33,7 @@ A semantic HTML document structuring a professional resume.
 | `ASSIGNMENT-1/` | **Resume Assignment** | Semantic HTML, Document Structure. |
 | `ASSIGNMENT-2/` | **Basic Cursor Layout** | Initial practice with landing page structures. |
 | `CLASS-02/` | **Navigation & Flexbox** | Building flexible navbars, understanding `justify-content` and `align-items`. |
+| `CSS/` | **CSS Experiments** | Playground for testing CSS properties and layout ideas. |
 | `HTML-CLASS-01/` | **HTML Fundamentals** | Forms, Tables, Multimedia tags, Internal vs External CSS. |
 
 ## 🛠️ Tech Stack & Tools
