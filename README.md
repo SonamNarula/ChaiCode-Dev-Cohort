@@ -50,31 +50,49 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
     -   **Media Integration**:
         -   *Local Assets*: Hosting and referencing images stored within the project directory.
         -   *Remote Assets*: Embedding high-resolution images via absolute URLs (e.g., Pexels).
-    -   **Hyperlinks**: external navigation anchors.
+    -   **Hyperlinks**: external navigation anchors and internal page linking (`about.html`).
+    -   **Forms & Inputs**:
+        -   *Input Types*: Text, Email, Password, Date, Color, Range, File, Radio, Checkbox.
+        -   *Form Structure*: Labels, inputs, and submission buttons.
 
 -   **DOM Structure Visualization**:
     ```mermaid
     graph TD;
       root[Stickman Window] --> html;
       html --> head;
-      head --> meta_charset;
-      head --> meta_viewport;
+      head --> meta_tags;
       head --> title;
       html --> body;
+      
+      %% Content Sections
       body --> Headings[H1 - H6];
       body --> Paragraphs;
+      
+      %% Lists
       body --> Lists;
       Lists --> Ordered_List;
       Lists --> Unordered_List;
       Lists --> Nested_List;
       Nested_List --> Parent_Item;
       Parent_Item --> Child_List;
+      
+      %% Media
       body --> Media;
       Media --> Local_Image;
       Media --> Remote_Image;
-      body --> Links;
+      
+      %% Navigation & Forms
+      body --> Navigation;
+      Navigation --> External_Link[Netflix];
+      Navigation --> Internal_Link[About Page];
+      
+      body --> Forms;
+      Forms --> Inputs;
+      Inputs --> Text_Fields;
+      Inputs --> Selection_Controls;
+      Inputs --> Special_Types[Color/Date/File];
     ```
--   **Key Concepts**: Nesting intricate lists, semantic hierarchy, relative vs absolute paths, and attribute handling (`src`, `alt`, `href`, `target`).
+-   **Key Concepts**: Nesting intricate lists, semantic hierarchy, relative vs absolute paths, form handling, and attribute manipulation (`src`, `alt`, `href`, `target`, `type`).
 
 ## 🛠️ Tech Stack & Tools
 
