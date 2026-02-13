@@ -39,19 +39,42 @@ A semantic HTML document structuring a professional resume.
 
 ### 4. [Self Practice Sandbox](./SELF%20PRACTICE/)
 **Status:** 🚧 *Active Learning*
-A raw, hands-on environment where I experiment with core HTML structures.
--   **Structure Visualization**:
+A raw, hands-on environment where I experiment with core HTML structures. This sandbox serves as a testing ground for understanding the browser's default rendering behavior and the document object model (DOM) hierarchy.
+
+-   **Features Explored**:
+    -   **Semantic Headings**: Hierarchy testing from `<h1>` to `<h6>`.
+    -   **List Structures**:
+        -   *Ordered Lists* (`<ol>`) for sequential data.
+        -   *Unordered Lists* (`<ul>`) for bulleted items.
+        -   *Nested Lists*: Complex indentation combining ordered and unordered lists to represent deeper data relationships.
+    -   **Media Integration**:
+        -   *Local Assets*: Hosting and referencing images stored within the project directory.
+        -   *Remote Assets*: Embedding high-resolution images via absolute URLs (e.g., Pexels).
+    -   **Hyperlinks**: external navigation anchors.
+
+-   **DOM Structure Visualization**:
     ```mermaid
     graph TD;
-      Body-->Headings;
-      Body-->Paragraphs;
-      Body-->Lists;
-      Lists-->Ordered;
-      Lists-->Unordered;
-      Lists-->Nested;
-      Body-->Images;
+      root[Stickman Window] --> html;
+      html --> head;
+      head --> meta_charset;
+      head --> meta_viewport;
+      head --> title;
+      html --> body;
+      body --> Headings[H1 - H6];
+      body --> Paragraphs;
+      body --> Lists;
+      Lists --> Ordered_List;
+      Lists --> Unordered_List;
+      Lists --> Nested_List;
+      Nested_List --> Parent_Item;
+      Parent_Item --> Child_List;
+      body --> Media;
+      Media --> Local_Image;
+      Media --> Remote_Image;
+      body --> Links;
     ```
--   **Key Concepts**: Nesting intricate lists, semantic hierarchy (H1-H6), and local asset management.
+-   **Key Concepts**: Nesting intricate lists, semantic hierarchy, relative vs absolute paths, and attribute handling (`src`, `alt`, `href`, `target`).
 
 ## 🛠️ Tech Stack & Tools
 
