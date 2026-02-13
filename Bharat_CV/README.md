@@ -6,7 +6,8 @@ A sophisticated, print-optimized Curriculum Vitae designed for **Bharat Narula**
 
 ## 🌟 Key Features
 
--   **"Minute Peach" Theme**: A subtle, professional color palette (`#b06c54` Primary, `#fffbf9` Background) designed to be gentle on the eyes and perfect for printing.
+-   **"Compact Terra Cotta" Theme**: A deep, professional color palette (`#5e382b` Primary, `#fffbf9` Background) with a truncated, intense layout.
+-   **Aggressive Layout Compaction**: Optimized for a shorter, ~15-20cm vertical footprint while retaining full readability.
 -   **Print-First Architecture**: Uses `@media print` CSS to ensure the CV prints perfectly on A4 paper without wasting ink on unnecessary backgrounds, while preserving the theme's essence.
 -   **Content Structure**:
     -   **Highlighted Achievements**: Boxed section for key metrics (Mentoring top rankers, etc.).
