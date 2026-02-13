@@ -35,6 +35,23 @@ A semantic HTML document structuring a professional resume.
 | `CLASS-02/` | **Navigation & Flexbox** | Building flexible navbars, understanding `justify-content` and `align-items`. |
 | `CSS/` | **CSS Experiments** | Playground for testing CSS properties and layout ideas. |
 | `HTML-CLASS-01/` | **HTML Fundamentals** | Forms, Tables, Multimedia tags, Internal vs External CSS. |
+| `SELF PRACTICE/` | **HTML Playground** | **New!** A dedicated sandbox for mastering HTML5 semantics, lists (ordered, unordered, nested), and media integration. |
+
+### 4. [Self Practice Sandbox](./SELF%20PRACTICE/)
+**Status:** 🚧 *Active Learning*
+A raw, hands-on environment where I experiment with core HTML structures.
+-   **Structure Visualization**:
+    ```mermaid
+    graph TD;
+      Body-->Headings;
+      Body-->Paragraphs;
+      Body-->Lists;
+      Lists-->Ordered;
+      Lists-->Unordered;
+      Lists-->Nested;
+      Body-->Images;
+    ```
+-   **Key Concepts**: Nesting intricate lists, semantic hierarchy (H1-H6), and local asset management.
 
 ## 🛠️ Tech Stack & Tools
 
