@@ -55,6 +55,15 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
         -   *Input Types*: Text, Email, Password, Date, Color, Range, File, Radio, Checkbox.
         -   *Form Structure*: Labels, inputs, and submission buttons.
 
+### 5. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
+**Status:** 🚧 *Prototype*
+A multi-page personal portfolio website built entirely with raw HTML.
+-   **Key Features**:
+    -   **Multi-page Navigation**: Linking between `index.html` (Home) and `AnotherPage.html`.
+    -   **Social Media Integration**: deeply nested links to external profiles (Instagram, LinkedIn, Twitter, GitHub).
+    -   **Media Gallery**: A section displaying a curated collection of images using both hosted URLs and Base64 data URIs.
+    -   **Semantic Structure**: Use of `<header>`, `<nav>`, `<section>` for proper document outlining.
+
 -   **DOM Structure Visualization**:
     ```mermaid
     graph TD;
