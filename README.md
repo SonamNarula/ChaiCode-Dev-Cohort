@@ -23,14 +23,14 @@ A semantic HTML document structuring a professional resume.
 -   **Focus**: Proper use of semantic tags (`<section>`, `<article>`, `<ul>`), accessibility, and document outline.
 
 ### 4. [Bharat CV (Special Project)](./Bharat_CV/)
-**Status:** ✅ *In Production* | **Theme:** "Minute Peach" (Print-Optimized)
+**Status:** ✅ *In Production* | **Theme:** "Compact Terra Cotta" (Print-Optimized)
 A professional, print-ready CV designed for my father, **Bharat Narula** (Senior Chemistry Faculty).
 -   **Goal**: To create a definitive, high-quality resume that reflects 20+ years of teaching excellence with a sophisticated, subtle aesthetic.
 -   **Key Tech**: CSS Print Media Queries (`@media print`), Layout Optimization, Custom Typography.
 -   **Features**:
     -   **Print-First Design**: Ensures perfect A4 formatting with background graphics implementation for print.
-    -   **Theme**: A unique "Minute Peach" and "Muted Terra Cotta" palette that stands out while remaining sincere and professional.
-    -   **Smart Layout**: Balanced usage of white space, sidebar-based information architecture, and a dedicated "Key Achievements" highlight box.
+    -   **Theme**: A unique "Compact Terra Cotta" palette that stands out while remaining sincere and professional.
+    -   **Smart Layout**: Balanced usage of white space, sidebar-based information architecture, and a dedicated "Key Achievements" highlight box (Top Rankers in NEET & IIT-JEE).
     -   **Interactive Elements**: Floating "Download/Print" button that auto-hides during actual printing.
 
 ---
@@ -48,7 +48,7 @@ A professional, print-ready CV designed for my father, **Bharat Narula** (Senior
 | `HTML-CLASS-01/` | **HTML Fundamentals** | Forms, Tables, Multimedia tags, Internal vs External CSS. |
 | `SELF PRACTICE/` | **HTML Playground** | **New!** A dedicated sandbox for mastering HTML5 semantics, lists (ordered, unordered, nested), and media integration. |
 
-### 4. [Self Practice Sandbox](./SELF%20PRACTICE/)
+### 5. [Self Practice Sandbox](./SELF%20PRACTICE/)
 **Status:** 🚧 *Active Learning*
 A raw, hands-on environment where I experiment with core HTML structures. This sandbox serves as a testing ground for understanding the browser's default rendering behavior and the document object model (DOM) hierarchy.
 
@@ -66,7 +66,7 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
         -   *Input Types*: Text, Email, Password, Date, Color, Range, File, Radio, Checkbox.
         -   *Form Structure*: Labels, inputs, and submission buttons.
 
-### 5. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
+### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
 **Status:** 🚧 *Prototype*
 A multi-page personal portfolio website built entirely with raw HTML.
 -   **Key Features**:
