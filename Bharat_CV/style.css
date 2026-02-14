@@ -29,10 +29,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #555;
     color: var(--text-color);
-    font-size: 10pt;
-    /* Reduced from 11.5pt */
-    line-height: 1.3;
-    /* Reduced from 1.4 */
+    font-size: 9.5pt;
+    /* Reduced from 10pt */
+    line-height: 1.25;
+    /* Reduced from 1.3 */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -51,12 +51,12 @@ body {
 
 /* Sidebar - Light and Clean */
 .sidebar {
-    width: 220px;
-    /* Reduced width */
+    width: 200px;
+    /* Reduced width from 220px */
     background-color: var(--sidebar-bg);
     color: var(--sidebar-text);
-    padding: 20px 15px;
-    /* Reduced from 30px 20px */
+    padding: 15px 12px;
+    /* Reduced padding */
     border-right: 1px solid #f2dace;
     display: flex;
     flex-direction: column;
@@ -64,19 +64,19 @@ body {
 
 .profile-section {
     text-align: center;
-    margin-bottom: 20px;
-    /* Reduced from 30px */
-    margin-top: 20px;
-    /* Reduced from 35px */
+    margin-bottom: 15px;
+    /* Reduced from 20px */
+    margin-top: 15px;
+    /* Reduced from 20px */
 }
 
 .photo-container {
-    width: 120px;
-    /* Reduced from 160px */
-    height: 120px;
-    /* Reduced from 160px */
-    margin: 0 auto 15px;
-    /* Reduced from 20px */
+    width: 100px;
+    /* Reduced from 120px */
+    height: 100px;
+    /* Reduced from 120px */
+    margin: 0 auto 10px;
+    /* Reduced from 15px */
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid var(--primary-color);
@@ -91,35 +91,35 @@ body {
 
 .section-title-side {
     font-family: 'Merriweather', serif;
-    font-size: 11pt;
-    /* Reduced from 12pt */
+    font-size: 10.5pt;
+    /* Reduced from 11pt */
     color: var(--primary-color);
     border-bottom: 2px solid #d1d1d1;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    /* Reduced from 15px */
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    /* Reduced from 10px */
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .contact-info {
-    margin-bottom: 25px;
-    /* Reduced from 40px */
+    margin-bottom: 20px;
+    /* Reduced from 25px */
 }
 
 .contact-item {
     display: flex;
-    margin-bottom: 10px;
-    /* Reduced from 15px */
-    font-size: 9pt;
-    /* Reduced from 9.5pt */
+    margin-bottom: 8px;
+    /* Reduced from 10px */
+    font-size: 8.5pt;
+    /* Reduced from 9pt */
     align-items: flex-start;
     color: var(--secondary-color);
 }
 
 .contact-item i {
     color: var(--primary-color);
-    width: 20px;
+    width: 18px;
     margin-top: 3px;
 }
 
@@ -128,10 +128,10 @@ body {
 }
 
 .skills-list li {
-    margin-bottom: 6px;
-    /* Reduced from 10px */
-    font-size: 9pt;
-    /* Reduced from 9.5pt */
+    margin-bottom: 5px;
+    /* Reduced from 6px */
+    font-size: 8.5pt;
+    /* Reduced from 9pt */
     color: var(--secondary-color);
     display: flex;
     align-items: flex-start;
@@ -140,73 +140,73 @@ body {
 .skills-list li::before {
     content: "▪";
     color: var(--accent-color);
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 /* Main Content */
 .main-content {
     flex: 1;
-    padding: 25px;
-    /* Reduced from 35px */
+    padding: 20px;
+    /* Reduced from 25px */
 }
 
 /* Header in Main Content */
 .main-header {
     border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    /* Reduced from 25px */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    /* Reduced from 20px */
 }
 
 .name {
     font-family: 'Merriweather', serif;
-    font-size: 24pt;
-    /* Reduced from 28pt */
+    font-size: 20pt;
+    /* Reduced from 24pt */
     font-weight: 700;
     color: var(--primary-color);
     line-height: 1.1;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     /* Reduced */
 }
 
 .job-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 11pt;
-    /* Reduced from 12pt */
+    font-size: 10pt;
+    /* Reduced from 11pt */
     font-weight: 700;
     color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 5px;
-    /* Reduced from 8px */
+    margin-bottom: 4px;
+    /* Reduced from 5px */
 }
 
 .tagline {
     font-family: 'Merriweather', serif;
-    font-size: 10.5pt;
-    /* Reduced from 11.5pt */
+    font-size: 9.5pt;
+    /* Reduced from 10.5pt */
     font-style: italic;
     color: var(--secondary-color);
     font-weight: 600;
 }
 
 .content-section {
-    margin-bottom: 20px;
-    /* Reduced from 25px */
+    margin-bottom: 15px;
+    /* Reduced from 20px */
 }
 
 .section-head {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    /* Reduced from 15px */
+    margin-bottom: 8px;
+    /* Reduced from 10px */
 }
 
 .section-title {
     font-family: 'Merriweather', serif;
-    font-size: 11.5pt;
-    /* Reduced from 12pt */
+    font-size: 10.5pt;
+    /* Reduced from 11.5pt */
     font-weight: 700;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -216,23 +216,24 @@ body {
 .icon-box {
     background-color: var(--primary-color);
     color: white;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
+    /* Reduced from 30px */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 12px;
-    font-size: 11pt;
+    margin-right: 10px;
+    font-size: 9pt;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Highlighted Results Box */
 .results-box {
     background-color: #fff9f7;
-    border-left: 4px solid var(--primary-color);
-    padding: 25px;
-    /* Increased from 15px */
+    border-left: 3px solid var(--primary-color);
+    padding: 15px;
+    /* Reduced from 25px */
     border-radius: 0 4px 4px 0;
 }
 
@@ -242,10 +243,11 @@ body {
 }
 
 .results-list li {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     position: relative;
-    padding-left: 20px;
-    font-size: 10pt;
+    padding-left: 18px;
+    font-size: 9.5pt;
+    /* Reduced from 10pt */
     color: #444;
 }
 
@@ -259,33 +261,38 @@ body {
 
 .summary-text {
     font-family: 'Merriweather', serif;
-    font-size: 10.5pt;
+    font-size: 9.5pt;
+    /* Reduced from 10.5pt */
     color: var(--text-light);
-    line-height: 1.8;
+    line-height: 1.6;
+    /* Reduced from 1.8 */
     text-align: justify;
 }
 
 /* Experience */
 .experience-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    /* Reduced from 20px */
 }
 
 .exp-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .exp-role {
-    font-size: 12pt;
+    font-size: 10.5pt;
+    /* Reduced from 12pt */
     font-weight: 700;
     color: var(--primary-color);
 }
 
 .exp-date {
     font-family: 'Roboto', sans-serif;
-    font-size: 9.5pt;
+    font-size: 9pt;
+    /* Reduced from 9.5pt */
     font-weight: 500;
     color: var(--text-light);
     font-style: italic;
@@ -293,44 +300,49 @@ body {
 
 .exp-company {
     display: block;
-    font-size: 11pt;
+    font-size: 10pt;
+    /* Reduced from 11pt */
     font-weight: 500;
     color: var(--accent-color);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .exp-desc {
-    font-size: 10pt;
+    font-size: 9.5pt;
+    /* Reduced from 10pt */
     color: var(--text-light);
 }
 
 .exp-desc ul {
     margin-left: 18px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 /* Education */
 .edu-item {
-    margin-bottom: 20px;
-    /* Adjusted spacing */
+    margin-bottom: 15px;
+    /* Reduced from 20px */
 }
 
 /* Year removed, style no longer needed but keeping just in case or deleting if cleanup desired. Leaving out .edu-year since it's removed from HTML */
 
 .edu-content h4 {
-    font-size: 11pt;
+    font-size: 10pt;
+    /* Reduced from 11pt */
     color: #333;
     margin-bottom: 2px;
 }
 
 .edu-uni {
-    font-size: 10pt;
+    font-size: 9.5pt;
+    /* Reduced from 10pt */
     color: var(--text-light);
     font-style: italic;
 }
 
 .edu-grade {
-    font-size: 9pt;
+    font-size: 8.5pt;
+    /* Reduced from 9pt */
     color: var(--primary-color);
     /* Darkened from accent-color to primary-color */
     font-weight: 600;
@@ -341,8 +353,8 @@ body {
 .philosophy {
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
-    padding: 25px 30px;
-    /* Increased from 15px 20px */
+    padding: 15px 20px;
+    /* Reduced from 25px 30px */
     border-radius: 4px;
 }
 
@@ -350,7 +362,8 @@ body {
     font-family: 'Merriweather', serif;
     font-style: italic;
     color: var(--text-light);
-    font-size: 10pt;
+    font-size: 9.5pt;
+    /* Reduced from 10pt */
     text-align: center;
 }
 
