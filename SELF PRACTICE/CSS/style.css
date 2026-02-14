@@ -1,4 +1,13 @@
 h3{
-    color: #ff2fa5;
+    color: #ff219b;
+    background-color: #000000;
+}
+
+button{
+    color: #6cbaff;
+    background-color: #911fcf;
+}
+
+body{
     background-color: #000000;
 }

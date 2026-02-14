@@ -65,6 +65,10 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
     -   **Forms & Inputs**:
         -   *Input Types*: Text, Email, Password, Date, Color, Range, File, Radio, Checkbox.
         -   *Form Structure*: Labels, inputs, and submission buttons.
+    -   **CSS Integration**:
+        -   *Inline CSS*: Styling elements directly within HTML tags.
+        -   *Internal CSS*: Using `<style>` blocks in the `<head>`.
+        -   *External CSS*: Linking to separate `.css` files for modular styling.
 
 ### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
 **Status:** 🚧 *Prototype*
