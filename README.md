@@ -70,6 +70,11 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
         -   *Internal CSS*: Using `<style>` blocks in the `<head>`.
         -   *External CSS*: Linking to separate `.css` files for modular styling.
         -   *Selectors*: Experimenting with Universal (`*`), Element (`h1`, `p`), ID (`#heading-one`), and Class selectors.
+        -   *Properties & Typography*: deeply exploring text styling:
+            -   `text-align` (left, right, center, justify).
+            -   `text-decoration` (underline, wavy).
+            -   `font-weight` (light, normal, bold, numeric values).
+            -   `line-height` and `font-family`.
         -   *Practice Sets*: Created multiple `index.html` and `style.css` pairs to reinforce isolation of styles.
 
 ### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
