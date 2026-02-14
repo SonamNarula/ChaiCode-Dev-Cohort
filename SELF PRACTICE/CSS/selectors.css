@@ -1,0 +1,32 @@
+*{
+    color:pink;
+}
+
+h1{
+    color: blue;
+}
+
+button{
+    color:#de54be;
+}
+
+p{
+    color:green;
+}
+
+#heading-one{
+    color:#de2865
+}
+
+#heading-two{
+    color: #6a1632;
+}
+
+#heading-three{
+    color: #1250d3;
+}
+
+p{
+    color: #8fb6ff;
+    background-color: #000000;
+}
