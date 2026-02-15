@@ -1,0 +1,33 @@
+#me{
+    background-color:pink;
+    display:inline;
+}
+button{
+    display:block;
+}
+
+#box1{
+    width:100px;
+    height:100px;
+    background-color:purple;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
+#box2{
+    width:100px;
+    height:100px;
+    background-color:green;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+    visibility:hidden;
+}
+#box3{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
