@@ -80,7 +80,7 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   `padding` (internal spacing) vs `margin` (external spacing).
             -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
 
-            -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
+
             -   Styling `<div>` blocks.
             -   `display` property: Understanding `block`, `inline`, and `inline-block` behavior.
             -   `visibility`: Hiding elements while preserving layout space (`hidden`).
