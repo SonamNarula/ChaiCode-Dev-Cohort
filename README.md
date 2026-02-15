@@ -79,7 +79,7 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   `height` & `width` dimensions.
             -   `padding` (internal spacing) vs `margin` (external spacing).
             -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
-            -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
+
             -   Styling `<div>` blocks.
         -   *Practice Sets*:
             -   **Set 1**: Isolation of styles.
