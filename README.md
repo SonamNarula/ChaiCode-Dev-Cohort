@@ -88,6 +88,7 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   **Set 1**: Isolation of styles.
             -   **Set 2**: Box Model exercises.
             -   **Set 3**: Navbar implementation using ID selectors.
+            -   **Set 4**: Debugging Navbar layout & Footer visibility.
 
 ### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
 **Status:** 🚧 *Prototype*

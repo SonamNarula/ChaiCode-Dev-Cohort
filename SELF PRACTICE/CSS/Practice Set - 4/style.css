@@ -1,0 +1,46 @@
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    /* background-color: rgba(0, 255, 0, 0.438);
+    border: 2px solid black;
+    display: inline-block; */
+    border: 2px solid black;
+    display: inline-block;
+}
+#content{
+    height: 700px;
+}
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
