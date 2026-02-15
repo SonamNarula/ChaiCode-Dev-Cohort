@@ -79,8 +79,12 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   `height` & `width` dimensions.
             -   `padding` (internal spacing) vs `margin` (external spacing).
             -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
+            -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
             -   Styling `<div>` blocks.
-        -   *Practice Sets*: Created multiple `index.html` and `style.css` pairs to reinforce isolation of styles.
+        -   *Practice Sets*:
+            -   **Set 1**: Isolation of styles.
+            -   **Set 2**: Box Model exercises.
+            -   **Set 3**: Navbar implementation using ID selectors.
 
 ### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
 **Status:** 🚧 *Prototype*
