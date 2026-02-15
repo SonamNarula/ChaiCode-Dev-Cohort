@@ -75,6 +75,11 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   `text-decoration` (underline, wavy).
             -   `font-weight` (light, normal, bold, numeric values).
             -   `line-height` and `font-family`.
+        -   *Box Model & Layout*: Mastering the core layout engine:
+            -   `height` & `width` dimensions.
+            -   `padding` (internal spacing) vs `margin` (external spacing).
+            -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
+            -   Styling `<div>` blocks.
         -   *Practice Sets*: Created multiple `index.html` and `style.css` pairs to reinforce isolation of styles.
 
 ### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)

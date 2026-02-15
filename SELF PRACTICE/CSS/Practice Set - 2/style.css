@@ -1,0 +1,12 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: times new roman;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inn{
+    font-size: 10px;
+}
