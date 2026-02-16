@@ -55,16 +55,17 @@ A collection of isolated experiments to master specific CSS properties.
 -   **[Level 3: CSS Positioning](./SELF%20PRACTICE/CSS/level3.html)**: Mastering `static`, `relative`, `absolute`, `fixed`, and `sticky` positioning.
 -   **[Background Properties](./SELF%20PRACTICE/CSS/background.html)**: Experiments with `background-size`, `position`, `gradients`, and `attachment`.
 
-### 6. [Level 6: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)
-![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Abyssal_Void-blue)
+### 6. [Level 7: Advanced Grid Protocols](./SELF%20PRACTICE/CSS/grid.html)
+![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Abyssal_Void-blue) ![Level](https://img.shields.io/badge/Level-Advanced-purple)
 
 A unique, deep-space visualization of the CSS Grid Specification. Designed with a **Bioluminescent/Abyssal** aesthetic to focus on elegance and clarity over chaos.
 
 -   **The Vision**: A "Deep Space" data interface. No glitches, no noise—just pure, glowing data structure in the void.
 -   **Modules Online**:
-    -   `GRID_TEMPLATE_COLUMNS`: Bioluminescent data tracks.
-    -   `GRID_TEMPLATE_AREAS`: A dashboard mapped with distinct spectral colors (Amber, Purple, Blue).
-    -   `GRID_GAP`: Visualizing the void between data nodes.
+    -   `GRID_LINES`: Spanning columns/rows (`grid-column: 1 / -1`).
+    -   `ALIGNMENT`: Controlling data mass (`justify` vs `align`).
+    -   `IMPLICIT_FLOW`: Dense packing algorithms (Tetris-style layout).
+    -   `NESTED_PROTOCOLS`: Fractal grids within grids.
 -   **Tech Stack**:
     -   **Glassmorphism**: Heavy use of `backdrop-filter: blur` for floating panels.
     -   **Glow Effects**: `box-shadow` and `text-shadow` optimizations for a "light-emitting" feel.

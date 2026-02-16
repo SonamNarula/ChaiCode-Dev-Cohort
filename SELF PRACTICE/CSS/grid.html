@@ -127,6 +127,110 @@ grid-template-areas:
             <p class="explanation">Automatically places as many columns as possible into the grid container.</p>
         </section>
 
+        <!-- Section 5: Line Spanning -->
+        <section class="module">
+            <div class="data-tag">SPAN: MULTI_TRACK</div>
+            <div class="module-header">
+                <h2>05. LINE_SPANNING</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>grid-column: 1 / -1; /* Full Width */</code>
+            </div>
+            <div class="grid-container spanning-grid">
+                <div class="grid-item span-full">HEADER (1 / -1)</div>
+                <div class="grid-item span-2">DATA_BLOCK (span 2)</div>
+                <div class="grid-item">NORMAL</div>
+                <div class="grid-item">NORMAL</div>
+                <div class="grid-item span-2-row">SIDE (span row 2)</div>
+            </div>
+            <p class="explanation">Items can stretch across multiple tracks using line numbers or the `span` keyword.
+            </p>
+        </section>
+
+        <!-- Section 6: Alignment Matrix -->
+        <section class="module">
+            <div class="data-tag">ALIGN: CENTER_MASS</div>
+            <div class="module-header">
+                <h2>06. ALIGNMENT_MATRIX</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>place-items: center; /* justify + align */</code>
+            </div>
+            <div class="grid-container alignment-grid">
+                <div class="grid-item align-start">START</div>
+                <div class="grid-item align-center">CENTER</div>
+                <div class="grid-item align-end">END</div>
+                <div class="grid-item align-stretch">STRETCH</div>
+            </div>
+            <p class="explanation">Controlling position within the grid area using `justify-items` and `align-items`.
+            </p>
+        </section>
+
+        <!-- Section 7: Implicit Grid (Dense) -->
+        <section class="module">
+            <div class="data-tag">FLOW: DENSE_PACK</div>
+            <div class="module-header">
+                <h2>07. IMPLICIT_GRID_FLOW</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>grid-auto-flow: dense;</code>
+            </div>
+            <div class="grid-container implicit-grid">
+                <div class="grid-item">01</div>
+                <div class="grid-item">02</div>
+                <div class="grid-item span-huge">03 (Big)</div>
+                <div class="grid-item">04</div>
+                <div class="grid-item">05</div>
+                <div class="grid-item">06</div>
+            </div>
+            <p class="explanation">Dense flow attempts to fill holes in the grid with smaller items that come later in
+                the sequence.</p>
+        </section>
+
+        <!-- Section 8: Nested Protocols -->
+        <section class="module">
+            <div class="data-tag">NEST: FRACTAL</div>
+            <div class="module-header">
+                <h2>08. NESTED_PROTOCOLS</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>display: subgrid; /* or nested grid */</code>
+            </div>
+            <div class="grid-container nesting-grid">
+                <div class="grid-item parent-item">
+                    PARENT_NODE
+                    <div class="internal-grid">
+                        <div class="sub-item">SUB_A</div>
+                        <div class="sub-item">SUB_B</div>
+                    </div>
+                </div>
+                <div class="grid-item">STANDARD_NODE</div>
+                <div class="grid-item">STANDARD_NODE</div>
+            </div>
+            <p class="explanation">Grid items can themselves become grid containers, creating complex recursive layouts.
+            </p>
+        </section>
+
     </main>
 
     <footer>
