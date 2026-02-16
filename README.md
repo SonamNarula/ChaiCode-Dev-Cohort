@@ -45,6 +45,21 @@ A professional, print-ready CV designed for my father, **Bharat Narula** (Senior
 
 ## 🛠️ Deep Dive: The Clones
 
+### 6. [Level 6: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)
+![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Cyberpunk_Dark-000000)
+
+A highly detailed, interactive visualization of the CSS Grid Specification. Designed with a futuristic "System Module" aesthetic to make learning layout protocols immersive.
+
+-   **The Vision**: To transform dry documentation into an engaging 'Head-Up Display' (HUD) experience.
+-   **Modules Online**:
+    -   `GRID_TEMPLATE_COLUMNS`: A dynamic visualization of column tracks.
+    -   `GRID_TEMPLATE_AREAS`: A mapped dashboard layout (Header, Sidebar, Main, Footer).
+    -   `GRID_GAP`: Visualizing the spatial relationships between data nodes.
+    -   `RESPONSIVE_PROTOCOL`: Demonstrating `repeat(auto-fit, minmax(...))` for adaptive interfaces.
+-   **Tech Stack**:
+    -   **CSS Variables**: For consistent neon theming (`#3fb950`, `#bc8cff`).
+    -   **Typography**: `JetBrains Mono` & `Share Tech Mono` for the terminal atmosphere.
+
 ### 7. [Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow) ![Tech](https://img.shields.io/badge/Tech-Flexbox-blueviolet)
 

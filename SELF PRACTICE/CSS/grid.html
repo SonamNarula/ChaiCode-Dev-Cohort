@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Systems | Protocol: L.E.A.R.N</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="status-bar">
+            <span>SYSTEM: ONLINE</span>
+            <span>MODULE: CSS_GRID</span>
+            <span>V.6.0</span>
+        </div>
+        <h1><span class="prefix">>></span> Grid Layout Protocol</h1>
+        <p class="subtitle">Architecting 2D layouts using the CSS Grid Specification.</p>
+    </header>
+
+    <main>
+        <!-- Section 1: Grid Template Columns -->
+        <section class="module">
+            <div class="module-header">
+                <h2>01. GRID_TEMPLATE_COLUMNS</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>display: grid; grid-template-columns: 1fr 1fr 1fr;</code>
+            </div>
+            <div class="grid-container basic-columns">
+                <div class="grid-item">DATA_01</div>
+                <div class="grid-item">DATA_02</div>
+                <div class="grid-item">DATA_03</div>
+                <div class="grid-item">DATA_04</div>
+                <div class="grid-item">DATA_05</div>
+                <div class="grid-item">DATA_06</div>
+            </div>
+            <p class="explanation">Defines the line names and track sizing functions of the grid columns.</p>
+        </section>
+
+        <!-- Section 2: Grid Areas (The Dashboard) -->
+        <section class="module">
+            <div class="module-header">
+                <h2>02. GRID_TEMPLATE_AREAS</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <pre>
+grid-template-areas: 
+  "header header"
+  "sidebar main"
+  "footer footer";
+                </pre>
+            </div>
+            <div class="grid-container grid-areas">
+                <div class="area-header">HEADER_UNIT</div>
+                <div class="area-sidebar">SIDE_NAV</div>
+                <div class="area-main">MAIN_VENTS</div>
+                <div class="area-footer">SYS_FOOTER</div>
+            </div>
+            <p class="explanation">Specifies named grid areas, establishing the cells in the grid and assigning them
+                names.</p>
+        </section>
+
+        <!-- Section 3: Gap & Spacing -->
+        <section class="module">
+            <div class="module-header">
+                <h2>03. GRID_GAP</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>gap: 20px 50px; /* Row Column */</code>
+            </div>
+            <div class="grid-container grid-gap">
+                <div class="grid-item">NODE_A</div>
+                <div class="grid-item">NODE_B</div>
+                <div class="grid-item">NODE_C</div>
+                <div class="grid-item">NODE_D</div>
+            </div>
+            <p class="explanation">A shorthand property for row-gap and column-gap.</p>
+        </section>
+
+        <!-- Section 4: Responsive Auto-Fit -->
+        <section class="module">
+            <div class="module-header">
+                <h2>04. RESPONSIVE_Protocol (Auto-Fit)</h2>
+                <div class="controls">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+            </div>
+            <div class="code-preview">
+                <code>grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));</code>
+            </div>
+            <div class="grid-container auto-fit">
+                <div class="grid-item">RESP_1</div>
+                <div class="grid-item">RESP_2</div>
+                <div class="grid-item">RESP_3</div>
+                <div class="grid-item">RESP_4</div>
+                <div class="grid-item">RESP_5</div>
+            </div>
+            <p class="explanation">Automatically places as many columns as possible into the grid container.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>SYSTEM STATUS: OPTIMAL | <span class="blink">_</span></p>
+    </footer>
+
+</body>
+
+</html>
