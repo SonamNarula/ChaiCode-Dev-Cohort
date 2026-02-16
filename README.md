@@ -58,6 +58,21 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
         -   *Ordered Lists* (`<ol>`) for sequential data.
         -   *Unordered Lists* (`<ul>`) for bulleted items.
         -   *Nested Lists*: Complex indentation combining ordered and unordered lists to represent deeper data relationships.
+
+### 7. [Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)
+**Status:** 🚧 *In Progress*
+-   **Description**: A clone of the Amazon homepage using HTML and CSS (Flexbox).
+-   **Features**:
+    -   Responsive Navbar with search bar and icons.
+    -   Hero section with background image.
+    -   Product grid layout mimicking Amazon's design.
+    -   Footer with links and copyright.
+
+### 8. [Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)
+**Status:** 🚧 *Setup*
+-   **Description**: Initial setup for a Netflix clone project.
+-   **Features**:
+    -   Assets imported (images/videos).
     -   **Media Integration**:
         -   *Local Assets*: Hosting and referencing images stored within the project directory.
         -   *Remote Assets*: Embedding high-resolution images via absolute URLs (e.g., Pexels).
