@@ -84,6 +84,8 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   Styling `<div>` blocks.
             -   `display` property: Understanding `block`, `inline`, and `inline-block` behavior.
             -   `visibility`: Hiding elements while preserving layout space (`hidden`).
+            -   **Level 3**: CSS Positioning (`static`, `relative`, `absolute`, `fixed`, `sticky`).
+
         -   *Practice Sets*:
             -   **Set 1**: Isolation of styles.
             -   **Set 2**: Box Model exercises.
