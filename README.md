@@ -155,10 +155,14 @@ A multi-page personal portfolio website built entirely with raw HTML.
     -   Footer with links and copyright.
 
 ### 8. [Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)
-**Status:** 🚧 *Setup*
--   **Description**: Initial setup for a Netflix clone project.
+**Status:** 🚧 *In Progress*
+-   **Description**: A responsive clone of the Netflix India landing page.
 -   **Features**:
-    -   Assets imported (images/videos).
+    -   **Hero Section**: Background image with dark overlay, logo, and "Sign In" button.
+    -   **Feature Blocks**: Alternating layout sections (text + image/video) mimicking the original design.
+    -   **FAQ Accordion**: Interactive questions section.
+    -   **Responsive Design**: optimized for desktop, tablet, and mobile views using Media Queries.
+    -   **Assets**: Integrated local video and image assets.
 
 ## 🛠️ Tech Stack & Tools
 
