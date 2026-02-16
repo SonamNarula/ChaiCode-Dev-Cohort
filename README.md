@@ -45,6 +45,16 @@ A professional, print-ready CV designed for my father, **Bharat Narula** (Senior
 
 ## 🛠️ Deep Dive: The Clones
 
+### 5. [CSS Practice Labs](./SELF%20PRACTICE/CSS/)
+![Status](https://img.shields.io/badge/Status-Completed-success) ![Focus](https://img.shields.io/badge/Focus-Foundations-green)
+
+A collection of isolated experiments to master specific CSS properties.
+
+-   **[Flexbox Lab](./SELF%20PRACTICE/CSS/flexbox.html)**: Testing `justify-content`, `align-items`, and flex direction.
+-   **[Level 2: Selectors](./SELF%20PRACTICE/CSS/level2.html)**: Deep dive into combinators and pseudo-classes.
+-   **[Level 3: CSS Positioning](./SELF%20PRACTICE/CSS/level3.html)**: Mastering `static`, `relative`, `absolute`, `fixed`, and `sticky` positioning.
+-   **[Background Properties](./SELF%20PRACTICE/CSS/background.html)**: Experiments with `background-size`, `position`, `gradients`, and `attachment`.
+
 ### 6. [Level 6: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)
 ![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Abyssal_Void-blue)
 
