@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Playground</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+
+<body>
+    <h1>Flexbox Properties Demo</h1>
+
+    <!-- 1. Flex Direction -->
+    <div class="section">
+        <h2>1. Flex Direction</h2>
+        <p>Controls the direction of the main axis.</p>
+
+        <h3>row (default)</h3>
+        <div class="container flex-row">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>column</h3>
+        <div class="container flex-column">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>row-reverse</h3>
+        <div class="container flex-row-reverse">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+
+    <!-- 2. Justify Content -->
+    <div class="section">
+        <h2>2. Justify Content (Main Axis Alignment)</h2>
+
+        <h3>flex-start</h3>
+        <div class="container justify-start">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>center</h3>
+        <div class="container justify-center">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>space-between</h3>
+        <div class="container justify-space-between">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>space-around</h3>
+        <div class="container justify-space-around">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>space-evenly</h3>
+        <div class="container justify-space-evenly">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+
+    <!-- 3. Align Items -->
+    <div class="section">
+        <h2>3. Align Items (Cross Axis Alignment)</h2>
+        <p>Container height is set to 150px to see the effect.</p>
+
+        <h3>flex-start</h3>
+        <div class="container align-start" style="height: 150px;">
+            <div class="item">1</div>
+            <div class="item" style="height: 60px;">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>center</h3>
+        <div class="container align-center" style="height: 150px;">
+            <div class="item">1</div>
+            <div class="item" style="height: 60px;">2</div>
+            <div class="item">3</div>
+        </div>
+
+        <h3>stretch (default, if no height on items)</h3>
+        <div class="container align-stretch" style="height: 150px;">
+            <div class="item" style="height: auto;">1</div>
+            <div class="item" style="height: auto;">2</div>
+            <div class="item" style="height: auto;">3</div>
+        </div>
+    </div>
+
+    <!-- 4. Flex Wrap AND Align Content -->
+    <div class="section">
+        <h2>4. Flex Wrap & Align Content</h2>
+        <p>These properties control behavior when items wrap to multiple lines.</p>
+
+        <h3>flex-wrap: wrap</h3>
+        <div class="container flex-wrap" style="width: 300px;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+
+        <h3>align-content: center (multi-line alignment)</h3>
+        <div class="container align-content-center" style="width: 300px; height: 300px; flex-wrap: wrap;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+    </div>
+</body>
+
+</html>

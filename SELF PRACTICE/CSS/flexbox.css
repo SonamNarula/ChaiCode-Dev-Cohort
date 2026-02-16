@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fce4ec;
+    /* Light pink background */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #880e4f;
+}
+
+h2 {
+    color: #ad1457;
+    border-bottom: 2px solid #f8bbd0;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Common Container Styles */
+.container {
+    display: flex;
+    /* Enables Flexbox */
+    background-color: #e1bee7;
+    /* Light purple container background */
+    border: 2px solid #ba68c8;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Common Item Styles */
+.item {
+    background-color: #ec407a;
+    /* Pink items */
+    color: white;
+    width: 60px;
+    /* Fixed width for demo clarity */
+    height: 40px;
+    /* Fixed height for demo clarity */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #d81b60;
+}
+
+/* --- 1. Flex Direction --- */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* --- 2. Justify Content --- */
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+/* --- 3. Align Items --- */
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+/* --- 4. Flex Wrap & Align Content --- */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-content-center {
+    align-content: center;
+}

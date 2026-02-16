@@ -86,6 +86,7 @@ A raw, hands-on environment where I experiment with core HTML structures. This s
             -   `visibility`: Hiding elements while preserving layout space (`hidden`).
             -   **Level 3**: CSS Positioning (`static`, `relative`, `absolute`, `fixed`, `sticky`).
             -   **Level 4**: Background Properties (`size`, `position`, `repeat`, `attachment`, `gradient`).
+            -   **Level 5**: Flexbox Layout (`direction`, `justify-content`, `align-items`, `flex-wrap`, `align-content`).
 
         -   *Practice Sets*:
             -   **Set 1**: Isolation of styles.
