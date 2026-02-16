@@ -46,19 +46,18 @@ A professional, print-ready CV designed for my father, **Bharat Narula** (Senior
 ## 🛠️ Deep Dive: The Clones
 
 ### 6. [Level 6: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)
-![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Cyberpunk_Dark-000000)
+![Status](https://img.shields.io/badge/System-Online-success) ![Aesthetic](https://img.shields.io/badge/Aesthetic-Abyssal_Void-blue)
 
-A highly detailed, interactive visualization of the CSS Grid Specification. Designed with a futuristic "System Module" aesthetic to make learning layout protocols immersive.
+A unique, deep-space visualization of the CSS Grid Specification. Designed with a **Bioluminescent/Abyssal** aesthetic to focus on elegance and clarity over chaos.
 
--   **The Vision**: To transform dry documentation into an engaging 'Head-Up Display' (HUD) experience.
+-   **The Vision**: A "Deep Space" data interface. No glitches, no noise—just pure, glowing data structure in the void.
 -   **Modules Online**:
-    -   `GRID_TEMPLATE_COLUMNS`: A dynamic visualization of column tracks.
-    -   `GRID_TEMPLATE_AREAS`: A mapped dashboard layout (Header, Sidebar, Main, Footer).
-    -   `GRID_GAP`: Visualizing the spatial relationships between data nodes.
-    -   `RESPONSIVE_PROTOCOL`: Demonstrating `repeat(auto-fit, minmax(...))` for adaptive interfaces.
+    -   `GRID_TEMPLATE_COLUMNS`: Bioluminescent data tracks.
+    -   `GRID_TEMPLATE_AREAS`: A dashboard mapped with distinct spectral colors (Amber, Purple, Blue).
+    -   `GRID_GAP`: Visualizing the void between data nodes.
 -   **Tech Stack**:
-    -   **CSS Variables**: For consistent neon theming (`#3fb950`, `#bc8cff`).
-    -   **Typography**: `JetBrains Mono` & `Share Tech Mono` for the terminal atmosphere.
+    -   **Glassmorphism**: Heavy use of `backdrop-filter: blur` for floating panels.
+    -   **Glow Effects**: `box-shadow` and `text-shadow` optimizations for a "light-emitting" feel.
 
 ### 7. [Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow) ![Tech](https://img.shields.io/badge/Tech-Flexbox-blueviolet)
