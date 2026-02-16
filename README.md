@@ -1,181 +1,134 @@
 # ChaiCode Dev Cohort 🚀
 
-Welcome to my official portfolio for the **ChaiCode Dev Cohort**! This repository documents my journey from foundational HTML/CSS to building high-fidelity clones of modern web applications.
+> *"Coding with chai, one line at a time."* ☕💻
+
+Welcome to my official portfolio for the **ChaiCode Dev Cohort**! This repository is more than just code; it's a documentation of my journey from understanding the building blocks of the web to crafting high-fidelity, pixel-perfect experiences.
+
+Here, you'll find everything from my first semantic HTML experiments to complex clones of major platforms like Amazon and Netflix. Every commit represents a lesson learned, a bug squashed, and a step forward.
+
+---
 
 ## 🌟 Featured Projects
 
 ### 1. [Mintlify Clone (Light Mode)](./mintlify_clone/)
-**Status:** ⭐ *High Fidelity* | **Theme:** "Verse" (Light/Teal)
+![Status](https://img.shields.io/badge/Status-High_Fidelity-success) ![Theme](https://img.shields.io/badge/Theme-Verse_Light-blue)
 A pixel-perfect recreation of the Mintlify intelligent documentation platform.
--   **Key Tech**: CSS Grid, Sticky Navbar with Backdrop Filter, 3D Transforms (Code Window), Complex Positioning.
--   **Highlight**: Features a completely custom-built "Floating Documentation Preview" and a 3D-tilted code editor window, all done with pure CSS.
--   **Refactor**: Originally built in dark mode, fully refactored to a premium "Verse" light theme.
+
+-   **The Challenge**: Transforming a complex, dark-mode heavy design into a premium "Verse" light theme while maintaining visual hierarchy.
+-   **Key Learnings**:
+    -   Mastering **CSS Grid** for intricate layouts.
+    -   Implementing **Sticky Navbars** with `backdrop-filter` for that "glassmorphism" feel.
+    -   Using **3D Transforms** to create a tilted, interactive code editor window.
+-   **Highlight**: The custom-built "Floating Documentation Preview" – a purely CSS-driven component that mimics interactive documentation.
 
 ### 2. [Cursor Landing Page](./cursor_landing_clone/)
-**Status:** ✅ *Completed* | **Theme:** Dark Mode
+![Status](https://img.shields.io/badge/Status-Completed-success) ![Theme](https://img.shields.io/badge/Theme-Dark_Mode-black)
 A clone of the AI Code Editor "Cursor" landing page.
--   **Key Tech**: Flexbox layouts, Gradient Text, Dark UI patterns.
--   **Highlight**: Implements the modern, developer-centric aesthetic with glowing gradients and clean typography.
 
-### 3. [HTML Resume (Assignment 1)](./ASSIGNMENT-1/)
-**Status:** ✅ *Completed*
-A semantic HTML document structuring a professional resume.
--   **Focus**: Proper use of semantic tags (`<section>`, `<article>`, `<ul>`), accessibility, and document outline.
+-   **The Challenge**: Capturing the subtle, glowing aesthetic of modern developer tools.
+-   **Key Learnings**:
+    -   Advanced **Flexbox centering** techniques.
+    -   Creating smooth **Gradient Text** effects.
+    -   Structuring dark UI patterns for readability.
 
-### 4. [Bharat CV (Special Project)](./Bharat_CV/)
-**Status:** ✅ *In Production* | **Theme:** "Compact Terra Cotta" (Print-Optimized)
+### 3. [Bharat CV (Special Project)](./Bharat_CV/)
+![Status](https://img.shields.io/badge/Status-Production-success) ![Type](https://img.shields.io/badge/Type-Print_Optimized-orange)
 A professional, print-ready CV designed for my father, **Bharat Narula** (Senior Chemistry Faculty).
--   **Goal**: To create a definitive, high-quality resume that reflects 20+ years of teaching excellence with a sophisticated, subtle aesthetic.
--   **Key Tech**: CSS Print Media Queries (`@media print`), Layout Optimization, Custom Typography.
--   **Features**:
-    -   **Print-First Design**: Ensures perfect A4 formatting with background graphics implementation for print.
-    -   **Theme**: A unique "Compact Terra Cotta" palette that stands out while remaining sincere and professional.
-    -   **Smart Layout**: Balanced usage of white space, sidebar-based information architecture, and a dedicated "Key Achievements" highlight box (Top Rankers in NEET & IIT-JEE).
-    -   **Interactive Elements**: Floating "Download/Print" button that auto-hides during actual printing.
+
+-   **The Goal**: To distill 20+ years of teaching excellence into a sophisticated, "Compact Terra Cotta" design.
+-   **Key Learnings**:
+    -   **Print Media Queries** (`@media print`) to control page breaks and hide interactive elements.
+    -   Typography hierarchy for maximum readability on A4 paper.
+-   **Sincere Touch**: This project is close to my heart, blending technical skill with personal gratitude.
 
 ---
 
-## 📂 Complete Coursework
-
-| Directory | Description | Key Learnings |
-|-----------|-------------|---------------|
-| `mintlify_clone/` | **Assignment 2 (Advanced)** | Advanced CSS Layouts, Theming, 3D Transforms, Responsive Design. |
-| `cursor_landing_clone/` | **Cursor Clone** | Dark UI Design, Flexbox centering, Gradient effects. |
-| `ASSIGNMENT-1/` | **Resume Assignment** | Semantic HTML, Document Structure. |
-| `ASSIGNMENT-2/` | **Basic Cursor Layout** | Initial practice with landing page structures. |
-| `CLASS-02/` | **Navigation & Flexbox** | Building flexible navbars, understanding `justify-content` and `align-items`. |
-| `CSS/` | **CSS Experiments** | Playground for testing CSS properties and layout ideas. |
-| `HTML-CLASS-01/` | **HTML Fundamentals** | Forms, Tables, Multimedia tags, Internal vs External CSS. |
-| `SELF PRACTICE/` | **HTML Playground** | **New!** A dedicated sandbox for mastering HTML5 semantics, lists (ordered, unordered, nested), and media integration. |
-
-### 5. [Self Practice Sandbox](./SELF%20PRACTICE/)
-**Status:** 🚧 *Active Learning*
-A raw, hands-on environment where I experiment with core HTML structures. This sandbox serves as a testing ground for understanding the browser's default rendering behavior and the document object model (DOM) hierarchy.
-
--   **Features Explored**:
-    -   **Semantic Headings**: Hierarchy testing from `<h1>` to `<h6>`.
-    -   **List Structures**:
-        -   *Ordered Lists* (`<ol>`) for sequential data.
-        -   *Unordered Lists* (`<ul>`) for bulleted items.
-        -   *Nested Lists*: Complex indentation combining ordered and unordered lists to represent deeper data relationships.
-
-
-    -   **Media Integration**:
-        -   *Local Assets*: Hosting and referencing images stored within the project directory.
-        -   *Remote Assets*: Embedding high-resolution images via absolute URLs (e.g., Pexels).
-    -   **Hyperlinks**: external navigation anchors and internal page linking (`about.html`).
-    -   **Forms & Inputs**:
-        -   *Input Types*: Text, Email, Password, Date, Color, Range, File, Radio, Checkbox.
-        -   *Form Structure*: Labels, inputs, and submission buttons.
-    -   **CSS Integration**:
-        -   *Inline CSS*: Styling elements directly within HTML tags.
-        -   *Internal CSS*: Using `<style>` blocks in the `<head>`.
-        -   *External CSS*: Linking to separate `.css` files for modular styling.
-        -   *Selectors*: Experimenting with Universal (`*`), Element (`h1`, `p`), ID (`#heading-one`), and Class selectors.
-        -   *Properties & Typography*: deeply exploring text styling:
-            -   `text-align` (left, right, center, justify).
-            -   `text-decoration` (underline, wavy).
-            -   `font-weight` (light, normal, bold, numeric values).
-            -   `line-height` and `font-family`.
-        -   *Box Model & Layout*: Mastering the core layout engine:
-            -   `height` & `width` dimensions.
-            -   `padding` (internal spacing) vs `margin` (external spacing).
-            -   `border` (solid, dotted) and `border-radius` (rounded corners, circles).
-
-
-            -   Styling `<div>` blocks.
-            -   `display` property: Understanding `block`, `inline`, and `inline-block` behavior.
-            -   `visibility`: Hiding elements while preserving layout space (`hidden`).
-            -   **Level 3**: CSS Positioning (`static`, `relative`, `absolute`, `fixed`, `sticky`).
-            -   **Level 4**: Background Properties (`size`, `position`, `repeat`, `attachment`, `gradient`).
-            -   **Level 5**: Flexbox Layout (`direction`, `justify-content`, `align-items`, `flex-wrap`, `align-content`).
-
-        -   *Practice Sets*:
-            -   **Set 1**: Isolation of styles.
-            -   **Set 2**: Box Model exercises.
-            -   **Set 3**: Navbar implementation using ID selectors.
-            -   **Set 4**: Debugging Navbar layout & Footer visibility.
-            -   **Set 5**: Fixed Positioning & Background Image.
-
-### 6. [Basic HTML Project](./SELF%20PRACTICE/basic%20html%20project/)
-**Status:** 🚧 *Prototype*
-A multi-page personal portfolio website built entirely with raw HTML.
--   **Key Features**:
-    -   **Multi-page Navigation**: Linking between `index.html` (Home) and `AnotherPage.html`.
-    -   **Social Media Integration**: deeply nested links to external profiles (Instagram, LinkedIn, Twitter, GitHub).
-    -   **Media Gallery**: A section displaying a curated collection of images using both hosted URLs and Base64 data URIs.
-    -   **Semantic Structure**: Use of `<header>`, `<nav>`, `<section>` for proper document outlining.
-
--   **DOM Structure Visualization**:
-    ```mermaid
-    graph TD;
-      root[Stickman Window] --> html;
-      html --> head;
-      head --> meta_tags;
-      head --> title;
-      html --> body;
-      
-      %% Content Sections
-      body --> Headings[H1 - H6];
-      body --> Paragraphs;
-      
-      %% Lists
-      body --> Lists;
-      Lists --> Ordered_List;
-      Lists --> Unordered_List;
-      Lists --> Nested_List;
-      Nested_List --> Parent_Item;
-      Parent_Item --> Child_List;
-      
-      %% Media
-      body --> Media;
-      Media --> Local_Image;
-      Media --> Remote_Image;
-      
-      %% Navigation & Forms
-      body --> Navigation;
-      Navigation --> External_Link[Netflix];
-      Navigation --> Internal_Link[About Page];
-      
-      body --> Forms;
-      Forms --> Inputs;
-      Inputs --> Text_Fields;
-      Inputs --> Selection_Controls;
-      Inputs --> Special_Types[Color/Date/File];
-    ```
--   **Key Concepts**: Nesting intricate lists, semantic hierarchy, relative vs absolute paths, form handling, and attribute manipulation (`src`, `alt`, `href`, `target`, `type`).
+## 🛠️ Deep Dive: The Clones
 
 ### 7. [Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)
-**Status:** 🚧 *In Progress*
--   **Description**: A clone of the Amazon homepage using HTML and CSS (Flexbox).
--   **Features**:
-    -   Responsive Navbar with search bar and icons.
-    -   Hero section with background image.
-    -   Product grid layout mimicking Amazon's design.
-    -   Footer with links and copyright.
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow) ![Tech](https://img.shields.io/badge/Tech-Flexbox-blueviolet)
+
+A responsive recreation of the Amazon homepage. This project was a deep dive into layout stability and content organization.
+
+**Site Architecture:**
+```mermaid
+graph TD;
+    Body --> Header;
+    Header --> Navbar;
+    Navbar --> Logo & Address;
+    Navbar --> Search_Bar;
+    Navbar --> Nav_Icons[Cart/Account];
+    
+    Body --> Hero_Section;
+    Hero_Section --> Background_Image;
+    Hero_Section --> Hero_Message;
+    
+    Body --> Product_Grid;
+    Product_Grid --> Card_1[Health & Personal Care];
+    Product_Grid --> Card_2[Furniture];
+    Product_Grid --> Card_3[Electronics];
+    Product_Grid --> Card_4[Fashion];
+    
+    Body --> Footer;
+    Footer --> Back_To_Top;
+    Footer --> Links_Section;
+```
+
+-   **Challenges Faced**:
+    -   **The Navbar**: Amazon's navbar is packed with information. Using `flexbox` with `justify-content: space-evenly` allowed me to distribute elements proportionally without overcrowding.
+    -   **Responsive Images**: Ensuring product images scaled correctly within their cards without stretching.
+-   **Key Learnings**: The power of `position: relative` and `absolute` in identifying and layering content on top of hero images.
 
 ### 8. [Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)
-**Status:** 🚧 *In Progress*
--   **Description**: A responsive clone of the Netflix India landing page.
--   **Features**:
-    -   **Hero Section**: Background image with dark overlay, logo, and "Sign In" button.
-    -   **Feature Blocks**: Alternating layout sections (text + image/video) mimicking the original design.
-    -   **FAQ Accordion**: Interactive questions section.
-    -   **Responsive Design**: optimized for desktop, tablet, and mobile views using Media Queries.
-    -   **Assets**: Integrated local video and image assets.
+![Status](https://img.shields.io/badge/Status-In_Progress-red) ![Tech](https://img.shields.io/badge/Tech-Grid_&_Media_Queries-ff69b4)
 
-## 🛠️ Tech Stack & Tools
+A responsive clone of the Netflix India landing page, focusing on high-contrast visuals and bold typography.
 
--   **Languages**: HTML5, CSS3 (Variables, Flexbox, Grid, Animations)
--   **Version Control**: Git & GitHub
--   **Design References**: Mintlify, Cursor.com
--   **Editor**: VS Code
+**Site Architecture:**
+```mermaid
+graph TD;
+    Landing_Page --> Hero_Container;
+    Hero_Container --> Dark_Overlay;
+    Hero_Container --> Navbar[Logo + Sign In];
+    Hero_Container --> CTA_Content[Headlines + Email Input];
+    
+    Landing_Page --> Feature_Section_1[TV];
+    Feature_Section_1 --> Text_Left;
+    Feature_Section_1 --> Video_Right;
+    
+    Landing_Page --> Feature_Section_2[Mobile];
+    Feature_Section_2 --> Image_Left;
+    Feature_Section_2 --> Text_Right;
+    
+    Landing_Page --> FAQ_Accordion;
+    Landing_Page --> Footer_Grid;
+```
 
-## 💡 About the Cohort
-
-The **ChaiCode Dev Cohort** is an intensive bootcamp focused on building a strong foundation in full-stack web development. This repository serves as a growing archive of my progress, challenges, and solutions.
+-   **Challenges Faced**:
+    -   **Z-Index Management**: Layering the dark overlay *on top* of the background image but *below* the text was tricky. I used `position: absolute` with specific `z-index` values to stack them correctly.
+    -   **Video Placement**: Positioning the "autoplay" videos exactly inside the TV/Device frames required precise percent-based positioning.
+-   **Key Learnings**: How simply `padding` and `margin` can create a spacious, cinematic feel, and how crucial **typography** (Poppins/Martel Sans) is to brand identity.
 
 ---
 
-*Coding with chai, one line at a time.* ☕💻  
-**– Sonam Narula**
+## 📂 Coursework Archive
+
+| Directory | Description | Focus Area |
+|-----------|-------------|------------|
+| `mintlify_clone/` | **Assignment 2** | Advanced Layouts, 3D Transforms |
+| `cursor_landing_clone/` | **Cursor Clone** | Dark UI, Gradients |
+| `ASSIGNMENT-1/` | **Resume HTML** | Semantic Structure |
+| `CLASS-02/` | **Nav & Flexbox** | Flexbox Fundamentals |
+| `CSS/` | **Experiments** | Property Playground |
+| `SELF PRACTICE/` | **Sandbox** | HTML/CSS Drills (Lists, Media, Forms) |
+
+---
+
+## 💡 About Me
+
+I am **Sonam Narula**, a passionate developer building my skills one project at a time. This repository is my digital sketchbook—a place where code meets creativity.
+
+*Always learning, always coding.*
+
+---
+© 2026 Sonam Narula. All Rights Reserved.
