@@ -47,12 +47,12 @@ addNumbers(20, 30);
 //     console.log('you are not an adult');
 // }
 
-var age = 22;
+var age = 2210000;
 
 var childCondition = age <= 12;
 var teenagerCondition = age > 12 && age <= 19;
 var adultCondition = age <= 40;
-var seniorCondition = age > 40;
+var seniorCondition = age > 40 && age <= 60;
 
 if (childCondition) {
     console.log('you are a child');
