@@ -18,15 +18,17 @@ These are my eras. This is my heart on the sleeve.
 
 ## 🕰️ The Eras (My Journey)
 
-### ⚡ The Script Era (The Logic)
-**[JavaScript Logic](./JAVASCRIPT/script.js)**
-![Status](https://img.shields.io/badge/Logic-Loading-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
+### ⚡ The Script Era (Logic & Dynamism)
+**[JavaScript Logic](./JAVASCRIPT/script.js)** | **[Conditionals & Logic](./JAVASCRIPT/conditionals.html)**
+![Status](https://img.shields.io/badge/Logic-Active-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
 
 > *"I swear I don't love the drama, it loves me."*
 
-JavaScript was my "Reputation" era. It was strict. It was unforgiving. It didn't care if I tried hard; it only cared if I was *right*.
--   **The Struggle**: Logic felt alien to me at first. `If/else` loops felt like traps.
--   **The Growth**: I learned that logic is just a language. Once you speak it, you can tell the computer to do anything.
+HTML is the structure, CSS is the style, but **JavaScript** is the brain. This era is about pure logic—functions, conditions, and the flow of data.
+-   **Current Focus**:
+    -   **Variables & Functions**: The building blocks.
+    -   **Decision Making**: Using `if`, `else if`, and **nested conditionals** to control the flow.
+-   **The Metaphor**: This is the "Game Awareness" phase. Knowing *when* to strike, not just *how*.
 
 ### 🌑 The Abyssal Era (The Complexity)
 **[Level 7: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)**
