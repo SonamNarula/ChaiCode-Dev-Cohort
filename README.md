@@ -12,6 +12,16 @@ Like a **Smriti Mandhana cover drive**, I believe code should be elegant, precis
 
 Every project here represents a distinct era of my learning. There were bugs, there were *reputation* eras (where nothing worked), and there were *daylight* moments where everything clicked.
 
+### ⚡ The Script Era (Logic & Dynamism)
+**[JavaScript Logic](./JAVASCRIPT/script.js)**
+![Status](https://img.shields.io/badge/Logic-Loading-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
+
+> *"I swear I don't love the drama, it loves me."*
+
+HTML is the structure, CSS is the style, but **JavaScript** is the brain. This era is about pure logic—functions, conditions, and the flow of data.
+-   **Current Focus**: Variables, Functions, and Conditional Logic (`if/else` ladders).
+-   **The Metaphor**: This is the "Game Awareness" phase. Knowing *when* to strike, not just *how*.
+
 ### 🌑 The Abyssal Era (Advanced Systems)
 **[Level 7: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)**
 ![Status](https://img.shields.io/badge/Strategy-Captaincy_Mode-purple) ![Aesthetic](https://img.shields.io/badge/Vibe-Midnights_Deep_Blue-00008b)
