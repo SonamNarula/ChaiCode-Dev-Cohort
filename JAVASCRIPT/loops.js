@@ -1,61 +1,53 @@
-// --- 1. THE FOR LOOP (Fixed Repetition) ---
-console.log("--- 1. The FOR Loop (Counting Steps) ---");
-// Scenario: Counting steps in a workout.
+// --- 1. THE FOR LOOP (Repeat a fixed number of times) ---
+console.log("--- 1. The FOR Loop (Counting Apples) ---");
 
-for (let step = 1; step <= 5; step++) {
-    console.log(`Step ${step}: Walking... 🚶`);
+for (let i = 1; i <= 5; i++) {
+    console.log(`Apple number ${i} 🍎`);
 }
-console.log("Workout Complete! 💪");
 
 
-// --- 2. THE WHILE LOOP (Condition Based) ---
-console.log("\n--- 2. The WHILE Loop (Loading Bar) ---");
-// Scenario: Installing a program (stops when 100%).
+// --- 2. THE WHILE LOOP (Repeat while a condition is true) ---
+console.log("\n--- 2. The WHILE Loop (Rocket Countdown) ---");
 
-let progress = 0;
-while (progress < 100) {
-    progress += 25; // Increment by 25%
-    console.log(`Installing... ${progress}% ⏳`);
+let countdown = 5;
+
+while (countdown > 0) {
+    console.log(`T-minus ${countdown}... 🚀`);
+    countdown--; // Decrease by 1
 }
-console.log("Installation Complete! ✅");
+console.log("BLAST OFF! 🌌");
 
 
-// --- 3. THE DO...WHILE LOOP (Guaranteed Once) ---
-console.log("\n--- 3. The DO...WHILE Loop (Tea Request) ---");
-// Scenario: Asking if you want tea at least once.
+// --- 3. THE DO...WHILE LOOP (Run at least once) ---
+console.log("\n--- 3. The DO...WHILE Loop (Studying) ---");
 
-let wantsMoreTea = false;
+let isTired = true;
+
 do {
-    console.log("Would you like a cup of chai? ☕");
-    // In a real app, we'd update 'wantsMoreTea' based on user input.
-    // Here, it runs once even though the condition is false.
-} while (wantsMoreTea);
+    console.log("I will study for at least 1 hour. 📚");
+    // Even if I am tired, I study once before checking.
+} while (isTired === false); // Condition is false, so it stops here.
 
 
-// --- 4. THE FOR...OF LOOP (Arrays) ---
-console.log("\n--- 4. The FOR...OF Loop (The Tea Menu) ---");
-// Scenario: Reading items from a menu.
+// --- 4. THE FOR...OF LOOP (Looping through a list/array) ---
+console.log("\n--- 4. The FOR...OF Loop (Fruit Basket) ---");
 
-let teaMenu = ["Masala Chai", "Ginger Chai", "Green Tea", "Oolong Tea"];
+let fruits = ["Mango", "Banana", "Grapes", "Orange"];
 
-for (let tea of teaMenu) {
-    console.log(`Menu Item: ${tea} 🍵`);
+for (let fruit of fruits) {
+    console.log(`I love eating ${fruit} 😋`);
 }
 
 
-// --- 5. THE FOR...IN LOOP (Objects) ---
-console.log("\n--- 5. The FOR...IN Loop (User Profile) ---");
-// Scenario: Displaying user details.
+// --- 5. THE FOR...IN LOOP (Looping through an object) ---
+console.log("\n--- 5. The FOR...IN Loop (Student Info) ---");
 
-let userProfile = {
-    name: "Sonam Narula",
-    role: "Developer",
-    level: "Advanced",
-    favoriteTheme: "Abyssal"
+let student = {
+    name: "Sonam",
+    subject: "Coding",
+    mood: "Happy"
 };
 
-for (let key in userProfile) {
-    // key = "name", then "role", etc.
-    // userProfile[key] = "Sonam Narula", etc.
-    console.log(`${key.toUpperCase()}: ${userProfile[key]}`);
+for (let key in student) {
+    console.log(`${key}: ${student[key]}`);
 }
