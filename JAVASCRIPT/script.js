@@ -66,6 +66,25 @@ else if (adultCondition) {
 else if (seniorCondition) {
     console.log('you are a senior citizen');
 }
-else{
+else {
     console.log('sabhi conditions hi false ho gyiiii ')
-} 
+}
+
+// for(var i = 1; i <= 5; i++){
+//     console.log('Value of i is', i);
+// }
+
+var fileSize = 1024;
+var currentFileDownloaded = 0;
+
+// while(currentFileDownloaded < fileSize){
+//     console.log('file download krte jao');
+//     currentFileDownloaded += 40;
+
+// }
+
+
+do {
+    console.log('file download krte jao');
+    currentFileDownloaded += 512;
+} while (currentFileDownloaded < fileSize)
