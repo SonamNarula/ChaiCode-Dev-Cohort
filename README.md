@@ -19,7 +19,7 @@ These are my eras. This is my heart on the sleeve.
 ## 🕰️ The Eras (My Journey)
 
 ### ⚡ The Script Era (Logic & Dynamism)
-**[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** | **[Loops](./JAVASCRIPT/loops.html)**
+**[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Functions & Logic](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** | **[Loops](./JAVASCRIPT/loops.html)**
 ![Status](https://img.shields.io/badge/Logic-Active-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
 
 > *"I swear I don't love the drama, it loves me."*
@@ -27,6 +27,7 @@ These are my eras. This is my heart on the sleeve.
 HTML is the structure, CSS is the style, but **JavaScript** is the brain. This era is about pure logic—functions, conditions, and the flow of data.
 -   **Current Focus**:
     -   **Variables & Scope**: Understanding `var`, `let`, and how data lives in memory.
+    -   **Functions & Logic**: Basics of function definition and invocation.
     -   **Decision Making**: `if`, `else if`, and nested conditionals.
     -   **Iteration**: `for`, `while`, `do...while`, `for...of`, and `for...in`.
 -   **The Metaphor**: This is the "Game Awareness" phase. Knowing *when* to strike, and how to maintain consistency.
