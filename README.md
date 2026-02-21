@@ -82,6 +82,17 @@ flowchart TD
 ### Phase 03: UI Integration (Architecture)
 Integration testing via high-fidelity interface cloning. Demands strict structural validation and pixel-perfect rendering.
 
+```mermaid
+flowchart LR
+    classDef base fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff,rx:4px,ry:4px;
+    classDef ui fill:#8e44ad,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
+    classDef logic fill:#d35400,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
+
+    S[Semantic HTML]:::base --> C[CSS Layout Array]:::base
+    C --> I{High-Fidelity<br/>UI Clone}:::ui
+    L[JS DOM Logic]:::logic -.-> I
+```
+
 | Project Clone | Focus Area | Technical Implementations |
 | :--- | :--- | :--- |
 | **[Cursor Landing Page](./cursor_landing_clone/)** | Dark-Mode Premium UI | Custom `-webkit-background-clip` text gradients, glassmorphism UI, semantic HTML5. |
@@ -102,6 +113,20 @@ Technical skills require meaningful application.
 ## ▎Developer Diagnostics
 
 I am building this path step by step. I am not rushing the process, nor am I taking shortcuts. 
+
+```mermaid
+flowchart TD
+    classDef code fill:#0984e3,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+    classDef err fill:#d63031,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+    classDef debug fill:#fdcb6e,stroke:#2d3436,stroke-width:2px,color:#2d3436,rx:5px,ry:5px;
+    classDef pass fill:#00b894,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+
+    A[Write Architecture]:::code --> B{Compile & Test}:::code
+    B -->|UnhandledException| C[SyntaxError / Bug]:::err
+    C --> D[Rigorous Debugging]:::debug
+    D --> A
+    B -->|HTTP 200 OK| E[Robust Deployment]:::pass
+```
 
 | Diagnostic Metric | Current State |
 | :--- | :--- |
