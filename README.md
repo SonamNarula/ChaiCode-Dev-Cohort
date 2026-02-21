@@ -4,15 +4,15 @@
 
 ## 💭 The Honest Truth
 
-Welcome to my digital home. If you just want to see my code, you will find it neatly organized below. But if you want to know the person behind the screen, please, stay a moment.
+Welcome to my digital home. If you just want to parse my code, you will find it neatly compiled below. But if you want to know the human behind the machine, please, stay a moment.
 
-For the longest time, I was genuinely terrified of the blank editor. I used to believe that programming was an exclusive language meant only for people who were "naturally gifted" or brilliant at math. I didn't realize until I started this journey that coding is actually for people who are, simply put, **stubborn enough not to quit.**
+For the longest time, I was genuinely terrified of the blank IDE. I used to believe that programming was an exclusive API meant only for people who were "naturally gifted" or brilliant at calculus. I didn't realize until I started this journey that coding is actually for people who are, simply put, **stubborn enough to forcefully resolve their own merge conflicts without quitting.**
 
-This repository is more than just files and folders to me. It is a live documentation of my resilience. It holds the frustrating hours spent chasing a missing semicolon, the quiet tears when a CSS Grid simply refused to align, and the overwhelming, pure joy of finally watching a page come to life long after midnight.
+This repository is more than just files and folders to me. It is a live documentation of my resilience. It holds the frustrating hours spent chasing a logic error, the quiet tears when a CSS Grid simply refused to align, and the overwhelming, pure dopamine hit of finally watching a page come to life long after midnight.
 
-I try to approach my code the way **Smriti Mandhana** approaches cricket: it is rarely about hitting the ball the hardest; it is about the elegance, the patience, and the timing. A quick, messy solution might get the job done, but a clean, thoughtful, well-architected solution sings.
+I try to approach my code the way **Smriti Mandhana** approaches cricket: it is rarely about hitting the ball the hardest; it is about the elegance, the patience, and the timing. A quick, brute-force `O(N^2)` solution might get the job done, but a clean, thoughtful, well-architected `O(N)` solution sings.
 
-These projects are my different "eras" of learning. This is my heart, poured into every line of code.
+These projects are my different "eras" of learning. This is my heart, hardcoded into every line.
 
 ---
 
@@ -70,13 +70,13 @@ Building this wasn't about "flexbox" or "media queries." It was about using my n
 
 Hi, I am **Sonam Narula**. 
 
-I am building this path step by step, honoring the sacrifices my parents made to get me here, and striving every day to be a software engineer they can be immensely proud of.
+I am building this path step by step, honoring the sacrifices my parents made to initialize my life's runtime environment, and striving every day to be a software engineer they can be immensely proud of.
 
--   **My Biggest Fear**: That I might not be good enough for the dreams I carry.
--   **My Grounding Reality**: That I am showing up, putting in the hard work, and getting tangibly better every single day.
--   **My Guiding Philosophy**: *"I had a marvelous time ruining everything."* Every broken code, every bug I created and wrestled with, has taught me how to lay a stronger foundation.
+-   **My Biggest Fear**: An `UnhandledPromiseRejection`—that I might not be good enough for the dreams I carry.
+-   **My Grounding Reality**: That I am showing up, committing my hard work, and incrementally optimizing my skills every single day.
+-   **My Guiding Philosophy**: *"I had a marvelous time ruining everything."* Every broken build, every syntax error I created and wrestled with, has taught me how to write a more robust system.
 
-Thank you for taking the time to visit my little corner of the internet.
+Thank you for taking the time to visit my little `localhost` on the internet.
 
 *Always learning. Always sincere. Always fearless.* 🏏✨
 
