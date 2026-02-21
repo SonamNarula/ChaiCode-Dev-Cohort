@@ -19,7 +19,7 @@ These are my eras. This is my heart on the sleeve.
 ## 🕰️ The Eras (My Journey)
 
 ### ⚡ The Script Era (Logic & Dynamism)
-**[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)** | **[Operators](./JAVASCRIPT/operators.html)** | **[Functions & Logic](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** | **[Loops](./JAVASCRIPT/loops.html)**
+**[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)** | **[Operators](./JAVASCRIPT/operators.html)** | **[Functions](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** (*[Input Practice](./JAVASCRIPT/input.html)* / *[Grading System](./JAVASCRIPT/grade.html)*) | **[Loops](./JAVASCRIPT/loops.html)**
 ![Status](https://img.shields.io/badge/Logic-Active-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
 
 > *"I swear I don't love the drama, it loves me."*
