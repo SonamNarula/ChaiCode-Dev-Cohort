@@ -19,10 +19,14 @@ My technical growth is structured into foundational phases. Below is the systema
 
 ```mermaid
 graph TD
-    classDef phase fill:#1e1e1e,stroke:#444,stroke-width:2px,color:#fff,rx:5px,ry:5px;
-    A[Phase 01<br/>Core Logic: JS]:::phase --> B[Phase 02<br/>Structural Layouts: CSS]:::phase
-    B --> C[Phase 03<br/>UI Integration]:::phase
-    C --> D[Phase 04<br/>Sincerity: Deployment]:::phase
+    classDef js fill:#f7df1e,stroke:#000,stroke-width:2px,color:#000,rx:5px,ry:5px;
+    classDef css fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+    classDef arc fill:#8a2be2,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+    classDef sin fill:#f8f9fa,stroke:#333,stroke-width:2px,color:#333,rx:5px,ry:5px;
+
+    A[Phase 01<br/>Core Logic: JS]:::js --> B[Phase 02<br/>Structural Layouts: CSS]:::css
+    B --> C[Phase 03<br/>UI Integration]:::arc
+    C --> D[Phase 04<br/>Sincerity: Deployment]:::sin
 ```
 
 <br>
@@ -32,11 +36,16 @@ The heartbeat of the system. This phase is a rigorous deep dive into the invisib
 
 ```mermaid
 flowchart LR
-    classDef logic fill:#2d2d2d,stroke:#f7df1e,stroke-width:2px,color:#fff;
-    M[Memory]:::logic --> D[Data Mechanics]:::logic
-    D --> F[Function Execution]:::logic
-    F --> C[Control Flow]:::logic
-    C --> I[Iteration]:::logic
+    classDef m fill:#ff6b6b,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
+    classDef dm fill:#feca57,stroke:#333,stroke-width:2px,color:#333,rx:3px,ry:3px;
+    classDef fe fill:#1dd1a1,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
+    classDef cf fill:#5f27cd,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
+    classDef i fill:#54a0ff,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
+
+    M[Memory]:::m --> D[Data Mechanics]:::dm
+    D --> F[Function Execution]:::fe
+    F --> C[Control Flow]:::cf
+    C --> I[Iteration]:::i
 ```
 
 | Conceptual Focus | Modules & Scripts | Technical Implementations |
@@ -54,10 +63,13 @@ Diving into spatial geometry and layout matrix computing, strictly without pre-b
 
 ```mermaid
 flowchart TD
-    classDef layout fill:#1a1a2e,stroke:#1e90ff,stroke-width:2px,color:#fff;
-    A[Layout Matrix Computing]:::layout
-    A -->|1D Vector| B(Flexbox Protocol):::layout
-    A -->|2D Plane| C(Grid Architecture):::layout
+    classDef main fill:#2d3436,stroke:#dfe6e9,stroke-width:2px,color:#dfe6e9,rx:4px,ry:4px;
+    classDef flex fill:#e17055,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
+    classDef grid fill:#00b894,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
+
+    A[Layout Matrix Computing]:::main
+    A -->|1D Vector| B(Flexbox Protocol):::flex
+    A -->|2D Plane| C(Grid Architecture):::grid
 ```
 
 | Layout Protocol | Modules & Deployments | Technical Implementations |
