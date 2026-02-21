@@ -28,7 +28,7 @@ This repository catalogs my structured learning environment.
 * [Variables and Scoping](./JAVASCRIPT/brain.js)
 * [Data Structures](./JAVASCRIPT/Variables%20and%20data%20types/1.html)
 * [Operator Precedence](./JAVASCRIPT/operators.html)
-* [Functions and Callbacks](./JAVASCRIPT/class2.js)
+* [Functions and Callbacks](./JAVASCRIPT/class2.js) | [In-Depth Functions Guide](./JAVASCRIPT/functions_indepth.html)
 * [Conditional Logic](./JAVASCRIPT/conditionals.html) | [Input Processing](./JAVASCRIPT/input.html) | [Grading System Algorithm](./JAVASCRIPT/grade.html)
 * [Iteration and Loops](./JAVASCRIPT/loops.html) | [Even Number Traversal](./JAVASCRIPT/evenNumber.js)
 
