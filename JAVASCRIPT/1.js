@@ -29,3 +29,13 @@ console.log(age);
 
 let a = 5;
 console.log(a);
+
+const profile = {
+    username : '@er.sonamnarula',
+    isFollow : false,
+    followers : 800,
+    following : 200
+
+};
+
+console.log(profile);
