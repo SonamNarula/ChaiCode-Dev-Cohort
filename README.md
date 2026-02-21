@@ -32,7 +32,7 @@ These projects are my different "eras" of learning. This is my heart, hardcoded 
 <summary><b>### ⚡ The Script Era (Logic & Dynamism)</b></summary>
 <br>
 
-**[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)** | **[Operators](./JAVASCRIPT/operators.html)** | **[Functions](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** (*[Input Practice](./JAVASCRIPT/input.html)* / *[Grading System](./JAVASCRIPT/grade.html)*) | **[Loops](./JAVASCRIPT/loops.html)**
+**[Terminal Test](./JAVASCRIPT/app.js)** | **[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)** | **[Operators](./JAVASCRIPT/operators.html)** | **[Functions](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** (*[Input Practice](./JAVASCRIPT/input.html)* / *[Grading System](./JAVASCRIPT/grade.html)*) | **[Loops](./JAVASCRIPT/loops.html)** (*[Even Numbers Practice](./JAVASCRIPT/evenNumber.js)*)
 
 <img src="https://img.shields.io/badge/Logic-Active-yellow?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Vibe-Reputation_Strict-333333?style=flat-square" alt="Vibe">
 
