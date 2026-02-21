@@ -1,11 +1,12 @@
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=f7df1e&center=true&vCenter=true&width=600&lines=System.out.println(%22Hello+World!%22);npm+start+ChaiCode_Cohort;git+commit+-m+%22The+Journey+Begins%22" alt="Typing SVG" />
   <h1>🏏✨ The ChaiCode Dev Cohort 💻🚀</h1>
-  <p><i>"Long story short, I code."</i> — (inspired by <i>evermore</i>)</p>
-  
+  <code>> Sonam Narula // "Long story short, I code."</code>
+  <br><br>
   <p>
     <img src="https://img.shields.io/badge/Status-Learning_%26_Building-success?style=for-the-badge&logo=javascript" alt="Status" />
     <img src="https://img.shields.io/badge/Vibe-Nerdy_%26_Sincere-blueviolet?style=for-the-badge&logo=heart" alt="Vibe" />
-    <img src="https://img.shields.io/badge/Coffee-Fueled-brown?style=for-the-badge&logo=coffeescript" alt="Coffee" />
+    <img src="https://img.shields.io/badge/Runtime-Caffeine_Fueled-brown?style=for-the-badge&logo=coffeescript" alt="Coffee" />
   </p>
 </div>
 
@@ -97,22 +98,36 @@ Building this wasn't about "flexbox" or "media queries." It was about using my n
 
 <div align="center">
   <h2>💡 About Me</h2>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Hi,+I+am+Sonam+Narula.;Always+learning.;Always+sincere.;Always+fearless." alt="Typing SVG" />
+<div align="center">
+  <h2>💡 <code>whoami</code></h2>
 </div>
 
 I am building this path step by step, honoring the sacrifices my parents made to initialize my life's runtime environment, and striving every day to be a software engineer they can be immensely proud of.
 
-| Phase | Philosophy |
-| :--- | :--- |
-| **🚨 My Biggest Fear** | An `UnhandledPromiseRejection`—that I might not be good enough for the dreams I carry. |
-| **🌱 My Grounding Reality** | That I am showing up, committing my hard work, and incrementally optimizing my skills every single day. |
-| **⚡ My Guiding Philosophy** | *"I had a marvelous time ruining everything."* Every broken build, every syntax error I created and wrestled with, has taught me how to write a more robust system. |
+```json
+{
+  "developer": {
+    "name": "Sonam Narula",
+    "status": "Compiling dreams into reality...",
+    "vulnerabilities": {
+      "biggest_fear": "UnhandledPromiseRejection - Wondering if my current stack is enough for the dreams I carry."
+    },
+    "runtime_environment": {
+      "grounding_reality": "Showing up. Committing hard work. Incrementally optimizing my skills every single day."
+    },
+    "core_logic": {
+      "guiding_philosophy": "I had a marvelous time ruining everything.",
+      "explanation": "Every broken build, every syntax error I created and wrestled with, has taught me how to write a more robust system."
+    }
+  }
+}
+```
 
 <br>
 
-> Thank you for taking the time to visit my little `localhost` on the internet.
+> `exit 0` // Thank you for taking the time to ping my `localhost` on the internet.
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=120&section=footer" />
-  <p>© 2026 Sonam Narula. All Rights Reserved. 🏏✨</p>
+  <p><code>[ Process completed ] © 2026 Sonam Narula. All Rights Reserved. 🏏✨</code></p>
 </div>
