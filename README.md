@@ -17,8 +17,27 @@ Growth happens in the quiet, late-night hours of debugging a flawed algorithm or
 
 My technical growth is structured into foundational phases. Below is the systematic index of all modules deployed in this repository.
 
+```mermaid
+graph TD
+    classDef phase fill:#1e1e1e,stroke:#444,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+    A[Phase 01<br/>Core Logic: JS]:::phase --> B[Phase 02<br/>Structural Layouts: CSS]:::phase
+    B --> C[Phase 03<br/>UI Integration]:::phase
+    C --> D[Phase 04<br/>Sincerity: Deployment]:::phase
+```
+
+<br>
+
 ### Phase 01: Core Logic (JavaScript)
 The heartbeat of the system. This phase is a rigorous deep dive into the invisible logic that drives applications.
+
+```mermaid
+flowchart LR
+    classDef logic fill:#2d2d2d,stroke:#f7df1e,stroke-width:2px,color:#fff;
+    M[Memory]:::logic --> D[Data Mechanics]:::logic
+    D --> F[Function Execution]:::logic
+    F --> C[Control Flow]:::logic
+    C --> I[Iteration]:::logic
+```
 
 | Conceptual Focus | Modules & Scripts | Technical Implementations |
 | :--- | :--- | :--- |
@@ -32,6 +51,14 @@ The heartbeat of the system. This phase is a rigorous deep dive into the invisib
 
 ### Phase 02: Structural Layouts (CSS)
 Diving into spatial geometry and layout matrix computing, strictly without pre-built UI library assistance.
+
+```mermaid
+flowchart TD
+    classDef layout fill:#1a1a2e,stroke:#1e90ff,stroke-width:2px,color:#fff;
+    A[Layout Matrix Computing]:::layout
+    A -->|1D Vector| B(Flexbox Protocol):::layout
+    A -->|2D Plane| C(Grid Architecture):::layout
+```
 
 | Layout Protocol | Modules & Deployments | Technical Implementations |
 | :--- | :--- | :--- |
