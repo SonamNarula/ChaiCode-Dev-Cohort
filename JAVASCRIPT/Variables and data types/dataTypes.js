@@ -49,4 +49,16 @@ console.log('Type of big : ', typeof big);
 console.log('Type of sym : ', typeof sym);
 console.log('Type of arr : ', typeof arr);
 console.log('Type of student : ', typeof student);
-console.log('Type of hello : ', typeof hello);
+console.log('Type of hello :', typeof hello);
+
+console.log('======PRACTICE - 1======');
+
+const product = {
+    name:'Ball Pen',
+    rating : 4,
+    offer: 5,
+    price: 270
+};
+
+console.log(product);
+console.log('type of product : ',typeof product);
