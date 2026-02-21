@@ -1,6 +1,15 @@
-# The ChaiCode Dev Cohort 🏏✨
+<div align="center">
+  <h1>🏏✨ The ChaiCode Dev Cohort 💻🚀</h1>
+  <p><i>"Long story short, I code."</i> — (inspired by <i>evermore</i>)</p>
+  
+  <p>
+    <img src="https://img.shields.io/badge/Status-Learning_%26_Building-success?style=for-the-badge&logo=javascript" alt="Status" />
+    <img src="https://img.shields.io/badge/Vibe-Nerdy_%26_Sincere-blueviolet?style=for-the-badge&logo=heart" alt="Vibe" />
+    <img src="https://img.shields.io/badge/Coffee-Fueled-brown?style=for-the-badge&logo=coffeescript" alt="Coffee" />
+  </p>
+</div>
 
-> *"Long story short, I code."* — (inspired by *evermore*)
+---
 
 ## 💭 The Honest Truth
 
@@ -18,9 +27,13 @@ These projects are my different "eras" of learning. This is my heart, hardcoded 
 
 ## 🕰️ The Eras (My Journey)
 
-### ⚡ The Script Era (Logic & Dynamism)
+<details open>
+<summary><b>### ⚡ The Script Era (Logic & Dynamism)</b></summary>
+<br>
+
 **[JS Basics](./JAVASCRIPT/script.js)** | **[Variables](./JAVASCRIPT/brain.js)** | **[Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)** | **[Operators](./JAVASCRIPT/operators.html)** | **[Functions](./JAVASCRIPT/class2.js)** | **[Conditionals](./JAVASCRIPT/conditionals.html)** (*[Input Practice](./JAVASCRIPT/input.html)* / *[Grading System](./JAVASCRIPT/grade.html)*) | **[Loops](./JAVASCRIPT/loops.html)**
-![Status](https://img.shields.io/badge/Logic-Active-yellow) ![Vibe](https://img.shields.io/badge/Vibe-Reputation_Strict-333333)
+
+<img src="https://img.shields.io/badge/Logic-Active-yellow?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Vibe-Reputation_Strict-333333?style=flat-square" alt="Vibe">
 
 > *"I swear I don't love the drama, it loves me."*
 
@@ -32,30 +45,45 @@ HTML is the structure, CSS is the style, but **JavaScript** is the brain. This e
     -   **Decision Making**: `if`, `else if`, and nested conditionals.
     -   **Iteration**: `for`, `while`, `do...while`, `for...of`, and `for...in`.
 -   **The Metaphor**: This is the "Game Awareness" phase. Knowing *when* to strike, and how to maintain consistency.
+</details>
 
-### 🌑 The Abyssal Era (Layouts & Complexity)
+<details open>
+<summary><b>### 🌑 The Abyssal Era (Layouts & Complexity)</b></summary>
+<br>
+
 **[CSS Flexbox Protocol](./SELF%20PRACTICE/CSS/flexbox.html)** | **[Level 7: CSS Grid System](./SELF%20PRACTICE/CSS/grid.html)**
-![Status](https://img.shields.io/badge/Strategy-Captaincy_Mode-purple) ![Aesthetic](https://img.shields.io/badge/Vibe-Midnights_Deep_Blue-00008b)
+
+<img src="https://img.shields.io/badge/Strategy-Captaincy_Mode-purple?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Vibe-Midnights_Deep_Blue-00008b?style=flat-square" alt="Aesthetic">
 
 > *"Meet me at midnight..."*
 
 This is where I embraced the deep end. Mastering layouts in CSS is complex but infinitely powerful. I designed the Grid with a **Bioluminescent** aesthetic, making learning feel like exploring the ocean floor—scary, but beautiful. The Flexbox module is where I learned 1D alignments, mastering properties like `justify-content` and `align-items`.
 -   **The Flexbox Flow**: Realizing how beautifully simple elements can align on a single axis.
 -   **The Grid Release**: When I finally understood `grid-template-areas`, it felt like unlocking a two-dimensional superpower.
+</details>
 
-### 🏛️ The Architecture Era (The Discipline)
+<details open>
+<summary><b>### 🏛️ The Architecture Era (The Discipline)</b></summary>
+<br>
+
 **[Cursor.com Landing Clone](./cursor_landing_clone/)** | **[Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)** | **[Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)**
-![Status](https://img.shields.io/badge/Technique-Solid_Defense-blue) ![Vibe](https://img.shields.io/badge/Vibe-1989_Polished-1e90ff)
+
+<img src="https://img.shields.io/badge/Technique-Solid_Defense-blue?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Vibe-1989_Polished-1e90ff?style=flat-square" alt="Vibe">
 
 > *"We never go out of style."*
 
 Building these clones was my test match. It required patience, structure, and an eye for pixel-perfect details.
 -   **Cursor Landing Clone**: A high-fidelity, modern, dark-themed masterpiece. It taught me the sheer power of custom gradients (`-webkit-background-clip`), glassmorphism, and responsive feature grids. It's aesthetically premium and fully responsive.
 -   **The Ultimate Lesson**: You can't rush a good foundation. Just like you can't rush a century in cricket. You build it run by run, div by div, component by component.
+</details>
 
-### 📜 The Folklore Era (The Heart)
+<details open>
+<summary><b>### 📜 The Folklore Era (The Heart)</b></summary>
+<br>
+
 **[Bharat CV (Special Project)](./Bharat_CV/)**
-![Status](https://img.shields.io/badge/Dedication-Sincere-orange) ![Type](https://img.shields.io/badge/Type-Print_Optimized-brown)
+
+<img src="https://img.shields.io/badge/Dedication-Sincere-orange?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/Type-Print_Optimized-brown?style=flat-square" alt="Type">
 
 > *"The best people in life are free."*
 
@@ -63,22 +91,28 @@ Building these clones was my test match. It required patience, structure, and an
 
 I built this CV for my father, **Bharat Narula**. He has spent 20+ years teaching Chemistry, shaping lives with the same patience I'm trying to learn in code.
 Building this wasn't about "flexbox" or "media queries." It was about using my new skills to give something back to the person who gave me everything. It’s clean, it’s sincere, and it’s full of love.
+</details>
 
 ---
 
-## 💡 About Me
-
-Hi, I am **Sonam Narula**. 
+<div align="center">
+  <h2>💡 About Me</h2>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=Hi,+I+am+Sonam+Narula.;Always+learning.;Always+sincere.;Always+fearless." alt="Typing SVG" />
+</div>
 
 I am building this path step by step, honoring the sacrifices my parents made to initialize my life's runtime environment, and striving every day to be a software engineer they can be immensely proud of.
 
--   **My Biggest Fear**: An `UnhandledPromiseRejection`—that I might not be good enough for the dreams I carry.
--   **My Grounding Reality**: That I am showing up, committing my hard work, and incrementally optimizing my skills every single day.
--   **My Guiding Philosophy**: *"I had a marvelous time ruining everything."* Every broken build, every syntax error I created and wrestled with, has taught me how to write a more robust system.
+| Phase | Philosophy |
+| :--- | :--- |
+| **🚨 My Biggest Fear** | An `UnhandledPromiseRejection`—that I might not be good enough for the dreams I carry. |
+| **🌱 My Grounding Reality** | That I am showing up, committing my hard work, and incrementally optimizing my skills every single day. |
+| **⚡ My Guiding Philosophy** | *"I had a marvelous time ruining everything."* Every broken build, every syntax error I created and wrestled with, has taught me how to write a more robust system. |
 
-Thank you for taking the time to visit my little `localhost` on the internet.
+<br>
 
-*Always learning. Always sincere. Always fearless.* 🏏✨
+> Thank you for taking the time to visit my little `localhost` on the internet.
 
----
-© 2026 Sonam Narula. All Rights Reserved.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=120&section=footer" />
+  <p>© 2026 Sonam Narula. All Rights Reserved. 🏏✨</p>
+</div>
