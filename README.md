@@ -1,14 +1,10 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=f7df1e&center=true&vCenter=true&width=600&lines=System.out.println(%22Hello+World!%22);npm+start+ChaiCode_Cohort;git+commit+-m+%22The+Journey+Begins%22" alt="Typing SVG" />
-  <h1>🏏✨ The ChaiCode Dev Cohort 💻🚀</h1>
-  <code>> Sonam Narula // "Long story short, I code."</code>
-  <br><br>
-  <p>
-    <img src="https://img.shields.io/badge/Status-Compiling_Dreams-success?style=for-the-badge&logo=javascript" alt="Status" />
-    <img src="https://img.shields.io/badge/Vibe-Intensely_Nerdy-blueviolet?style=for-the-badge&logo=heart" alt="Vibe" />
-    <img src="https://img.shields.io/badge/Runtime-Caffeine_Fueled-brown?style=for-the-badge&logo=coffeescript" alt="Coffee" />
-  </p>
-</div>
+# 🏏✨ The ChaiCode Dev Cohort 💻🚀
+
+`> Sonam Narula // "Long story short, I code."`
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Compiling_Dreams-success?style=for-the-badge&logo=javascript" alt="Status" /> <img src="https://img.shields.io/badge/Vibe-Intensely_Nerdy-blueviolet?style=for-the-badge&logo=heart" alt="Vibe" /> <img src="https://img.shields.io/badge/Runtime-Caffeine_Fueled-brown?style=for-the-badge&logo=coffeescript" alt="Coffee" />
 
 ---
 
@@ -95,9 +91,7 @@ Building this wasn't about framework hype or arbitrary library imports. It was a
 
 ---
 
-<div align="center">
-  <h2>💡 <code>whoami --format=json</code></h2>
-</div>
+## 💡 `whoami --format=json`
 
 I am building this persistent state step by step, honoring the background processes my parents ran to initialize my life's runtime environment, and striving every day to be a software engineer they can be immensely proud of.
 
@@ -111,7 +105,4 @@ I am building this persistent state step by step, honoring the background proces
 
 > `exit 0` // Terminating session. Thank you for pinging my `localhost` on the internet.
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=120&section=footer" />
-  <p><code>[ Process completed ] © 2026 Sonam Narula. All Rights Reserved. 🏏✨</code></p>
-</div>
+`[ Process completed ] © 2026 Sonam Narula. All Rights Reserved. 🏏✨`
