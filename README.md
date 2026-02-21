@@ -27,6 +27,7 @@ These are my eras. This is my heart on the sleeve.
 HTML is the structure, CSS is the style, but **JavaScript** is the brain. This era is about pure logic—functions, conditions, and the flow of data.
 -   **Current Focus**:
     -   **Variables & Scope**: Understanding `var`, `let`, and how data lives in memory.
+    -   **Operators Mastery**: Comprehensively covering 11 types of operators, from basic Arithmetic to Unary, Object (`in`, `delete`), and Modern JS syntax like Nullish Coalescing (`??`), Optional Chaining (`?.`), and Spread (`...`).
     -   **Functions & Logic**: Basics of function definition and invocation.
     -   **Decision Making**: `if`, `else if`, and nested conditionals.
     -   **Iteration**: `for`, `while`, `do...while`, `for...of`, and `for...in`.
