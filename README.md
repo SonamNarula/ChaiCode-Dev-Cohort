@@ -32,23 +32,25 @@ HTML is the structure, CSS is the style, but **JavaScript** is the brain. This e
     -   **Iteration**: `for`, `while`, `do...while`, `for...of`, and `for...in`.
 -   **The Metaphor**: This is the "Game Awareness" phase. Knowing *when* to strike, and how to maintain consistency.
 
-### 🌑 The Abyssal Era (The Complexity)
-**[Level 7: CSS Grid System Protocol](./SELF%20PRACTICE/CSS/grid.html)**
+### 🌑 The Abyssal Era (Layouts & Complexity)
+**[CSS Flexbox Protocol](./SELF%20PRACTICE/CSS/flexbox.html)** | **[Level 7: CSS Grid System](./SELF%20PRACTICE/CSS/grid.html)**
 ![Status](https://img.shields.io/badge/Strategy-Captaincy_Mode-purple) ![Aesthetic](https://img.shields.io/badge/Vibe-Midnights_Deep_Blue-00008b)
 
 > *"Meet me at midnight..."*
 
-This is where I embraced the deep end. CSS Grid is complex, dark, and powerful. I designed this with a **Bioluminescent** aesthetic because learning it felt like exploring the ocean floor—scary, but beautiful.
--   **The Release**: When I finally understood `grid-template-areas`, it felt like unlocking a superpower.
+This is where I embraced the deep end. Mastering layouts in CSS is complex but infinitely powerful. I designed the Grid with a **Bioluminescent** aesthetic, making learning feel like exploring the ocean floor—scary, but beautiful. The Flexbox module is where I learned 1D alignments, mastering properties like `justify-content` and `align-items`.
+-   **The Flexbox Flow**: Realizing how beautifully simple elements can align on a single axis.
+-   **The Grid Release**: When I finally understood `grid-template-areas`, it felt like unlocking a two-dimensional superpower.
 
 ### 🏛️ The Architecture Era (The Discipline)
-**[Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/) & [Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)**
+**[Cursor.com Landing Clone](./cursor_landing_clone/)** | **[Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone/)** | **[Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone/)**
 ![Status](https://img.shields.io/badge/Technique-Solid_Defense-blue) ![Vibe](https://img.shields.io/badge/Vibe-1989_Polished-1e90ff)
 
 > *"We never go out of style."*
 
-Building these clones was my test match. It required patience. It required structure.
--   **The Lesson**: You can't rush a good foundation. Just like you can't rush a century in cricket. You build it run by run, div by div.
+Building these clones was my test match. It required patience, structure, and an eye for pixel-perfect details.
+-   **Cursor Landing Clone**: A high-fidelity, modern, dark-themed masterpiece. It taught me the sheer power of custom gradients (`-webkit-background-clip`), glassmorphism, and responsive feature grids. It's aesthetically premium and fully responsive.
+-   **The Ultimate Lesson**: You can't rush a good foundation. Just like you can't rush a century in cricket. You build it run by run, div by div, component by component.
 
 ### 📜 The Folklore Era (The Heart)
 **[Bharat CV (Special Project)](./Bharat_CV/)**
