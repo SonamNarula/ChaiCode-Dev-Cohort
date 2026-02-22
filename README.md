@@ -50,11 +50,11 @@ flowchart LR
 
 | Conceptual Focus | Modules & Scripts | Technical Implementations |
 | :--- | :--- | :--- |
-| **Memory & Syntax** | [Terminal Engine](./JAVASCRIPT/app.js)<br>[Syntax Basics](./JAVASCRIPT/script.js)<br>[Variable Scoping](./JAVASCRIPT/brain.js) | Lexical environments, hoisting, strict `var/let/const` memory allocation. |
-| **Data Mechanics** | [Data Types](./JAVASCRIPT/Variables%20and%20data%20types/1.html)<br>[Operator Precedence](./JAVASCRIPT/operators.html) | Primitive vs reference types, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
-| **Function Execution** | [Core Functions](./JAVASCRIPT/class2.js)<br>[In-Depth Guide](./JAVASCRIPT/functions_indepth.js)<br>[Function Basics](./JAVASCRIPT/functions.js) | Arrow functions, closures, IIFEs, lexical scoping, and higher-order callbacks. |
-| **Control Flow Routing** | [Conditionals](./JAVASCRIPT/conditionals.html)<br>[User Input](./JAVASCRIPT/input.html)<br>[Grading App](./JAVASCRIPT/grade.html) | Abstract/strict equality handling, nested conditional logic, dynamic input processing. |
-| **Iteration** | [Loops](./JAVASCRIPT/loops.html)<br>[Even Numbers](./JAVASCRIPT/evenNumber.js) | Structured algorithm loops (`for`, `while`, `do...while`) and data traversal mechanics. |
+| **Memory & Syntax** | [Terminal Engine](./JAVASCRIPT/basics/app.js)<br>[Syntax Basics](./JAVASCRIPT/basics/script.js)<br>[Variable Scoping](./JAVASCRIPT/basics/brain.js) | Lexical environments, hoisting, strict `var/let/const` memory allocation. |
+| **Data Mechanics** | [Data Types](./JAVASCRIPT/basics/1.html)<br>[Operator Precedence](./JAVASCRIPT/basics/operator.html) | Primitive vs reference types, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
+| **Function Execution** | [Core Functions](./JAVASCRIPT/basics/class2.js)<br>[In-Depth Guide](./JAVASCRIPT/basics/functions_indepth.js)<br>[Function Basics](./JAVASCRIPT/basics/functions.js) | Arrow functions, closures, IIFEs, lexical scoping, and higher-order callbacks. |
+| **Control Flow Routing** | [Conditionals](./JAVASCRIPT/basics/conditionals.html)<br>[User Input](./JAVASCRIPT/basics/input.html)<br>[Grading App](./JAVASCRIPT/basics/grade.html) | Abstract/strict equality handling, nested conditional logic, dynamic input processing. |
+| **Iteration** | [Loops](./JAVASCRIPT/basics/loops.html)<br>[Even Numbers](./JAVASCRIPT/basics/evenNumber.js) | Structured algorithm loops (`for`, `while`, `do...while`) and data traversal mechanics. |
 
 <br>
 
