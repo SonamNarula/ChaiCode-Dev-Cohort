@@ -76,6 +76,7 @@ flowchart TD
 | :--- | :--- | :--- |
 | **1D Alignment** | [Flexbox Laboratory](./SELF%20PRACTICE/CSS/flexbox.html) | Single-axis management, spatial distribution (`justify-content`), cross-axis positioning. |
 | **2D Architecture** | [Grid System](./SELF%20PRACTICE/CSS/grid.html) | Complex multi-axis alignment, explicit grid tracks, responsive fractions (`fr`), template areas. |
+| **Spatial Overrides** | [CSS Positions](./SELF%20PRACTICE/CSS/level3.html)<br>[Sticky/Fixed Playground](./SELF%20PRACTICE/CSS/Practice%20Set%20-%205/index.html) | Explicit layout manipulation via `static`, `relative`, `absolute`, `fixed`, and `sticky` positioning techniques. |
 
 <br>
 
@@ -95,6 +96,7 @@ flowchart LR
 
 | Project Clone | Focus Area | Technical Implementations |
 | :--- | :--- | :--- |
+| **[Mintlify Clone](./mintlify_clone/)** | Desktop-First Light UI | Advanced CSS layouts (Grid, Flexbox), custom CSS variables, complex background integrations. |
 | **[Cursor Landing Page](./cursor_landing_clone/)** | Dark-Mode Premium UI | Custom `-webkit-background-clip` text gradients, glassmorphism UI, semantic HTML5. |
 | **[Amazon Interface](./SELF%20PRACTICE/Amazon%20Clone/)** | E-Commerce Layouts | Complex component structuring, responsive headers, multi-tier navigation logic. |
 | **[Netflix Interface](./SELF%20PRACTICE/Netflix%20Clone/)** | Fluid Media Grids | Dynamic `vw/vh` scaling, responsive image grids, absolute/relative element stacking. |
