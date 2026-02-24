@@ -135,4 +135,12 @@ flowchart TD
 
 <br>
 
+### ▎Execution Log 
+
+![SonamNarula's GitHub contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&theme=tokyonight&hide_border=true&bg_color=00000000)
+
+![SonamNarula's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=tokyonight&hide_border=true&background=00000000)
+
+<br>
+
 *(c) 2026 Sonam Narula. Let the execution speak.* 🏏
