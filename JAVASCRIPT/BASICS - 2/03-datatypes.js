@@ -7,7 +7,7 @@ const attackUpgrade = 1.5;
 console.log(typeof attackPower);
 console.log(typeof attackUpgrade);
 
-const isLoggedJ  = true;
+const isLoggedJ = true;
 let bonusEffect;
 
 let curseStatus = null;
@@ -17,10 +17,10 @@ console.log(weatherApiResponse);
 
 const uniqueRuneId = Symbol("rune_of_fire");
 
-const heroStats={
+const heroStats = {
     name: "Deepak",
     level: 12,
-    class:"Ranger",
+    class: "Ranger",
 };
 
 console.log("Hero: ", heroStats, "| typeL ", typeof heroStats);
@@ -28,7 +28,7 @@ console.log("Hero: ", heroStats, "| typeL ", typeof heroStats);
 const inventory = ["Flame Sword", "Health Potion", "Shield"];
 console.log("Inventory: ", inventory, "| type: ", typeof inventory);
 
-function castSpell(){
+function castSpell() {
     return "Fireball";
 }
 
@@ -43,7 +43,7 @@ console.log(typeof null)
 console.log(typeof Symbol())
 console.log(typeof {})
 console.log(typeof [])
-console.log(typeof function(){})
+console.log(typeof function () { })
 
 let originHP = 100
 let cloneHP = originalHP
@@ -54,8 +54,8 @@ console.log(originHP);
 console.log(cloneHP);
 
 const originalSword = {
-    name : "Flame Sword",
-    damage :75, 
+    name: "Flame Sword",
+    damage: 75,
     typeofW: "Fire",
 
 };
@@ -67,11 +67,11 @@ console.log("og sword : ", originalSword.damage);
 
 const armorOriginal = {
     name: "Iron Plate",
-    defence: 80, 
-    buff: { 
-        fire: 10, 
+    defence: 80,
+    buff: {
+        fire: 10,
     },
 };
 
-const armorCopy = {...armorOriginal};
+const armorCopy = { ...armorOriginal };
 armorCopy.buff.fire = 90;
