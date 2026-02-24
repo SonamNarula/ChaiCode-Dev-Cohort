@@ -147,11 +147,6 @@ flowchart TD
 
   <!-- Animated Contribution Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&bg_color=00000000&color=7eb6ff&line=a8a2d2&point=ffffff&hide_border=true" width="100%" alt="Activity Graph" />
-  
-  <br><br>
-  
-  <!-- Classic Contribution Grid Matrix -->
-  <img src="https://ghchart.rshah.org/A8A2D2/SonamNarula" alt="Contribution Grid" />
 
   <br><br>
 
