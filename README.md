@@ -141,28 +141,28 @@ flowchart TD
   <br>
 
   <!-- Animated Diagnostic Loader -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=15bd83&center=true&vCenter=true&width=435&lines=Initializing+Developer+Diagnostics...;Fetching+Live+Execution+Metrics...;Processing+Commit+History..." alt="Diagnostics Loader" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=7eb6ff&center=true&vCenter=true&width=435&lines=Initializing+Developer+Diagnostics...;Fetching+Live+Execution+Metrics...;Processing+Commit+History..." alt="Diagnostics Loader" />
 
   <br><br>
 
   <!-- Animated Contribution Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&theme=tokyonight&hide_border=true&bg_color=00000000" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&bg_color=00000000&color=7eb6ff&line=a8a2d2&point=ffffff&hide_border=true" width="100%" alt="Activity Graph" />
   
   <br><br>
   
   <!-- Classic Contribution Grid Matrix -->
-  <img src="https://ghchart.rshah.org/15bd83/SonamNarula" alt="Contribution Grid" />
+  <img src="https://ghchart.rshah.org/A8A2D2/SonamNarula" alt="Contribution Grid" />
 
   <br><br>
 
   <!-- Streaks & Language Compute -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=tokyonight&hide_border=true&background=00000000" alt="Streak Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonamNarula&theme=tokyonight&hide_border=true&layout=compact&bg_color=00000000" alt="Top Languages" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=dark&hide_border=true&background=00000000&ring=7eb6ff&fire=a8a2d2&currStreakLabel=a8a2d2&sideLabels=9f94cf&dates=9f94cf&currStreakNum=ffffff&sideNums=ffffff" alt="Streak Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonamNarula&theme=dark&hide_border=true&layout=compact&bg_color=00000000&title_color=a8a2d2&text_color=9f94cf&icon_color=7eb6ff" alt="Top Languages" height="170" />
   
   <br><br>
   
   <!-- Execution Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=SonamNarula&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&column=6" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SonamNarula&theme=darkhub&no-bg=true&no-frame=true&margin-w=15&column=6" alt="Trophies" />
 
 </div>
 
