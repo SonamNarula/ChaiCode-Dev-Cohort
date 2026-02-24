@@ -137,11 +137,34 @@ flowchart TD
 
 ### ▎Execution Log 
 
-![SonamNarula's GitHub contribution grid](https://ghchart.rshah.org/219138/SonamNarula)
+<div align="center">
+  <br>
 
-![SonamNarula's GitHub contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&theme=tokyonight&hide_border=true&bg_color=00000000)
+  <!-- Animated Diagnostic Loader -->
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=15bd83&center=true&vCenter=true&width=435&lines=Initializing+Developer+Diagnostics...;Fetching+Live+Execution+Metrics...;Processing+Commit+History..." alt="Diagnostics Loader" />
 
-![SonamNarula's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=tokyonight&hide_border=true&background=00000000)
+  <br><br>
+
+  <!-- Animated Contribution Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&theme=tokyonight&hide_border=true&bg_color=00000000" width="100%" alt="Activity Graph" />
+  
+  <br><br>
+  
+  <!-- Classic Contribution Grid Matrix -->
+  <img src="https://ghchart.rshah.org/15bd83/SonamNarula" alt="Contribution Grid" />
+
+  <br><br>
+
+  <!-- Streaks & Language Compute -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=tokyonight&hide_border=true&background=00000000" alt="Streak Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonamNarula&theme=tokyonight&hide_border=true&layout=compact&bg_color=00000000" alt="Top Languages" height="170" />
+  
+  <br><br>
+  
+  <!-- Execution Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=SonamNarula&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&column=6" alt="Trophies" />
+
+</div>
 
 <br>
 
