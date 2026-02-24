@@ -18,7 +18,7 @@ console.log(weatherApiResponse);
 const uniqueRuneId = Symbol("rune_of_fire");
 
 const heroStats={
-    name: "Deepak", 
+    name: "Deepak",
     level: 12,
     class:"Ranger",
 };
