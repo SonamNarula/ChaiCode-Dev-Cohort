@@ -137,6 +137,8 @@ flowchart TD
 
 ### ▎Execution Log 
 
+![SonamNarula's GitHub contribution grid](https://ghchart.rshah.org/219138/SonamNarula)
+
 ![SonamNarula's GitHub contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&theme=tokyonight&hide_border=true&bg_color=00000000)
 
 ![SonamNarula's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=tokyonight&hide_border=true&background=00000000)
