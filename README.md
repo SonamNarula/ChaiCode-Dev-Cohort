@@ -54,6 +54,7 @@ flowchart LR
 | **Data Mechanics & Operators** | [Operator Precedence](./JAVASCRIPT/BASICS%20-%201/operator.js)<br>[Data Types Advanced](./JAVASCRIPT/BASICS%20-%202/03-datatypes.js) | Primitive vs reference types, `typeof` identification, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
 | **Control Flow Routing** | [Rock-Paper-Scissors Logic](./JAVASCRIPT/BASICS%20-%201/rock-paper-scissor.js) | Strict equality handling, nested conditional logic, random value generation (`Math.random()`). |
 | **Iteration** | [Loops Environment](./JAVASCRIPT/BASICS%20-%201/loops.html)<br>[Loop Constructs](./JAVASCRIPT/BASICS%20-%201/loops.js) | Structured algorithm loops (`for`, `while`, `do...while`) and console data traversal. |
+| **Foundational Practical Drills** | [Practice DOM](./JAVASCRIPT/BASICS%20-%201/practice.html)<br>[Level 0: Warm-Up](./JAVASCRIPT/BASICS%20-%201/LEVEL%200%20%E2%80%94%20Warm-Up.js)<br>[Level 1: Variables](./JAVASCRIPT/BASICS%20-%201/LEVEL%201%20%E2%80%94%20Variables%20&%20Conditions.js) | Applying primitive logic, type coercion checks, basic reassignment, and Boolean initialization strings. |
 
 <br>
 
