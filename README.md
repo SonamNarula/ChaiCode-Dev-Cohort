@@ -50,8 +50,8 @@ flowchart LR
 
 | Conceptual Focus | Modules & Scripts | Technical Implementations |
 | :--- | :--- | :--- |
-| **Memory & Syntax** | [Advanced Console Logging](./JAVASCRIPT/BASICS%20-%202/01-console.js)<br>[Variables Intro](./JAVASCRIPT/BASICS%20-%202/02-variables.js)<br>[Console Methods Demo](./JAVASCRIPT/console.js) | Lexical environments, strict `var/let/const` memory allocation, structured console APIs (`table`, `time`, `group`). |
-| **Data Mechanics** | [Data Types Advanced](./JAVASCRIPT/BASICS%20-%202/03-datatypes.js) | Primitive vs reference types, `typeof` identification, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
+| **Memory & Syntax** | [Variable Scoping](./JAVASCRIPT/BASICS%20-%201/script.js)<br>[Advanced Console Logging](./JAVASCRIPT/BASICS%20-%202/01-console.js)<br>[Variables Intro](./JAVASCRIPT/BASICS%20-%202/02-variables.js)<br>[Console Methods Demo](./JAVASCRIPT/console.js) | Lexical environments, strict `var/let/const` memory allocation, structured console APIs (`table`, `time`, `group`). |
+| **Data Mechanics & Operators** | [Operator Precedence](./JAVASCRIPT/BASICS%20-%201/operator.js)<br>[Data Types Advanced](./JAVASCRIPT/BASICS%20-%202/03-datatypes.js) | Primitive vs reference types, `typeof` identification, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
 
 <br>
 
