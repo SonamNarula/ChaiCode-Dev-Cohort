@@ -154,12 +154,6 @@ flowchart TD
 
   <!-- Streaks & Language Compute -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=dark&hide_border=true&background=00000000&ring=7eb6ff&fire=a8a2d2&currStreakLabel=a8a2d2&sideLabels=9f94cf&dates=9f94cf&currStreakNum=ffffff&sideNums=ffffff" alt="Streak Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonamNarula&theme=dark&hide_border=true&layout=compact&bg_color=00000000&title_color=a8a2d2&text_color=9f94cf&icon_color=7eb6ff" alt="Top Languages" height="170" />
-  
-  <br><br>
-  
-  <!-- Execution Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=SonamNarula&theme=darkhub&no-bg=true&no-frame=true&margin-w=15&column=6" alt="Trophies" />
 
 </div>
 
