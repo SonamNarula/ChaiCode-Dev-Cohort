@@ -137,26 +137,6 @@ flowchart TD
 
 <br>
 
-### ▎Execution Log 
 
-<div align="center">
-  <br>
-
-  <!-- Animated Diagnostic Loader -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=7eb6ff&center=true&vCenter=true&width=435&lines=Initializing+Developer+Diagnostics...;Fetching+Live+Execution+Metrics...;Processing+Commit+History..." alt="Diagnostics Loader" />
-
-  <br><br>
-
-  <!-- Animated Contribution Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SonamNarula&bg_color=00000000&color=7eb6ff&line=a8a2d2&point=ffffff&hide_border=true" width="100%" alt="Activity Graph" />
-
-  <br><br>
-
-  <!-- Streaks & Language Compute -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SonamNarula&theme=dark&hide_border=true&background=00000000&ring=7eb6ff&fire=a8a2d2&currStreakLabel=a8a2d2&sideLabels=9f94cf&dates=9f94cf&currStreakNum=ffffff&sideNums=ffffff" alt="Streak Stats" height="170" />
-
-</div>
-
-<br>
 
 *(c) 2026 Sonam Narula. Let the execution speak.* 🏏
