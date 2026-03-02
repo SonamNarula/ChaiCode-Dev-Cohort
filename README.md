@@ -106,11 +106,11 @@ flowchart LR
 <br>
 
 ### Phase 04: Full Stack Engineering (MERN)
-Building highly interactive, aesthetic, and data-driven full-stack web applications.
+Building highly interactive, aesthetic, and data-driven full-stack web applications. This phase demonstrates my ability to integrate frontend interfaces with backend logic and databases, creating complete end-to-end solutions.
 
 | Project | Focus Area | Technical Implementations |
 | :--- | :--- | :--- |
-| **[Nike Store](./nike-store/)** | Modern E-Commerce UI & API | React (Vite), Express.js REST API, MongoDB Integration, Custom Vanilla CSS Animations and Layouts, React Router. |
+| **[Nike Store - E-commerce Platform](./nike-store/)** | Full Stack Architecture & Modern UI | **Frontend:** React (powered by Vite), React Router DOM for SPA navigation, Custom Vanilla CSS with advanced fluid animations, glassmorphism, and responsive design targeting a premium brand aesthetic.<br><br>**Backend:** Node.js, Express.js RESTful API, MongoDB (using Mongoose ODM) with robust data modeling for products.<br><br>**Integration:** Complete CRUD operations mapped to custom React hooks, environment variable management, and local database seeding scripts. |
 
 <br>
 
