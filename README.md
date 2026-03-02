@@ -26,7 +26,8 @@ graph TD
 
     A[Phase 01<br/>Core Logic: JS]:::js --> B[Phase 02<br/>Structural Layouts: CSS]:::css
     B --> C[Phase 03<br/>UI Integration]:::arc
-    C --> D[Phase 04<br/>Sincerity: Deployment]:::sin
+    C --> E[Phase 04<br/>Full Stack: MERN]:::arc
+    E --> D[Phase 05<br/>Sincerity: Deployment]:::sin
 ```
 
 <br>
@@ -104,7 +105,16 @@ flowchart LR
 
 <br>
 
-### Phase 04: Sincerity (Special Project)
+### Phase 04: Full Stack Engineering (MERN)
+Building highly interactive, aesthetic, and data-driven full-stack web applications.
+
+| Project | Focus Area | Technical Implementations |
+| :--- | :--- | :--- |
+| **[Nike Store](./nike-store/)** | Modern E-Commerce UI & API | React (Vite), Express.js REST API, MongoDB Integration, Custom Vanilla CSS Animations and Layouts, React Router. |
+
+<br>
+
+### Phase 05: Sincerity (Special Project)
 Technical skills require meaningful application. 
 
 | Project | Purpose & Execution |
