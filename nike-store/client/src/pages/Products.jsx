@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ArrowRight, ShoppingBag, Loader } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -41,7 +42,7 @@ const Products = () => {
             ) : (
                 <div className="product-grid">
                     {products.length > 0 ? products.map((product, index) => (
-                        <div className="product-card animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }} key={product._id}>
+                        <Link to={`/product/${product._id}`} className="product-card animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s`, display: 'block' }} key={product._id}>
                             <div className="product-image-wrap">
                                 <img
                                     src={`https://i.ibb.co/3Wf2z7s/shoe1.png`}
@@ -54,10 +55,13 @@ const Products = () => {
                                 <div className="product-category">{product.category}</div>
                                 <div className="product-price">${product.price.toFixed(2)}</div>
                             </div>
-                            <button className="product-action" onClick={() => alert(`Added ${product.name} to cart`)}>
+                            <button className="product-action" onClick={(e) => {
+                                e.preventDefault();
+                                alert(`Added ${product.name} to cart`);
+                            }}>
                                 <ShoppingBag size={18} />
                             </button>
-                        </div>
+                        </Link>
                     )) : (
                         <div>No products found. Please ensure the backend is running and seeded.</div>
                     )}

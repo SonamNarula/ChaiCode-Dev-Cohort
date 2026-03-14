@@ -1,9 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ShoppingBag, Menu } from 'lucide-react';
+import { CartContext } from '../context/CartContext';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
+    const { cartCount, setIsCartOpen } = useContext(CartContext);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -38,8 +40,19 @@ const Navbar = () => {
                 <button className="icon-btn">
                     <Search size={22} />
                 </button>
-                <button className="icon-btn">
+                <button className="icon-btn" onClick={() => setIsCartOpen(true)} style={{ position: 'relative' }}>
                     <ShoppingBag size={22} />
+                    {cartCount > 0 && (
+                        <span style={{
+                            position: 'absolute', top: '-5px', right: '-5px',
+                            backgroundColor: 'var(--accent)', color: 'var(--white)',
+                            fontSize: '0.7rem', fontWeight: 700,
+                            width: '18px', height: '18px',
+                            borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'
+                        }}>
+                            {cartCount}
+                        </span>
+                    )}
                 </button>
                 <button className="icon-btn mobile-only" style={{ display: 'none' }}>
                     <Menu size={22} />

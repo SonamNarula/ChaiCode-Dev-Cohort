@@ -111,6 +111,7 @@ Building highly interactive, aesthetic, and data-driven full-stack web applicati
 | Project | Focus Area | Technical Implementations |
 | :--- | :--- | :--- |
 | **[Nike Store - E-commerce Platform](./nike-store/)** | Full Stack Architecture & Modern UI | **Frontend:** React (powered by Vite), React Router DOM for SPA navigation, Custom Vanilla CSS with advanced fluid animations, glassmorphism, and responsive design targeting a premium brand aesthetic.<br><br>**Backend:** Node.js, Express.js RESTful API, MongoDB (using Mongoose ODM) with robust data modeling for products.<br><br>**Integration:** Complete CRUD operations mapped to custom React hooks, environment variable management, and local database seeding scripts. |
+| **[SwiftMind - AI Universe](./swiftmind/)** ✨ | AI Integrated Full Stack Engineering | **Frontend:** React (Vite), Tailwind CSS with highly custom "Blingy" aesthetics (`.glass-panel`, `shiny-text`, shimmer animations), interactive Eras timeline, and responsive layouts.<br><br>**Backend:** Node.js, Express, MongoDB (Mongoose), seamlessly integrating the **Google Gemini AI API** for intelligent responses.<br><br>**Features:** ✨ AI Chatbot answering Swiftie lore, 💖 Mood Matcher for curated playlists, 📖 Lyrics Deep Dive Analyzer. Engineered with graceful mock-AI fallbacks for maximum resilience. Taylor's precision, AI's brain. 🦋 |
 
 <br>
 
