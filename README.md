@@ -204,7 +204,7 @@ flowchart TD
 
     A[Write Architecture]:::code --> B{Compile & Test}:::code
     B -->|UnhandledException| C[SyntaxError / Bug]:::err
-    C --> D[Rigorous Debugging\n(and maybe some tears)]:::debug
+    C --> D["Rigorous Debugging<br/>(and maybe some tears)"]:::debug
     D --> A
     B -->|HTTP 200 OK| E[Robust Deployment]:::pass
 ```
