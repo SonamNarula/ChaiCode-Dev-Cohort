@@ -1,220 +1,266 @@
-# The ChaiCode Developer Cohort
-> *"Long story short, I code."* 🦋
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║        ☕  C H A I C O D E   D E V   C O H O R T  ☕           ║
+║                                                                  ║
+║              by  S O N A M   N A R U L A  🦋                    ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+*"Long story short, I code."*
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+</div>
 
 ---
 
-## ▎System Initialization
+## 🌸 `$ whoami`
 
-Welcome to my digital workspace. 
-
-I approach software engineering with a simple philosophy: **quiet, absolute focus.** I prefer my commit history to speak for my discipline, and my code to demonstrate my understanding. 
-
-Growth happens in the quiet, late-night hours of debugging a flawed algorithm or rebuilding a broken layout from scratch. It is about showing up daily and meticulously building a resilient architecture—one line, one function, one module at a time. This repository is the live documentation of that relentless work. 🛠️
-
-*(And yes, sometimes it involves staring at a screen for 3 hours only to realize I missed a comma in a JSON object. If you know, you know 🤡)*
+> A developer who treats every `console.error` like a personal challenge and every clean build like a small victory. I build things on the internet — slowly, deliberately, and with genuine care.
+>
+> This repository is not a portfolio. It's a process. A log of someone learning to think in systems, speak in logic, and sometimes scream at a missing semicolon at midnight.
+>
+> *(I once spent 3 hours debugging only to find I'd spelled `consol.log`. We don't talk about it.)* 🤡
 
 ---
 
-## ▎Curriculum & Execution Phases
+## 🗂️ Filesystem Overview
 
-My technical growth is structured into foundational phases. Below is the systematic index of all modules deployed in this repository. 
-
-```mermaid
-graph TD
-    classDef js fill:#f7df1e,stroke:#000,stroke-width:2px,color:#000,rx:5px,ry:5px;
-    classDef css fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
-    classDef arc fill:#8a2be2,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
-    classDef sin fill:#f8f9fa,stroke:#333,stroke-width:2px,color:#333,rx:5px,ry:5px;
-
-    A[Phase 01<br/>Core Logic: JS]:::js --> B[Phase 02<br/>Structural Layouts: CSS]:::css
-    B --> C[Phase 03<br/>UI Integration]:::arc
-    C --> E[Phase 04<br/>Full Stack: MERN]:::arc
-    E --> D[Phase 05<br/>Sincerity: Deployment]:::sin
 ```
-
-<br>
-
-### Phase 01: Core Logic (JavaScript)
-The heartbeat of the system. This phase is a rigorous deep dive into the invisible logic that drives applications. To put it simply: teaching rocks how to think by trapping lightning inside them. ⚡
-
-```mermaid
-flowchart LR
-    classDef m fill:#ff6b6b,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
-    classDef dm fill:#feca57,stroke:#333,stroke-width:2px,color:#333,rx:3px,ry:3px;
-    classDef fe fill:#1dd1a1,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
-    classDef cf fill:#5f27cd,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
-    classDef i fill:#54a0ff,stroke:#fff,stroke-width:2px,color:#fff,rx:3px,ry:3px;
-
-    M[Memory]:::m --> D[Data Mechanics]:::dm
-    D --> F[Function Execution]:::fe
-    F --> C[Control Flow]:::cf
-    C --> I[Iteration]:::i
+ChaiCode-Dev-Cohort/
+│
+├── 📂 HTML/                    ← where it all began. beautiful bones.
+├── 📂 CSS/                     ← making pixels behave (mostly)
+├── 📂 JAVASCRIPT/              ← teaching rocks to think ⚡
+│   ├── BASICS-1/
+│   └── BASICS-2/
+│
+├── 📂 ASSIGNMENT-1/            ← battle scars from early days
+├── 📂 ASSIGNMENT-2/            ← slightly less chaotic battle scars
+├── 📂 SELF PRACTICE/           ← where i go to experiment & breathe
+│   ├── Amazon Clone/
+│   ├── Netflix Clone/
+│   └── CSS/
+│
+├── 📂 mintlify_clone/          ← light mode. clean. respectful.
+├── 📂 cursor_landing_clone/    ← dark mode. cinematic. dramatic.
+├── 📂 nike-store/              ← full stack. sneakers. dreams.
+├── 📂 swiftmind/               ← AI + Taylor Swift = unhinged perfection 🦋
+├── 📂 news-aggregator/         ← MERN stack. APIs. The world at my fingertips 🌍
+│
+└── 📂 Bharat_CV/               ← the most important folder here 🤍
 ```
-
-| Conceptual Focus | Modules & Scripts | Technical Implementations |
-| :--- | :--- | :--- |
-| **Memory & Syntax** | [Variable Scoping](./JAVASCRIPT/BASICS%20-%201/script.js)<br>[Advanced Console Logging](./JAVASCRIPT/BASICS%20-%202/01-console.js)<br>[Variables Intro](./JAVASCRIPT/BASICS%20-%202/02-variables.js)<br>[Console Methods Demo](./JAVASCRIPT/console.js) | Lexical environments, strict `var/let/const` memory allocation, structured console APIs (`table`, `time`, `group`). |
-| **Data Mechanics & Operators** | [Operator Precedence](./JAVASCRIPT/BASICS%20-%201/operator.js)<br>[Data Types Advanced](./JAVASCRIPT/BASICS%20-%202/03-datatypes.js) | Primitive vs reference types, `typeof` identification, execution of 11 distinct operator categories (`??`, `?.`, `...`). |
-| **Control Flow Routing** | [Rock-Paper-Scissors Logic](./JAVASCRIPT/BASICS%20-%201/rock-paper-scissor.js) | Strict equality handling, nested conditional logic, random value generation (`Math.random()`). |
-| **Iteration** | [Loops Environment](./JAVASCRIPT/BASICS%20-%201/loops.html)<br>[Loop Constructs](./JAVASCRIPT/BASICS%20-%201/loops.js) | Structured algorithm loops (`for`, `while`, `do...while`) and console data traversal. |
-| **Function Execution** | [Function Architecture](./JAVASCRIPT/BASICS%20-%201/functions.js) | Declarations vs expressions, parameter handling, returns, arrow functions (`=>`), and nested scopes. |
-| **Foundational Practical Drills** | [Practice DOM](./JAVASCRIPT/BASICS%20-%201/practice.html)<br>[Level 0: Warm-Up](./JAVASCRIPT/BASICS%20-%201/LEVEL%200%20%E2%80%94%20Warm-Up.js) | Applying primitive logic, type coercion checks, and basic reassignment. |
-
-<br>
-
-### Phase 02: Structural Layouts (CSS)
-Diving into spatial geometry and layout matrix computing, strictly without pre-built UI library assistance. Making things look aesthetic, because looking at an unstyled HTML page hurts my soul. 🎨
-
-```mermaid
-flowchart TD
-    classDef main fill:#2d3436,stroke:#dfe6e9,stroke-width:2px,color:#dfe6e9,rx:4px,ry:4px;
-    classDef flex fill:#e17055,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
-    classDef grid fill:#00b894,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
-
-    A[Layout Matrix Computing]:::main
-    A -->|1D Vector| B(Flexbox Protocol):::flex
-    A -->|2D Plane| C(Grid Architecture):::grid
-```
-
-| Layout Protocol | Modules & Deployments | Technical Implementations |
-| :--- | :--- | :--- |
-| **1D Alignment** | [Flexbox Laboratory](./SELF%20PRACTICE/CSS/flexbox.html) | Single-axis management, spatial distribution (`justify-content`), cross-axis positioning. |
-| **2D Architecture** | [Grid System](./SELF%20PRACTICE/CSS/grid.html) | Complex multi-axis alignment, explicit grid tracks, responsive fractions (`fr`), template areas. |
-| **Spatial Overrides** | [CSS Positions](./SELF%20PRACTICE/CSS/level3.html)<br>[Sticky/Fixed Playground](./SELF%20PRACTICE/CSS/Practice%20Set%20-%205/index.html) | Explicit layout manipulation via `static`, `relative`, `absolute`, `fixed`, and `sticky` positioning techniques. `z-index` battles fought and won. |
-
-<br>
-
-### Phase 03: UI Integration (Architecture)
-Integration testing via high-fidelity interface cloning. Demands strict structural validation and pixel-perfect rendering. 
-
-```mermaid
-flowchart LR
-    classDef base fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff,rx:4px,ry:4px;
-    classDef ui fill:#8e44ad,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
-    classDef logic fill:#d35400,stroke:#fff,stroke-width:2px,color:#fff,rx:4px,ry:4px;
-
-    S[Semantic HTML]:::base --> C[CSS Layout Array]:::base
-    C --> I{High-Fidelity<br/>UI Clone}:::ui
-    L[JS DOM Logic]:::logic -.-> I
-```
-
-| Project Clone | Focus Area | Technical Implementations |
-| :--- | :--- | :--- |
-| **[Mintlify Clone](./mintlify_clone/)** | Desktop-First Light UI | Advanced CSS layouts (Grid, Flexbox), custom CSS variables, complex background integrations. |
-| **[Cursor Landing Page](./cursor_landing_clone/)** | Dark-Mode Premium UI | Custom `-webkit-background-clip` text gradients, glassmorphism UI, semantic HTML5. |
-| **[Amazon Interface](./SELF%20PRACTICE/Amazon%20Clone/)** | E-Commerce Layouts | Complex component structuring, responsive headers, multi-tier navigation logic. |
-| **[Netflix Interface](./SELF%20PRACTICE/Netflix%20Clone/)** | Fluid Media Grids | Dynamic `vw/vh` scaling, responsive image grids, absolute/relative element stacking. |
-
-<br>
-
-### Phase 04: Full Stack Engineering (MERN)
-Building highly interactive, aesthetic, and data-driven full-stack web applications. This phase is where the real magic happens: beautiful frontends communicating seamlessly with sophisticated backend logic and databases. Creating complete end-to-end solutions.
-
-#### 1. SwiftMind 🦋 ✨ (AI-Integrated Universe)
-A robust, AI-powered application built for Swifties, integrating modern frontend aesthetics with a powerful backend brain. It uses **Google Gemini AI** to provide lore-accurate responses, mood recommendations, and lyrics analysis.
-
-We don't just "fetch data", we *make the whole place shimmer* ✨.
-
-**Tech Stack**: React.js (Vite), Tailwind CSS, Node.js, Express.js, MongoDB + Mongoose, Google Generative AI API.
-
-**Architecture Flow**:
-```mermaid
-sequenceDiagram
-    autonumber
-    participant U as User (Swiftie) 💖
-    participant F as React UI ✨
-    participant API as Express API 🧠
-    participant DB as MongoDB 🗄️
-    participant AI as Gemini Model 🤖
-
-    U->>F: "I'm heartbroken, what should I listen to?"
-    F->>API: POST /api/ai/mood { mood: "heartbroken" }
-    API->>API: Validate Request & API Key
-    alt API Key Valid
-        API->>AI: generateContent(Prompt)
-        AI-->>API: Returns JSON Playlist
-    else API Key Missing (Graceful Degradation)
-        API->>API: Fallback to Mock AI Engine
-        note over API: "Look what you made me do... falling back to mock data!"
-    end
-    API->>DB: Log interaction (Future scalability scope)
-    API-->>F: Returns 5 curated songs
-    F-->>U: Renders beautiful Glassmorphism Playlist Cards 🪩
-```
-
-**Key Engineering Wins**:
-- **Resilient AI Fallbacks**: Designed a gracefully degrading mock-response system. If the `GEMINI_API_KEY` isn't found, the app doesn't crash like a poorly written promise; it elegantly falls back to pre-programmed thematic mock-responses with simulated latency. 
-- **Blingy Glassmorphism**: Highly customized Tailwind configurations to achieve heavy blur effects, translucent borders, `animate-float` keyframes, moving gradients, and glowing cursors.
-
-#### 2. Nike Store 👟 (E-Commerce Platform)
-A high-performance full-stack e-commerce replica focusing on modern UI design and fluid database modeling. Functionality and aesthetics working in tandem.
-
-**Tech Stack**: React, React Router DOM, Custom Vanilla CSS, Node.js, MongoDB.
-
-**Architecture Flow**:
-```mermaid
-flowchart TD
-    classDef client fill:#ff7675,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef server fill:#74b9ff,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef db fill:#55efc4,stroke:#fff,stroke-width:2px,color:#333;
-
-    A[Client: React SPA]:::client <-->|REST API / JSON| B(Server: Express.js):::server
-    B <-->|Mongoose ODM| C[(MongoDB)]:::db
-    
-    subgraph Frontend [Vite React Client]
-    A1[Context API] --> A2[Shopping Cart State]
-    A3[React Router] --> A4[Dynamic Product Pages]
-    end
-    
-    subgraph Backend [Node.js Environment]
-    B1[Controllers] --> B2[Model Queries]
-    end
-
-    A --- Frontend
-    B --- Backend
-```
-
-**Key Engineering Wins**:
-- **State Management**: Built a custom Cart Context to handle global application state without the overhead of Redux. Avoids prop-drilling entirely.
-- **Data Seeding Scripts**: Automated the database population process with pristine model schemas to easily initialize environments.
-
-<br>
-
-### Phase 05: Sincerity (Special Project)
-Because technical skills require meaningful application. 
-
-| Project | Purpose & Execution |
-| :--- | :--- |
-| **[Bharat CV](./Bharat_CV/)** | Engineered for my father, a Chemistry teacher of 20+ years. Built with clean typography and print-optimized structure. It is an exercise in sincere gratitude—giving back to the person who gave me everything. 🤍 |
 
 ---
 
-## ▎Developer Diagnostics
+## 📡 Learning Phases — System Log
 
-I am building this path step by step. I am not rushing the process, nor am I taking shortcuts. 
+### `[PHASE 01]` ⚡ JavaScript — Core Logic Engine
 
-*(Because copying blocks from ChatGPT without understanding them is basically adding technical debt with interest. 📉)*
+> *"Teaching rocks to think by trapping lightning inside them."*
 
-```mermaid
-flowchart TD
-    classDef code fill:#0984e3,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
-    classDef err fill:#d63031,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
-    classDef debug fill:#fdcb6e,stroke:#2d3436,stroke-width:2px,color:#2d3436,rx:5px,ry:5px;
-    classDef pass fill:#00b894,stroke:#fff,stroke-width:2px,color:#fff,rx:5px,ry:5px;
+The foundation. Before pretty buttons and animated cards, there must be logic. Cold, clean, unambiguous logic.
 
-    A[Write Architecture]:::code --> B{Compile & Test}:::code
-    B -->|UnhandledException| C[SyntaxError / Bug]:::err
-    C --> D["Rigorous Debugging<br/>(and maybe some tears)"]:::debug
-    D --> A
-    B -->|HTTP 200 OK| E[Robust Deployment]:::pass
-```
+| Module | What Lives Here |
+|---|---|
+| 🔢 **Variables & Scope** | `var` vs `let` vs `const` — the holy trinity of memory |
+| 🔬 **Data Types** | Primitives, references, and the eternal mystery of `typeof null === "object"` |
+| ⚙️ **Operators** | All 11 categories, including `??`, `?.`, and `...` — yes, all of them |
+| 🔄 **Control Flow** | Rock-Paper-Scissors built entirely in logic. Zero UI. Pure nerd energy. |
+| 🔁 **Loops** | `for`, `while`, `do...while` — because iteration is just stubbornness formalized |
+| 🧠 **Functions** | Declarations, expressions, arrows, closures — the brain of any application |
 
-| Diagnostic Metric | Current State |
-| :--- | :--- |
-| **Vulnerability** | Wondering if my current technical stack is deep enough for the ambitions I carry. |
-| **Grounding Reality** | Incremental optimization. Showing up. Pushing commits. Proving dedication through consistent work. |
-| **Core Algorithm** | Every failed build and `SyntaxError` I wrestle with teaches me how to write a more robust system. Breaking the code is the only way I learn how to build it. |
+<details>
+<summary>💭 <em>A note on JavaScript (click to expand)</em></summary>
 
 <br>
 
-*(c) 2026 Sonam Narula. Let the execution speak.* 🏏
+JavaScript is the only language where `[] + []` returns `""`, `[] + {}` returns `"[object Object]"`, and `{} + []` returns `0`. And yet, here we are — building the entire modern web with it.
+
+I have made peace with this.
+
+</details>
+
+---
+
+### `[PHASE 02]` 🎨 CSS — Spatial Geometry Engine
+
+> *"Making things look aesthetic, because looking at an unstyled HTML page is a form of suffering."*
+
+CSS is not decoration. CSS is *math applied to rectangles* — and I treat it with the respect it deserves.
+
+| Protocol | Description |
+|---|---|
+| 📐 **Flexbox** | 1D axis mastery. `justify-content: center` fixed 70% of my layout problems. |
+| 🗺️ **Grid** | 2D plane architecture. `fr` units changed my life. |
+| 📌 **Positioning** | `relative`, `absolute`, `fixed`, `sticky` — `z-index` wars fought and eventually won. |
+| 🧪 **Practice Sets** | Multiple progressively complex exercises. Pixel-hunting included. |
+
+---
+
+### `[PHASE 03]` 🖼️ UI Architecture — High-Fidelity Clones
+
+> Clone projects are *not* copying. They're archaeological digs — reverse-engineering good design decisions to understand *why* they work.
+
+| Project | Aesthetic DNA | Tech Highlights |
+|---|---|---|
+| 🔵 **[Mintlify Clone](./mintlify_clone)** | Clean. Light. Breathable. | CSS Grid, custom variables, complex bg layering |
+| ⚫ **[Cursor Landing](./cursor_landing_clone)** | Dark. Cinematic. Premium. | Glassmorphism, text gradients via `-webkit-background-clip`, HTML5 semantics |
+| 🛒 **[Amazon Clone](./SELF%20PRACTICE/Amazon%20Clone)** | Dense. Familiar. Trust-building. | Multi-tier nav, complex component hierarchy |
+| 🎬 **[Netflix Clone](./SELF%20PRACTICE/Netflix%20Clone)** | Dramatic. Fluid. Grid-heavy. | `vw/vh` scaling, responsive image grids, z-index stacking |
+
+---
+
+### `[PHASE 04]` 🏗️ Full Stack Engineering — MERN
+
+> *Where the real magic happens. Frontends that talk to backends that talk to databases that talk back.*
+
+---
+
+#### 🦋 `swiftmind/` — AI-Powered Taylor Swift Universe
+
+*"We don't just fetch data here. We make the whole place shimmer."* ✨
+
+SwiftMind is a full-stack AI application for Swifties. You tell it your mood. It tells you what to listen to. It uses **Google Gemini AI** for lore-accurate, emotionally intelligent responses — lyrics analysis, era recommendations, heartbreak playlists, all of it.
+
+```
+User: "I'm feeling reckless and free"
+  └──► React UI sends mood to Express API
+         └──► Gemini AI processes with Swift-trained prompt
+                └──► Returns curated JSON playlist
+                       └──► Rendered as glowing glassmorphism cards ✨
+                              └──► User is Swiftie. User is happy. 🦋
+```
+
+**Stack:** React (Vite) + Tailwind CSS + Node.js + Express + MongoDB + Mongoose + Google Generative AI API
+
+**Engineering highlights I'm genuinely proud of:**
+- 🛡️ **Graceful AI fallback**: If the `GEMINI_API_KEY` is absent, the app doesn't crash. It elegantly falls back to a mock-response engine with simulated latency. (*"Look what you made me do... using mock data."*)
+- ✨ **Blingy glassmorphism**: Custom Tailwind config with `backdrop-blur`, translucent borders, `animate-float` keyframes, moving gradients, and glowing cursor effects
+- 🏗️ **Clean separation of concerns**: Routes → Controllers → Models. No spaghetti.
+
+---
+
+#### 👟 `nike-store/` — E-Commerce Platform
+
+A full-stack Nike store clone with real database integration. Functionality and aesthetics, working as one.
+
+```
+React SPA  ←──── REST API / JSON ────►  Express.js  ←──── Mongoose ────►  MongoDB
+    │                                        │
+Context API                             Controllers
+Shopping Cart                           Model Queries
+React Router                            Data Seeding
+Dynamic Pages                           
+```
+
+**Stack:** React + React Router DOM + Custom CSS + Node.js + Express + MongoDB
+
+**Engineering highlights:**
+- 🌐 **Custom Cart Context**: Global state management without Redux overhead. No prop-drilling. No tears.
+- 🌱 **DB Seeding Scripts**: One command to populate the database from scratch. Makes environment setup clean and reproducible.
+
+---
+
+#### 📰 `news-aggregator/` — Real-time World News
+
+A sophisticated MERN stack application fetching real-time global news from the NewsAPI, wrapped in a beautiful, glassmorphic UI. 
+
+```
+User Search  ────►  React Frontend  ────►  Express API Proxy  ────►  NewsAPI
+                                                 │
+                                           User Auth (JWT)
+                                                 │
+                                           MongoDB (Saves)
+```
+
+**Stack:** React + React Query + Tailwind CSS (v4) + Node.js + Express + MongoDB + NewsAPI
+
+**Engineering highlights:**
+- 🔄 **React Query Integration**: Beautiful data fetching, intelligent caching, and clean loading skeletons. No more `useEffect` boilerplate spaghetti.  
+- 🔐 **Secure API Proxying**: The backend Node server acts as a proxy to fetch from NewsAPI, ensuring the API key is never exposed to the client browser.
+- 🎨 **Premium UI/UX**: Custom Tailwind configuration featuring deep dark modes, translucent glass cards, and micro-interactions that make reading the news feel *expensive*.
+- 🛡️ **Graceful Degradation**: If the API key is missing or rate-limited, the backend automatically serves high-quality mock data so the UI remains interactive and functional.
+
+---
+
+### `[PHASE 05]` 🤍 Sincerity — The Most Important Phase
+
+```
+📂 Bharat_CV/
+```
+
+My father has been a Chemistry teacher for over 20 years. He has spent his entire career pouring knowledge into students, grading papers late into the night, and showing up every single day with patience and dignity.
+
+I built him a CV.
+
+Clean typography. Print-optimized layout. His entire professional life, structured and presented with the care it deserves.
+
+This folder is not a coding exercise. It is a thank-you. It is the closest I can come to saying *"I see how hard you worked, and I learned from it."*
+
+> *Some things you build for yourself. Some things you build for the people who made you possible.*
+
+---
+
+## 🔬 Developer Diagnostics
+
+```
+STATUS REPORT — Sonam Narula
+──────────────────────────────────────────────────────────
+[✓] Shows up daily
+[✓] Pushes commits consistently  
+[✓] Reads error messages instead of ignoring them
+[✓] Understands the code she writes
+[✓] Does not copy-paste from ChatGPT without comprehension
+[~] Still sometimes misses a semicolon. Working on it.
+[~] Imposter syndrome: present but manageable
+[~] Coffee-to-water ratio: concerning but stable ☕
+──────────────────────────────────────────────────────────
+CURRENT STACK DEPTH: Expanding.
+TRAJECTORY: Upward.
+GROUNDING PRINCIPLE: Every SyntaxError is a lesson in disguise.
+```
+
+---
+
+## 💭 Philosophy
+
+I am not rushing this. I am not taking shortcuts. I am not treating this like a sprint — I am treating it like the beginning of something real.
+
+The honest truth is: I don't always know if I'm good enough yet. But I know I show up. I know I debug instead of give up. I know I read the documentation. I know that when something breaks, I *understand* why before I fix it.
+
+And I know that the gap between "not there yet" and "there" is filled with exactly this — commit after commit, project after project, error after error, until one day it isn't an error anymore.
+
+> *"Quiet, absolute focus."*
+> *"Let the execution speak."*
+
+---
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════╗
+║                                       ║
+║   built with ☕ chai, 🦋 sincerity,   ║
+║   and a healthy fear of undefined     ║
+║                                       ║
+║     © 2026  Sonam Narula              ║
+║     ChaiCode Dev Cohort               ║
+║                                       ║
+╚═══════════════════════════════════════╝
+```
+
+![Profile Views](https://komarev.com/ghpvc/?username=SonamNarula&color=blueviolet&style=flat-square)
+
+*Made with love, late nights, and the occasional existential crisis over why CSS is hard.*
+
+</div>
