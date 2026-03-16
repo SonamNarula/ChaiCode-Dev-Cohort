@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Article } from '../utils/mockData';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5001/api',
+  baseURL: import.meta.env.VITE_API_URL ?? '/api',
   timeout: 10000,
 });
 
