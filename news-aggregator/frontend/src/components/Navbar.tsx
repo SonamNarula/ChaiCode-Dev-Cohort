@@ -1,148 +1,177 @@
-import { Search, Menu, X, Bell } from 'lucide-react';
+import { Menu, Moon, Search, SunMedium, X } from 'lucide-react';
 import { useState } from 'react';
 import { cn } from '../utils/cn';
+import type { NewsCategory } from './NewsCard';
 
-const CATEGORIES = ['General', 'Technology', 'Business', 'Sports', 'Science', 'Health', 'Entertainment'];
+export const NEWS_CATEGORIES: NewsCategory[] = [
+  'Latest',
+  'Technology',
+  'Business',
+  'Sports',
+  'Health',
+  'Entertainment',
+];
 
 interface NavbarProps {
-  onSearch: (query: string) => void;
-  onCategorySelect: (category: string) => void;
-  currentCategory: string;
-  onAuthClick?: () => void;
+  currentCategory: NewsCategory;
+  isDarkMode: boolean;
+  bookmarkCount: number;
+  searchValue: string;
+  onCategorySelect: (category: NewsCategory) => void;
+  onSearchChange: (value: string) => void;
+  onSearchSubmit: () => void;
+  onThemeToggle: () => void;
 }
 
-export const Navbar = ({ onSearch, onCategorySelect, currentCategory, onAuthClick }: NavbarProps) => {
-  const [searchInput, setSearchInput] = useState('');
+export const Navbar = ({
+  currentCategory,
+  isDarkMode,
+  bookmarkCount,
+  searchValue,
+  onCategorySelect,
+  onSearchChange,
+  onSearchSubmit,
+  onThemeToggle,
+}: NavbarProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchInput.trim()) {
-      onSearch(searchInput.trim());
-      setIsMobileMenuOpen(false);
-    }
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    onSearchSubmit();
+    setIsMobileMenuOpen(false);
+  };
+
+  const handleCategoryClick = (category: NewsCategory) => {
+    onCategorySelect(category);
+    setIsMobileMenuOpen(false);
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full glass">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => onCategorySelect('General')}>
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-white font-bold text-xl">N</span>
-            </div>
-            <span className="font-bold text-xl tracking-tight text-foreground hidden sm:block">
-              NewsCore
-            </span>
+    <header className="sticky top-0 z-50 border-b border-white/30 bg-white/70 backdrop-blur-xl dark:border-slate-800/80 dark:bg-slate-950/75">
+      <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-4 sm:px-6 lg:px-8">
+        <button
+          type="button"
+          onClick={() => handleCategoryClick('Latest')}
+          className="flex items-center gap-3 text-left"
+        >
+          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-950 text-lg font-bold text-white shadow-lg shadow-slate-950/20 dark:bg-white dark:text-slate-950">
+            SN
           </div>
-
-          {/* Desktop Search */}
-          <div className="hidden md:flex flex-1 max-w-md mx-8">
-            <form onSubmit={handleSearchSubmit} className="w-full relative">
-              <div className="relative group">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Search className="h-4 w-4 text-slate-400 group-focus-within:text-primary transition-colors" />
-                </div>
-                <input
-                  type="text"
-                  className="block w-full pl-10 pr-3 py-2 border border-slate-200 dark:border-slate-700 rounded-full leading-5 bg-slate-50 dark:bg-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all sm:text-sm"
-                  placeholder="Search articles..."
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                />
-              </div>
-            </form>
+          <div className="hidden sm:block">
+            <p className="text-lg font-bold tracking-tight text-slate-950 dark:text-white">
+              Smart News
+            </p>
+            <p className="text-xs uppercase tracking-[0.24em] text-slate-500 dark:text-slate-400">
+              Aggregator
+            </p>
           </div>
+        </button>
 
-          {/* Desktop Actions */}
-          <div className="hidden md:flex items-center gap-4">
-            <button className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-500">
-              <Bell className="h-5 w-5" />
-            </button>
-            <div 
-              onClick={onAuthClick}
-              className="h-8 w-8 rounded-full bg-gradient-to-tr from-primary to-accent text-white flex items-center justify-center font-semibold cursor-pointer shadow-sm hover:opacity-90 transition-opacity"
-            >
-              U
-            </div>
+        <form onSubmit={handleSubmit} className="hidden flex-1 md:block">
+          <label className="relative block">
+            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+            <input
+              type="search"
+              value={searchValue}
+              onChange={(event) => onSearchChange(event.target.value)}
+              placeholder="Search by keyword, topic, or source"
+              className="w-full rounded-full border border-slate-200 bg-white/90 py-3 pl-11 pr-4 text-sm text-slate-900 outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10 dark:border-slate-800 dark:bg-slate-900/90 dark:text-white"
+            />
+          </label>
+        </form>
+
+        <div className="hidden items-center gap-3 md:flex">
+          <div className="rounded-full border border-slate-200 bg-white/80 px-4 py-2 text-sm font-medium text-slate-600 dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-300">
+            Bookmarks {bookmarkCount}
           </div>
+          <button
+            type="button"
+            onClick={onThemeToggle}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white/80 text-slate-700 transition hover:border-primary hover:text-primary dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-200"
+            aria-label="Toggle theme"
+          >
+            {isDarkMode ? <SunMedium className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+          </button>
+        </div>
 
-          {/* Mobile menu button */}
-          <div className="flex items-center md:hidden">
+        <button
+          type="button"
+          onClick={() => setIsMobileMenuOpen((value) => !value)}
+          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white/80 text-slate-700 md:hidden dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-200"
+          aria-label="Toggle navigation"
+        >
+          {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+        </button>
+      </div>
+
+      <div className="hidden border-t border-white/20 px-4 py-3 md:block dark:border-slate-800/80">
+        <div className="mx-auto flex max-w-7xl gap-2 overflow-x-auto">
+          {NEWS_CATEGORIES.map((category) => (
             <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none"
+              key={category}
+              type="button"
+              onClick={() => handleCategoryClick(category)}
+              className={cn(
+                'rounded-full px-4 py-2 text-sm font-medium transition',
+                currentCategory === category
+                  ? 'bg-slate-950 text-white dark:bg-white dark:text-slate-950'
+                  : 'bg-white/70 text-slate-600 hover:bg-slate-950 hover:text-white dark:bg-slate-900/80 dark:text-slate-300 dark:hover:bg-white dark:hover:text-slate-950',
+              )}
             >
-              <span className="sr-only">Open main menu</span>
-              {isMobileMenuOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
+              {category}
             </button>
-          </div>
+          ))}
         </div>
       </div>
 
-      {/* Categories Bar (Desktop) */}
-      <div className="hidden md:block border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex space-x-8 overflow-x-auto py-3 custom-scrollbar">
-            {CATEGORIES.map((category) => (
+      {isMobileMenuOpen ? (
+        <div className="border-t border-white/20 px-4 py-4 md:hidden dark:border-slate-800/80">
+          <form onSubmit={handleSubmit}>
+            <label className="relative block">
+              <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+              <input
+                type="search"
+                value={searchValue}
+                onChange={(event) => onSearchChange(event.target.value)}
+                placeholder="Search news..."
+                className="w-full rounded-2xl border border-slate-200 bg-white/90 py-3 pl-11 pr-4 text-sm text-slate-900 outline-none transition focus:border-primary focus:ring-4 focus:ring-primary/10 dark:border-slate-800 dark:bg-slate-900/90 dark:text-white"
+              />
+            </label>
+          </form>
+
+          <div className="mt-4 grid grid-cols-2 gap-2">
+            {NEWS_CATEGORIES.map((category) => (
               <button
                 key={category}
-                onClick={() => onCategorySelect(category)}
+                type="button"
+                onClick={() => handleCategoryClick(category)}
                 className={cn(
-                  "whitespace-nowrap py-1 px-3 rounded-md text-sm font-medium transition-all duration-200",
+                  'rounded-2xl px-4 py-3 text-left text-sm font-medium transition',
                   currentCategory === category
-                    ? "bg-primary text-white shadow-sm"
-                    : "text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary hover:bg-primary/10"
+                    ? 'bg-slate-950 text-white dark:bg-white dark:text-slate-950'
+                    : 'bg-white/80 text-slate-600 dark:bg-slate-900/80 dark:text-slate-300',
                 )}
               >
                 {category}
               </button>
             ))}
-          </nav>
-        </div>
-      </div>
+          </div>
 
-      {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-xl absolute w-full left-0">
-          <div className="px-4 pt-2 pb-4 space-y-4">
-            <form onSubmit={handleSearchSubmit}>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Search className="h-5 w-5 text-slate-400" />
-                </div>
-                <input
-                  type="text"
-                  className="block w-full pl-10 pr-3 py-3 border border-slate-300 dark:border-slate-700 rounded-lg bg-slate-50 dark:bg-slate-800 text-base focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Search articles..."
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                />
-              </div>
-            </form>
-            <div className="grid grid-cols-2 gap-2">
-              {CATEGORIES.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => {
-                    onCategorySelect(category);
-                    setIsMobileMenuOpen(false);
-                  }}
-                  className={cn(
-                    "px-3 py-2 rounded-md text-sm font-medium text-left transition-colors",
-                    currentCategory === category
-                      ? "bg-primary text-white"
-                      : "text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800"
-                  )}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
+          <div className="mt-4 flex items-center justify-between rounded-2xl bg-white/80 px-4 py-3 dark:bg-slate-900/80">
+            <span className="text-sm font-medium text-slate-600 dark:text-slate-300">
+              Bookmarks {bookmarkCount}
+            </span>
+            <button
+              type="button"
+              onClick={onThemeToggle}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-950 text-white dark:bg-white dark:text-slate-950"
+              aria-label="Toggle theme"
+            >
+              {isDarkMode ? <SunMedium className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            </button>
           </div>
         </div>
-      )}
+      ) : null}
     </header>
   );
 };
