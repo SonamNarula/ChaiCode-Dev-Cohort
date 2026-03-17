@@ -24,7 +24,7 @@
   GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
   ```
 - **NeuroNews (legacy mono):** `cd news-aggregator && npm install && npm run dev`
-- **Language lab:** `JAVASCRIPT/index.html` in a browser/Live Server to watch scope experiments (`var`/`let`/`const`) and other micro-drills.
+- **JS chapter pack:** open `JAVASCRIPT/index.html` in a browser/Live Server, then watch DevTools ➜ Console as chapters `01`–`08` run (variables, data types, operators, control flow, loops, functions/closures, arrays, objects). Source reference: `JAVASCRIPT/JS_Learn_Everything.pdf`.
 
 ---
 
