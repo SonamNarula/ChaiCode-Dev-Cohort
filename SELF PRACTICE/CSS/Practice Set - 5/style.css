@@ -1,0 +1,39 @@
+body {
+    height: 2000px;
+    /* Enable scrolling to test fixed position */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#nature-box {
+    height: 150px;
+    width: 200px;
+    background-image: url('../lofi.jpg');
+    /* Adjust path relative to this file */
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    /* Keep it fixed on scroll */
+    bottom: 50px;
+    /* Position from bottom */
+    right: 0;
+    /* Position at right end */
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px black;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+}

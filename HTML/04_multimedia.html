@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 Multimedia | Visual Telemetry</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; padding: 2rem; color: #333; line-height: 1.6; }
+        .module { margin-bottom: 4rem; background: #fff; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        img, video { max-width: 100%; border-radius: 8px; margin-top: 1rem; }
+        .topper-tip { border-left: 4px solid #f316873; background: #fff0f6; padding: 1rem; margin: 1rem 0; border-radius: 4px; }
+        code { color: #d63384; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Module 04: Multimedia Systems & Asset Ingestion</h1>
+
+    <div class="module">
+        <h2>1. Images (Raster & Optimization)</h2>
+        <p>Using the <code>&lt;img&gt;</code> tag correctly is a performance game-changer.</p>
+        
+        <!-- Correct Image Implementation -->
+        <img src="https://via.placeholder.com/800x400" 
+             alt="A high-resolution tech dashboard placeholder" 
+             loading="lazy" 
+             title="NeuroNews Data Concept">
+
+        <div class="topper-tip">
+            <strong>Top Tip:</strong> Always include <code>alt</code> text for accessibility and <code>loading="lazy"</code> to prevent images from blocking the main thread during initial page load.
+        </div>
+    </div>
+
+    <div class="module">
+        <h2>2. Video & Audio (Fluid Media Streams)</h2>
+        <p>The <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> tags have revolutionized how we stream assets without plugins.</p>
+        
+        <video controls width="600" poster="https://via.placeholder.com/600x340">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Audio Integration</h3>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p class="topper-tip">
+            Note: Use multiple <code>&lt;source&gt;</code> tags for cross-browser fallback support (WebM, MP4, etc.).
+        </p>
+    </div>
+
+    <div class="module">
+        <h2>3. Iframes (Embedding external universes)</h2>
+        <p>Integrating third-party content (Maps, YouTube, Dashboards) using <code>&lt;iframe&gt;</code>.</p>
+        
+        <iframe width="100%" height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>

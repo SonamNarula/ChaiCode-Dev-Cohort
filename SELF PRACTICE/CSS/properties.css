@@ -1,0 +1,59 @@
+h1{
+    color: #de2865 ;
+    text-align: center;
+    text-decoration:black wavy underline;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#heading-1{
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+#heading-2{
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+#heading-3{
+    font-weight: 1000;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#heading-4{
+    font-weight: lighter ;
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+}
+
+#me{
+    font-family: cursive;
+    color: #ff1d68;
+    background-color: black;
+    line-height: 40px;
+}
+
+#one, #two, #three{
+    text-decoration: none;
+    text-align: left;
+}
+
+#one{
+    font-size: 20px;
+    
+}
+
+#three{
+    font-size:10px;
+}

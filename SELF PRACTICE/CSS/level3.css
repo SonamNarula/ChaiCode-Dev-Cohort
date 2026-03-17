@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+    /* Needed for Absolute child */
+}
+
+/* Common styling for all boxes */
+.box {
+    width: 150px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 1. Static */
+.static {
+    background-color: #3498db;
+    /* Blue */
+    position: static;
+    /* Default */
+}
+
+/* 2. Relative */
+.relative {
+    background-color: #e74c3c;
+    /* Red */
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+/* 3. Absolute */
+.relative-parent {
+    height: 200px;
+    /* Give space for absolute box */
+    border: 2px dashed #2ecc71;
+    /* Green border to show parent */
+}
+
+.absolute {
+    background-color: #9b59b6;
+    /* Purple */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* 4. Fixed */
+.fixed {
+    background-color: #2c3e50;
+    /* Dark Blue */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    z-index: 100;
+}
+
+/* 5. Sticky */
+.sticky {
+    background-color: #f1c40f;
+    /* Yellow */
+    color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}

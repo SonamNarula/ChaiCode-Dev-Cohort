@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 Text Formatting | Typography Hierarchy</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 2rem; background: #fafafa; color: #333; }
+        .section { margin-bottom: 3rem; border-bottom: 1px solid #ddd; padding-bottom: 2rem; }
+        .note { color: #666; font-style: italic; display: block; margin-top: 0.5rem; }
+        code { color: #d63384; }
+        strong { color: #000; }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h1>Heading Hierarchy (H1 to H6)</h1>
+        <h2>This is a Sub-Heading (H2)</h2>
+        <h3>Section Header (H3)</h3>
+        <h4>Subsection (H4)</h4>
+        <h5>Minor Header (H5)</h5>
+        <h6>Detailed Meta (H6)</h6>
+        <span class="note"><strong>Topper Logic:</strong> Only use ONE H1 per page for SEO weight. Hierarchy should reflect content importance, not font size (use CSS for size).</span>
+    </div>
+
+    <div class="section">
+        <h2>In-line Formatting (Semantic vs Stylistic)</h2>
+        <p>There is a massive difference between <code>&lt;b&gt;</code> and <code>&lt;strong&gt;</code>.</p>
+        <ul>
+            <li><strong>This is bold via <code>&lt;strong&gt;</code>:</strong> It indicates importance or urgency.</li>
+            <li><b>This is bold via <code>&lt;b&gt;</code>:</b> It's just for aesthetic weight (use sparingly).</li>
+            <li><em>This is emphasized via <code>&lt;em&gt;</code>:</em> Indicates stress or tone.</li>
+            <li><i>This is italicized via <code>&lt;i&gt;</code>:</i> Usually for technical terms or thoughts.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Special Markers</h2>
+        <p>The <mark>highlight tag</mark> is used for relevance. 
+        <small>Small text</small> is for side comments or legal disclaimers. 
+        <del>Deleted text</del> vs <ins>Inserted text</ins> shows changes. 
+        H<sub>2</sub>O (Subscript) and MC<sup>2</sup> (Superscript).</p>
+    </div>
+
+    <div class="section">
+        <h2>Citations & Blockquotes</h2>
+        <blockquote cite="https://developer.mozilla.org">
+            "HTML is the skeleton of the web."
+        </blockquote>
+        <p>As per the <cite>MDN Web Docs</cite>, semantics are non-negotiable.</p>
+    </div>
+
+    <div class="section">
+        <h2>Code Representation</h2>
+        <p>To display code in a block, use <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags:</p>
+<pre><code>
+function initializeProject() {
+    console.log("Status: Elite");
+}
+</code></pre>
+    </div>
+
+</body>
+</html>

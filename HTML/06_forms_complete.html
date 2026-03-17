@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 In-depth Forms | Data Entry Systems</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; padding: 2rem; background: #fdfdfd; }
+        form { background: #fff; padding: 2rem; border-radius: 12px; border: 1px solid #ddd; max-width: 600px; margin: auto; }
+        .input-group { margin-bottom: 1.5rem; }
+        label { display: block; font-weight: 600; margin-bottom: 0.5rem; color: #1a1b1e; }
+        input:not([type="checkbox"]):not([type="radio"]), select, textarea { 
+            width: 100%; padding: 0.8rem; border: 1.5px solid #e1e4e8; border-radius: 6px; box-sizing: border-box; 
+            transition: border-color 0.2s;
+        }
+        input:focus { border-color: #007acc; outline: none; }
+        fieldset { border: 1.5px solid #f0f0f0; border-radius: 8px; margin-bottom: 2rem; padding: 1.5rem; }
+        legend { font-weight: bold; padding: 0 0.5rem; color: #007acc; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; }
+        .btn { background: #007acc; color: #fff; padding: 1rem 2rem; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%; }
+        .topper-logic { font-size: 0.9rem; color: #666; margin-top: 0.5rem; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Module 06: Deep-Dive Form Engineering</h1>
+
+    <form action="#" method="POST">
+        
+        <fieldset>
+            <legend>Identity Telemetry</legend>
+            <div class="input-group">
+                <label for="uname">Full Name</label>
+                <input type="text" id="uname" name="user_name" placeholder="Sonam Narula" required minlength="3">
+                <p class="topper-logic">Using 'required' and 'minlength' for instant client-side validation.</p>
+            </div>
+
+            <div class="input-group">
+                <label for="uemail">Email Address</label>
+                <input type="email" id="uemail" name="user_email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="upass">Access Token (Password)</label>
+                <input type="password" id="upass" name="user_password" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences & Datasets</legend>
+            
+            <div class="input-group">
+                <label>Preferred Specialization</label>
+                <input type="radio" id="fe" name="spec" value="frontend"> <label style="display:inline;" for="fe">Frontend Logic</label><br>
+                <input type="radio" id="be" name="spec" value="backend"> <label style="display:inline;" for="be">Backend Architecture</label>
+            </div>
+
+            <div class="input-group">
+                <label for="cohort">Select Cohort Batch</label>
+                <select id="cohort" name="batch">
+                    <optgroup label="Core Tracks">
+                        <option value="fs">Full Stack MERN</option>
+                        <option value="ds">Data Science</option>
+                    </optgroup>
+                    <optgroup label="Specialized">
+                        <option value="ai">AI Product Design</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="power-level">Intelligence Saturation</label>
+                <input type="range" id="power-level" name="iq" min="0" max="100" value="95">
+            </div>
+
+            <div class="input-group">
+                <label for="birth-date">Ignition Date (Birthday)</label>
+                <input type="date" id="birth-date" name="bday">
+            </div>
+
+            <div class="input-group">
+                <label for="color-pick">UI Theme Preference</label>
+                <input type="color" id="color-pick" name="theme_color" value="#007acc">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Data Injection</legend>
+            <div class="input-group">
+                <label for="file-up">Resume / CV (PDF Only)</label>
+                <input type="file" id="file-up" name="resume" accept="application/pdf">
+            </div>
+
+            <div class="input-group">
+                <label for="bio">Professional Hypothesis (Bio)</label>
+                <textarea id="bio" name="user_bio" rows="4" placeholder="Briefly describe your cognitive architecture..."></textarea>
+            </div>
+
+            <div class="input-group">
+                <label for="browser-list">Primary Development OS (Auto-complete)</label>
+                <input list="os-options" name="os" id="browser-list">
+                <datalist id="os-options">
+                    <option value="macOS (Unix-based)">
+                    <option value="Linux (Arch/Ubuntu)">
+                    <option value="Windows 11 (WSL2)">
+                </datalist>
+            </div>
+        </fieldset>
+
+        <button type="submit" class="btn">Deploy Data Stream</button>
+    </form>
+
+</body>
+</html>

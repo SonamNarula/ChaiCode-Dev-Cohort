@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 Tables | Complex Data Grids</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; padding: 2rem; background: #fafafa; }
+        table { width: 100%; border-collapse: collapse; margin-top: 2rem; background: #fff; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+        th, td { padding: 1rem; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #007acc; color: #fff; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; }
+        tr:hover { background: #f8f9ff; }
+        caption { margin-bottom: 1rem; font-size: 1.2rem; font-weight: bold; color: #222; }
+        .topper-logic { background: #fffbe6; border: 1px solid #ffe58f; padding: 1rem; margin: 1rem 0; border-radius: 6px; border-left: 5px solid #d46b08; }
+    </style>
+</head>
+<body>
+
+    <h1>Module 05: Data Structures via Tables</h1>
+
+    <div class="topper-logic">
+        <strong>The Data Grid Principle:</strong> Tables are for <em>tabular data</em> only (like spreadsheets or stats), never for page layout (use CSS Grid/Flex for that). 📊
+    </div>
+
+    <table>
+        <caption>Cohort Project Status Telemetry</caption>
+        <thead>
+            <tr>
+                <th>Phase ID</th>
+                <th>Module Name</th>
+                <th>Complexity Scale</th>
+                <th>Current Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Structure & Meta</td>
+                <td>Basic</td>
+                <td><span style="color: #52c41a;">Verified [x]</span></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Lists & Links</td>
+                <td>Intermediate</td>
+                <td><span style="color: #52c41a;">Verified [x]</span></td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Complex Forms</td>
+                <td>Advanced</td>
+                <td><span style="color: #faad14;">Implementing [/]</span></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Total Success Probability:</strong></td>
+                <td><strong>100.0%</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Merging Cells: Rowspan & Colspan Mastery</h2>
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Metric</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Frontend</td>
+                <td>React Hooks</td>
+            </tr>
+            <tr>
+                <td>Glassmorphism</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; background: #eee;">Horizontal Divider Node</td>
+            </tr>
+            <tr>
+                <td>Backend</td>
+                <td>Express</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

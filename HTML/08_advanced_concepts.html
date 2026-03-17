@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08 Advanced Concepts | Modern HTML Mastery</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; padding: 2rem; background: #fff; color: #1a1a1a; max-width: 900px; margin: auto; }
+        details { background: #f1f3f5; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer; }
+        summary { font-weight: bold; color: #007acc; }
+        progress, meter { width: 100%; height: 20px; margin: 10px 0; }
+        .card { border: 1.5px solid #eee; padding: 1.5rem; border-radius: 12px; margin-top: 2rem; }
+        .svg-container { text-align: center; padding: 2rem; background: #fafafa; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>Module 08: The Modern HTML Frontier</h1>
+
+    <div class="card">
+        <h2>1. Interactive Details & Summaries</h2>
+        <details>
+            <summary>What is the 'Topper' Philosophy?</summary>
+            <p>It is the relentless pursuit of understanding the 'Why' behind every line of code. It's about building systems that are not just functional, but exemplary.</p>
+        </details>
+        
+        <details open>
+            <summary>Native Modals (The &lt;dialog&gt; Element)</summary>
+            <p>Instead of building complex JS modals, modern HTML provides the <code>&lt;dialog&gt;</code> tag. It's accessible and built-in.</p>
+            <button onclick="document.getElementById('myModal').showModal()">Open Neural Modal</button>
+        </dialog>
+    </div>
+
+    <!-- The Dialog (Modal) -->
+    <dialog id="myModal" style="border:none; border-radius:12px; padding:2rem; box-shadow: 0 5px 30px rgba(0,0,0,0.3);">
+        <h3>Neural Authentication Required</h3>
+        <p>Are you sure you want to initialize the advanced telemetry sequence?</p>
+        <button onclick="document.getElementById('myModal').close()">Abort</button>
+        <button style="background: #007acc; color: #fff; border:none; padding:10px; border-radius:4px;">Authorize</button>
+    </dialog>
+
+    <div class="card">
+        <h2>2. Dynamic Visualization: Progress & Meter</h2>
+        <p><strong>Workload Saturation:</strong></p>
+        <progress value="85" max="100"></progress>
+        
+        <p><strong>Intelligence Threshold (Meter):</strong></p>
+        <meter min="0" max="100" low="30" high="80" optimum="95" value="92"></meter>
+        <span class="note">Note: Meter is for 'scalar' measurements (like disk usage or grades), Progress is for 'task completion' status.</span>
+    </div>
+
+    <div class="card">
+        <h2>3. Scalable Vector Graphics (SVG)</h2>
+        <p>Embedded SVG for lossless visual fidelity.</p>
+        <div class="svg-container">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="40" stroke="#007acc" stroke-width="4" fill="#e6f7ff" />
+                <text x="50%" y="55%" text-anchor="middle" font-size="20" font-family="Arial" fill="#007acc">TOP</text>
+            </svg>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>4. Data Attributes (Custom Meta-data)</h2>
+        <p>Store information directly in HTML that JS can easily access using <code>data-*</code>.</p>
+        <div id="user-profile" data-user-id="101" data-status="elite" data-gpa="10.0">
+            Hover to inspect data attributes in elements panel.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>5. Templates & Slots (Web Components)</h2>
+        <p>The <code>&lt;template&gt;</code> tag holds content that is not rendered until cloned via JavaScript. This is the heart of modular web design.</p>
+        <template id="my-paragraph">
+            <p>This is a reusable neural snippet.</p>
+        </template>
+    </div>
+
+</body>
+</html>

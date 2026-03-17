@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    /* Important for contrast */
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent bg for readability */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container {
+    height: 300px;
+    /* Fixed height to see background */
+    width: 60%;
+    margin: 20px auto;
+    /* Centers the div horizontally */
+    border: 5px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Common Background Properties */
+    background-image: url("lofi.jpg");
+    background-position: center;
+    /* Default center unless overridden */
+    background-repeat: no-repeat;
+    /* Default no-repeat unless overridden */
+}
+
+/* 1. Cover: Scales to fill completely */
+#bg-cover {
+    background-size: cover;
+}
+
+/* 2. Contain: Scales to fit completely */
+#bg-contain {
+    background-size: contain;
+    background-color: #333;
+    /* Dark background to see edges clearly */
+    background-repeat: no-repeat;
+}
+
+/* 3. Repeat: Repeats horizontally and vertically */
+#bg-repeat {
+    background-size: 100px;
+    /* Make it small so we can see repeat */
+    background-repeat: repeat;
+}
+
+/* 4. Position: Top Left */
+#bg-position {
+    background-size: 150px;
+    background-position: top left;
+    background-color: #555;
+    align-items: flex-end;
+    /* Just to move text out of the way */
+}
+
+/* 5. Linear Gradient (No Image) */
+#bg-gradient {
+    /* Gradients are treated as background-image */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* 6. Fixed Attachment */
+#bg-fixed {
+    background-size: cover;
+    background-attachment: fixed;
+    /* Creates parallax-like effect */
+    height: 400px;
+    /* Taller to enhance effect */
+    border-color: red;
+}

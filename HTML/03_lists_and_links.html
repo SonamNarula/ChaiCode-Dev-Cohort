@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 Lists & Links | Navigation Topology</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; padding: 2rem; line-height: 1.7; color: #1a1a1a; }
+        a { color: #007acc; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s; }
+        a:hover { border-bottom: 1px solid #007acc; }
+        dl { background: #fffbe6; padding: 1rem; border-radius: 8px; border: 1px solid #ffe58f; }
+        dt { font-weight: bold; color: #856404; margin-top: 1rem; }
+        dd { margin-left: 1.5rem; color: #533f03; }
+        .logic { padding: 1rem; background: #e6f7ff; border: 1px solid #91d5ff; border-radius: 8px; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+
+    <h1>Module 03: Structured Lists & Hyper-Connectivity</h1>
+
+    <div class="logic">
+        <strong>Pro-Coder Note:</strong> Use HTML for the <em>meaning</em> of connection. CSS for the <em>style</em> of connection.
+    </div>
+
+    <h2>1. Ordered vs Unordered Lists</h2>
+    <h3>Technical Roadmap (Unordered)</h3>
+    <ul>
+        <li>Node.js Essentials</li>
+        <li>Express Routing Logic</li>
+        <li>React Hook Orchestration</li>
+    </ul>
+
+    <h3>Priority Queue (Ordered)</h3>
+    <ol type="I">
+        <li>Deep Work Phase</li>
+        <li>System Implementation</li>
+        <li>Verification & Deployment</li>
+    </ol>
+
+    <h2>2. Description Lists (Key-Value Metadata)</h2>
+    <dl>
+        <dt>Asynchronous</dt>
+        <dd>Operations that happen independently of the main program flow.</dd>
+        
+        <dt>Recursion</dt>
+        <dd>A function that invokes itself to solve sub-problems.</dd>
+    </dl>
+
+    <h2>3. The Anchor Matrix (Links)</h2>
+    <ul>
+        <li><strong>Absolute Link:</strong> <a href="https://github.com/SonamNarula" target="_blank">My GitHub Profile</a> (Uses <code>target="_blank"</code> to keep users on my site).</li>
+        <li><strong>Relative Link:</strong> <a href="./01_structure_and_meta.html">Go to Module 01</a> (Navigating the local ecosystem).</li>
+        <li><strong>Document Anchor:</strong> <a href="#internal-target">Jump to Bottom</a> (Navigating the same document).</li>
+        <li><strong>Communication Protocols:</strong> 
+            <a href="mailto:bnarula54@gmail.com">Email Me</a> | 
+            <a href="tel:+919999999999">Call Support</a>
+        </li>
+    </ul>
+
+    <div style="margin-top: 100vh;" id="internal-target">
+        <h2>Bottom of Document Reached</h2>
+        <p>You utilized <code>id="internal-target"</code> to reach this telemetry node.</p>
+        <a href="#">Back to Top</a>
+    </div>
+
+</body>
+</html>
