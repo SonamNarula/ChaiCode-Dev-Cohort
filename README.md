@@ -13,6 +13,20 @@
 - **Second brain:** this repo is a living lab notebook; every folder is either a prototype, a sensory organ, or a muscle group.
 - **Time-to-insight:** cold clone ➜ `npm install` ➜ `npm run dev` ➜ data on `localhost:5173` in under 90 seconds.
 
+### Signal at a Glance
+| Metric | Current state |
+| --- | --- |
+| Velocity | 1–2 meaningful commits/day (quality > count) |
+| UX Rule | “Pixels must explain themselves in 3s or less.” |
+| API Discipline | CORS/keys always proxied; no raw secrets in the client |
+| Learning Loop | Build → Measure → Explain → Refactor |
+
+### Quick Teleport
+- 🚀 **Run NeuroNews:** `npm install && npm run dev`
+- 🧠 **Console lessons:** open `JAVASCRIPT/index.html` → DevTools → Console
+- 📜 **Source PDF:** `JAVASCRIPT/JS_Learn_Everything.pdf`
+- 🧭 **Backlog brain dump:** see Roadmap below
+
 ---
 
 ## Launch Codes
@@ -94,6 +108,12 @@ sequenceDiagram
 - **Swiftmind:** conversational interface experiments; balancing UX with model latency.
 - **JavaScript Lab:** tiny, focused drills; everything else graduates out of here.
 
+### Collaboration Signals
+- 🧭 Clear briefs before code, short PRs with runnable steps.
+- 🧪 Tests or console repros where it matters; screenshots or clips for UI.
+- 🛡️ Secrets never in client bundles; envs documented.
+- 🛰️ Prefer typed contracts (TS, DTOs) over comment-only agreements.
+
 ---
 
 ## Operating Principles
@@ -118,6 +138,9 @@ mission                : turn effort into craftsmanship
 ```
 
 ---
+
+## If You Skim One Thing
+This repo is a cockpit, not a showcase: every directory captures a pattern learned, a mistake avoided, or a sharper mental model. Clone it, run it, break it—then tell me what surprised you.
 
 ## Roadmap (near-term vectors)
 - Harden NeuroNews with sentiment analysis + Redis cache layer.
