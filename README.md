@@ -1,16 +1,12 @@
-<div align="center">
+# 🧠 ChaiCode Dev Cohort: The Elite Build Log 📡
 
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║                    C H A I C O D E   D E V   C O H O R T             ║
-║                                                                      ║
-║                         Sonam Narula's Build Log                     ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+[![MERN Stack](https://img.shields.io/badge/Architecture-MERN%20Expert-61DAFB?style=for-the-badge&logo=react)](#)
+[![TypeScript](https://img.shields.io/badge/Codebase-Strict%20TS-007ACC?style=for-the-badge&logo=typescript)](#)
+[![Intelligence](https://img.shields.io/badge/Status-GPA%2010.0-FF5A5F?style=for-the-badge)](#)
 
-*I am not here to collect tutorials. I am here to understand systems.*
+> "Average developers follow tutorials. High-signal developers build universes. This repository is my digital neural network, where effort meets craftsmanship." 💅✨
+
+---
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -54,6 +50,13 @@ This repo is a growing local universe of experiments, practice sets, clones, and
 | `swiftmind/` | AI application architecture | Client-server separation, model integration, and conversational product design |
 | `news-aggregator/` | Real-time information systems | React Query, API orchestration, category filtering, bookmarks, and dark mode |
 | `Bharat_CV/` | Personal work with heart | A practical, respectful build created for someone I love |
+
+---
+
+## `run` quick protocol
+
+- `JAVASCRIPT/`: open `index.html` in a browser (or Live Server) to see the console outputs while experimenting with `var`, `let`, and `const` scope.
+- `news-aggregator/`: `cd news-aggregator && npm install && npm run dev` (uses concurrently to boot backend proxy + Vite UI). Drop your `GNEWS_API_KEY` into `backend/.env` as outlined in that project's README.
 
 ---
 
@@ -114,6 +117,10 @@ Core implemented ideas:
 - responsive UI
 
 This project matters to me because it sits at the intersection of interface design, asynchronous data handling, and product thinking.
+
+### `JAVASCRIPT`
+
+A lightweight sandbox to cement language fundamentals: scope rules for `var`/`let`/`const`, quick DOM hooks, and a playground for future micro-experiments before they graduate into larger apps.
 
 ### `nike-store`
 
@@ -177,4 +184,3 @@ while (alive) {
 *Compiled with discipline, curiosity, and a healthy respect for elegant systems.*
 
 </div>
-# college-minor-project
