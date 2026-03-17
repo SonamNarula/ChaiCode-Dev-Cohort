@@ -3,12 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>HTML Elite Curriculum | Dashboard</title>
+    <style>
+        :root { --primary: #007acc; --bg: #f8fafc; --card-bg: rgba(255, 255, 255, 0.8); }
+        body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); padding: 3rem 1rem; color: #1e293b; max-width: 1000px; margin: auto; }
+        .hero { text-align: center; margin-bottom: 4rem; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; color: #0f172a; }
+        .hero p { font-size: 1.2rem; color: #64748b; font-style: italic; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+        .module-card { 
+            background: var(--card-bg); backdrop-filter: blur(10px); padding: 2rem; border-radius: 16px; 
+            border: 1px solid rgba(255,255,255,0.3); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); 
+            transition: all 0.3s ease; text-decoration: none; color: inherit; display: block;
+        }
+        .module-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); border-color: var(--primary); }
+        .module-number { font-weight: 800; color: var(--primary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 0.5rem; }
+        .module-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .module-desc { font-size: 0.9rem; color: #64748b; line-height: 1.5; }
+        .footer { margin-top: 5rem; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 2rem; font-size: 0.9rem; color: #94a3b8; }
+        .badge { background: #e0f2fe; color: #0369a1; padding: 4px 12px; border-radius: 99px; font-size: 0.75rem; font-weight: 600; margin-top: 1rem; display: inline-block; }
+    </style>
 </head>
 <body>
-    <h1 style="color: red; font-weight: 400;">ChaiCode</h1>
 
-    <!-- <button style="background-color: grey; border: 0px; font-weight: 600; border-radius: 10px;">Click Me</button> -->
+    <header class="hero">
+        <h1>HTML Elite Curriculum 🧠</h1>
+        <p>"Because average is a choice, and we choose excellence." — Topper's Entry Point</p>
+    </header>
+
+    <main class="grid">
+        <a href="01_structure_and_meta.html" class="module-card">
+            <span class="module-number">Module 01</span>
+            <div class="module-title">Structure & Meta</div>
+            <div class="module-desc">The digital skeleton. SEO mastery, Meta-tags, and document foundations.</div>
+            <span class="badge">Essential</span>
+        </a>
+
+        <a href="02_text_formatting.html" class="module-card">
+            <span class="module-number">Module 02</span>
+            <div class="module-title">Text Formatting</div>
+            <div class="module-desc">Typography hierarchy and semantic emphasis for meaningful content.</div>
+            <span class="badge">Typography</span>
+        </a>
+
+        <a href="03_lists_and_links.html" class="module-card">
+            <span class="module-number">Module 03</span>
+            <div class="module-title">Lists & Links</div>
+            <div class="module-desc">Navigation topology and structured datasets using DL, UL, and OL.</div>
+            <span class="badge">Connectivity</span>
+        </a>
+
+        <a href="04_multimedia.html" class="module-card">
+            <span class="module-number">Module 04</span>
+            <div class="module-title">Multimedia</div>
+            <div class="module-desc">Optimization-first assets: Lazy loading, Video, and fluid Iframes.</div>
+            <span class="badge">Performance</span>
+        </a>
+
+        <a href="05_tables_complex.html" class="module-card">
+            <span class="module-number">Module 05</span>
+            <div class="module-title">Complex Tables</div>
+            <div class="module-desc">Tabular data orchestration using THEAD, Rowspan, and Colspan.</div>
+            <span class="badge">Data Sheets</span>
+        </a>
+
+        <a href="06_forms_complete.html" class="module-card">
+            <span class="module-number">Module 06</span>
+            <div class="module-title">Deep-Dive Forms</div>
+            <div class="module-desc">Advanced data entry, custom input types, and client-side validation.</div>
+            <span class="badge">Interactivity</span>
+        </a>
+
+        <a href="07_semantic_web.html" class="module-card">
+            <span class="module-number">Module 07</span>
+            <div class="module-title">Semantic Web</div>
+            <div class="module-desc">The standard for SEO and Accessibility. Header, Nav, Main, Aside.</div>
+            <span class="badge">A11y / SEO</span>
+        </a>
+
+        <a href="08_advanced_concepts.html" class="module-card">
+            <span class="module-number">Module 08</span>
+            <div class="module-title">Modern HTML APIs</div>
+            <div class="module-desc">The frontier: Native Dialogs, Templates, Meters, and Progress bars.</div>
+            <span class="badge">Advanced</span>
+        </a>
+    </main>
+
+    <footer class="footer">
+        <p>Managed with Discipline for the ChaiCode Dev Cohort.</p>
+        <p><a href="practice_archive/index2.html" style="color: inherit; text-decoration: underline;">Access Legacy Practice Files</a></p>
+    </footer>
+
 </body>
 </html>
