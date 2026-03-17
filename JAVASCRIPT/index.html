@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning javascript</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Learning Console</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 2rem; background: #0b1021; color: #e6edf7; }
+    h1 { margin-bottom: 0.25rem; }
+    p  { margin-top: 0; color: #b9c2d0; }
+    ol { margin-top: 1rem; line-height: 1.6; }
+    code { background: #141b2f; padding: 0.2rem 0.35rem; border-radius: 4px; }
+  </style>
 </head>
 <body>
-    
+  <main>
+    <h1>JavaScript: Console-First Walkthrough</h1>
+    <p>Open DevTools ➜ Console to watch each chapter log insights and examples.</p>
+    <ol>
+      <li><strong>01_variables.js</strong> — var / let / const, TDZ, hoisting.</li>
+      <li><strong>02_data_types.js</strong> — primitives vs references, typeof quirks, truthy/falsy.</li>
+      <li><strong>03_operators.js</strong> — arithmetic, comparison, logical, nullish, optional chaining.</li>
+      <li><strong>04_control_flow.js</strong> — if/else, guard clauses, switch.</li>
+      <li><strong>05_loops.js</strong> — for, while, do-while, for-of, forEach, loop control.</li>
+      <li><strong>06_functions.js</strong> — declarations, expressions, arrows, rest/default, closures.</li>
+      <li><strong>07_arrays.js</strong> — mutation vs copy, destructuring, map/filter/reduce.</li>
+      <li><strong>08_objects.js</strong> — dot vs bracket, methods, destructuring, utilities.</li>
+    </ol>
+    <p>Each file is wrapped in an IIFE so they don't leak globals; read along in the console.</p>
+  </main>
+
+  <script src="script.js" defer></script>
+  <script src="01_variables.js" defer></script>
+  <script src="02_data_types.js" defer></script>
+  <script src="03_operators.js" defer></script>
+  <script src="04_control_flow.js" defer></script>
+  <script src="05_loops.js" defer></script>
+  <script src="06_functions.js" defer></script>
+  <script src="07_arrays.js" defer></script>
+  <script src="08_objects.js" defer></script>
 </body>
-<script src="script.js"></script>
 </html>

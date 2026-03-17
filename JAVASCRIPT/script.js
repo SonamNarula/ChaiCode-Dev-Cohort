@@ -1,7 +1,4 @@
-// var , let and const
-
-// var a = 12;
-// var a = 13;
-let a=12;
-// window me add krta hai
-// functions
+(() => {
+  const banner = `\n------------------------------------------------------------\nJS Learning Console\nOpen DevTools to watch each chapter log examples.\nTimestamp: ${new Date().toLocaleString()}\n------------------------------------------------------------`;
+  console.log(banner);
+})();
