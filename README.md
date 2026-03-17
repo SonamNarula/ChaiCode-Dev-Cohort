@@ -1,152 +1,103 @@
-# 🧭 ChaiCode Dev Cohort // Cognitive Flight Deck
+# ChaiCode Dev Cohort — Build Log & Playground
 
-[![Architecture](https://img.shields.io/badge/Stack-MERN%20%2B%20TypeScript-61DAFB?style=for-the-badge&logo=react)](#)
-[![Signal](https://img.shields.io/badge/Mode-High%20Agency-111827?style=for-the-badge)](#)
-[![Discipline](https://img.shields.io/badge/Habit-Deliberate%20Practice-0F8B44?style=for-the-badge)](#)
+[![Stack](https://img.shields.io/badge/MERN-React%20%7C%20Node%20%7C%20Mongo-61DAFB?style=for-the-badge&logo=react)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-007ACC?style=for-the-badge&logo=typescript)](#)
+[![Discipline](https://img.shields.io/badge/Mode-Deliberate%20Practice-0F8B44?style=for-the-badge)](#)
 
-> I don't "do assignments." I operate a personal R&D loop. Assumptions are debt; telemetry pays it back.
+> A personal R&D hangar: quick experiments, polished builds, and the patterns that connect them.
 
 ---
 
-## Operator Snapshot
-- **Prime build:** **NeuroNews** — glassmorphic, keyboard-friendly, React/Vite/TS UI fed by an Express proxy that sanitizes GNews before it ever hits the DOM.
-- **Second brain:** this repo is a living lab notebook; every folder is either a prototype, a sensory organ, or a muscle group.
-- **Time-to-insight:** cold clone ➜ `npm install` ➜ `npm run dev` ➜ data on `localhost:5173` in under 90 seconds.
+## TL;DR
+- **Prime project:** **NeuroNews** — glassmorphic news app (React/Vite/TS + Express proxy) with category filters, search, bookmarks, dark mode, and rate-limit safe demo mode.
+- **Skill tracks:** UI cloning, commerce flows, AI chats, and a console-first JS lab (8 chapter files linked below).
+- **Zero-to-running:** `npm install && npm run dev` (frontend 5173, backend 5001) — add your `GNEWS_API_KEY` in `backend/.env`.
 
-### Signal at a Glance
-| Metric | Current state |
+---
+
+## What’s Inside
+| Path | Purpose |
 | --- | --- |
-| Velocity | 1–2 meaningful commits/day (quality > count) |
-| UX Rule | “Pixels must explain themselves in 3s or less.” |
-| API Discipline | CORS/keys always proxied; no raw secrets in the client |
-| Learning Loop | Build → Measure → Explain → Refactor |
-
-### Quick Teleport
-- 🚀 **Run NeuroNews:** `npm install && npm run dev`
-- 🧠 **Console lessons:** open `JAVASCRIPT/index.html` → DevTools → Console
-- 📜 **Source PDF:** `JAVASCRIPT/JS_Learn_Everything.pdf`
-- 🧭 **Backlog brain dump:** see Roadmap below
-
----
-
-## Launch Codes
-- **NeuroNews (current split):**  
-  `npm install && npm run dev`  
-  `backend/.env` →  
-  ```
-  PORT=5001
-  GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
-  ```
-- **NeuroNews (legacy mono):** `cd news-aggregator && npm install && npm run dev`
-- **JS chapter pack:** open `JAVASCRIPT/index.html` in a browser/Live Server, then watch DevTools ➜ Console as chapters `01`–`08` run (variables, data types, operators, control flow, loops, functions/closures, arrays, objects). Source reference: `JAVASCRIPT/JS_Learn_Everything.pdf`.
+| `frontend/` | NeuroNews UI (React/Vite/TS, Tailwind) |
+| `backend/` | Express proxy (CORS/key shielding, DTO cleanup) |
+| `api/` | Vercel-ready serverless handlers mirroring the proxy |
+| `news-aggregator/` | Legacy combined build kept for reference |
+| `JAVASCRIPT/` | Console-first chapter pack (`01`–`08`) + source PDF |
+| `HTML/`, `CSS/` | Fundamentals & layout drills |
+| `mintlify_clone/`, `cursor_landing_clone/` | Visual perception practice |
+| `nike-store/` | Full-stack commerce sandbox |
+| `swiftmind/` | Conversational AI playground |
 
 ---
 
-## Signal Maps
+## Quick Start
+```bash
+# 1) Install root deps
+npm install
 
-### System Topology (NeuroNews)
+# 2) Backend env
+cat > backend/.env <<'EOF'
+PORT=5001
+GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
+EOF
+
+# 3) Run both servers
+npm run dev
+# UI: http://localhost:5173  |  API proxy: http://localhost:5001
+```
+
+### JS Lab (Console)
+Open `JAVASCRIPT/index.html` in a browser or Live Server, then view DevTools → Console to see chapters:
+`01` Variables, `02` Data Types, `03` Operators, `04` Control Flow, `05` Loops, `06` Functions & Closures, `07` Arrays, `08` Objects.  
+Reference: `JAVASCRIPT/JS_Learn_Everything.pdf`.
+
+---
+
+## NeuroNews Architecture
 ```mermaid
 graph TD
-    subgraph "External Matrix"
-        API["GNews API Endpoint"]
-    end
-    subgraph "Backend Layer (Node/Express)"
-        Proxy["Express Proxy Server"]
-        Sanitizer["Payload Normalizer"]
-    end
-    subgraph "Frontend Layer (React/Vite)"
-        State["React Context / Hooks"]
-        UI["Glassmorphic Viewport"]
-    end
-    API -->|Raw JSON| Proxy
-    Proxy --> Sanitizer
-    Sanitizer -->|Structured DTOs| State
-    State --> UI
+  API["GNews API"] --> Proxy["Express Proxy"]
+  Proxy --> Sanitizer["Payload Normalizer"]
+  Sanitizer --> State["React Context/Hooks"]
+  State --> UI["Glassmorphic UI"]
 ```
 
-### Data Ingestion Sequence
+### Data Flow
 ```mermaid
 sequenceDiagram
-    participant U as User
-    participant F as React UI
-    participant B as Express Proxy
-    participant E as GNews
-    U->>F: scroll/search intent
-    F->>B: GET /api/news?query=signal
-    B->>E: fetch payload
-    E-->>B: raw JSON
-    B-->>F: normalized DTO
-    F->>U: hydrated cards + reading-time heuristic
+  participant U as User
+  participant F as React UI
+  participant B as Express Proxy
+  participant E as GNews
+  U->>F: search/scroll
+  F->>B: GET /api/news?query=signal
+  B->>E: fetch JSON
+  E-->>B: payload
+  B-->>F: sanitized DTO
+  F->>U: hydrated cards + reading time
 ```
 
 ---
 
-## Lab Inventory (`ls -l`)
-
-| Path | Purpose | Notes |
-|---|---|---|
-| `frontend/` | NeuroNews UI | Vite + TS + Tailwind + glassmorphic surfaces |
-| `backend/` | NeuroNews proxy | CORS/key shielding, DTO sanitation, rate-limit resilience |
-| `api/` | Serverless bridge | Vercel-ready handlers mirroring backend routes |
-| `assets/` | Visual memory | Concept art + hero imagery |
-| `news-aggregator/` | Legacy mono | Original combined build for reference |
-| `HTML/` | Fundamentals | Semantic drills and structured markup practice |
-| `CSS/` | Visual grammar | Layout systems, spacing logic, rendering control |
-| `JAVASCRIPT/` | Behavioral lab | Scope drills, DOM hooks, language micro-experiments |
-| `mintlify_clone/` | Perception training | Typographic fidelity + hierarchy practice |
-| `cursor_landing_clone/` | Visual ambition | Gradients, masks, layered depth |
-| `nike-store/` | Transactional UI | React + Express + Mongo flows; auth & routing discipline |
-| `swiftmind/` | AI application | Conversational flows, model integration, product shape |
-| `SELF PRACTICE/` | Repetition bank | Iterations that turn reflexes into intuition |
-| `Bharat_CV/` | Work with heart | Built for someone I love; craft + care |
+## Highlights
+- **Performance:** Concurrent dev script, proxied API to avoid client key leaks, optional demo mode for rate limits.
+- **UX:** Keyboard-friendly feed, dark mode, bookmarks, reading-time heuristic.
+- **Engineering habits:** Typed DTOs, guard clauses over nesting, immutable data for UI state.
+- **Learning rhythm:** Small console drills graduate into components; clones sharpen visual accuracy before productization.
 
 ---
 
-## Projects, Curated
-- **NeuroNews:** headline ingestion, category filters, keyword search, bookmark vault, dark mode, reading-time heuristics, graceful demo fallback when keys throttle.
-- **Nike-store:** full-stack commerce sandbox; routing, state, checkout thinking.
-- **Swiftmind:** conversational interface experiments; balancing UX with model latency.
-- **JavaScript Lab:** tiny, focused drills; everything else graduates out of here.
-
-### Collaboration Signals
-- 🧭 Clear briefs before code, short PRs with runnable steps.
-- 🧪 Tests or console repros where it matters; screenshots or clips for UI.
-- 🛡️ Secrets never in client bundles; envs documented.
-- 🛰️ Prefer typed contracts (TS, DTOs) over comment-only agreements.
+## Collaboration Notes
+- Short, runnable steps in PRs; screenshots or clips for UI changes.
+- Secrets stay in env files; never in client bundles.
+- Prefer typed contracts (TS, DTOs) over doc-only agreements.
 
 ---
 
-## Operating Principles
-- Precision beats volume. I measure twice, commit once.
-- Interfaces must earn their pixels; data must justify its trip across the wire.
-- Curiosity is tracked like debt—paid back with reproducible models, not vibes.
-- Elegance is durability under edge cases, not delicate aesthetics.
-
----
-
-## Runtime Vitals
-```text
-SONAM-NARULA.dev :: diagnostics
-------------------------------------------------------------
-learning_rate          : aggressive
-attention_to_detail    : obsessive in the good way
-design_sensitivity     : calibrated to human pace
-debugging_style        : forensic, timestamped
-tolerance_for_sloppy_ui: zero
-relationship_with_bugs : adversarial but grateful
-mission                : turn effort into craftsmanship
-```
-
----
-
-## If You Skim One Thing
-This repo is a cockpit, not a showcase: every directory captures a pattern learned, a mistake avoided, or a sharper mental model. Clone it, run it, break it—then tell me what surprised you.
-
-## Roadmap (near-term vectors)
-- Harden NeuroNews with sentiment analysis + Redis cache layer.
-- Reduce cold-start to sub-60s with pre-baked env templates.
-- Expand JS lab into bite-sized perf experiments (memory, GC, event loop).
-- Ship one opinionated design system that survives theme switches without hacks.
+## Roadmap
+- NeuroNews: sentiment tagging + Redis caching; live sockets for headline pulses.
+- JS Lab: add perf minis (event loop, GC, async patterns) with flamechart exercises.
+- Design system: theme-stable tokens for both light/dark without hacks.
 
 ---
 
@@ -158,4 +109,4 @@ while (alive) {
 }
 ```
 
-*This repository is not a portfolio. It's a cockpit for deliberate practice.*
+*If you skimmed: clone, run `npm run dev`, open the console lessons, and tell me what broke—I fix fast.*
