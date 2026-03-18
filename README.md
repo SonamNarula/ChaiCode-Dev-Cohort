@@ -1,40 +1,44 @@
-# 🧠 ChaiCode Dev Cohort: The Elite Build Log 📡
+# 🧠 ChaiCode Dev Cohort — Cognitive Flight Deck
 
 <div align="center">
-
-[![MERN Stack](https://img.shields.io/badge/Architecture-MERN%20Expert-61DAFB?style=for-the-badge&logo=react)](#)
-[![TypeScript](https://img.shields.io/badge/Codebase-Strict%20TS-007ACC?style=for-the-badge&logo=typescript)](#)
-[![Intelligence](https://img.shields.io/badge/Status-GPA%2010.0-FF5A5F?style=for-the-badge)](#)
-[![Design](https://img.shields.io/badge/Aesthetic-Glassmorphic%20Pro-FF5A5F?style=for-the-badge)](#)
-
-> "Average developers follow tutorials. High-signal developers build universes. This repository is my digital neural network, where effort meets craftsmanship." 💅✨
-
----
-
-![NeuroNews Header](./news-aggregator/assets/concept.png)
-
+  <img src="https://img.shields.io/badge/MERN-React%20%7C%20Node%20%7C%20Mongo-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-Strict-007ACC?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Design-Glassmorphic%20UI-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mode-Deliberate%20Practice-0F8B44?style=for-the-badge" />
 </div>
 
-## 🔬 System Executive Summary
-This is not a dump of random exercises. It is a record of **cognitive compression**. Every folder represents a point where curiosity turned into implementation: HTML becoming structure, CSS becoming geometry, JavaScript becoming behavior, and React becoming state orchestration.
+<p align="center"><strong>Ship fast. Measure. Explain. Refine.</strong></p>
 
-### 🚀 Prime Project: NeuroNews
-A high-bandwidth news telemetry engine built with a robust **Node.js/Express** proxy and a hyper-smooth **React/Vite** client. 
-- **Features:** Asynchronous pre-fetching, Infinite Scroll (IntersectionObserver), Local Bookmarks (Immutable Maps), and a self-healing Demo Mode.
+<p align="center">
+  <img src="./news-aggregator/assets/concept.png" alt="NeuroNews concept art" width="640" />
+</p>
+
+<p align="center"><em>"Average devs follow tutorials. High-signal devs build universes."</em></p>
+
+## 🔬 Executive Snapshot
+- **Prime build:** NeuroNews — React/Vite/TS + Express proxy, glassmorphic UI, infinite scroll, bookmarks, dark mode, demo-safe.
+- **Second brain:** JS Lab chapters (01–08) run in the console via `JAVASCRIPT/index.html` — backed by `JS_Learn_Everything.pdf`.
+- **Cold start:** `npm install && npm run dev` → UI on 5173, API proxy on 5001 (`backend/.env` needs `GNEWS_API_KEY`).
+
+### ✨ Highlights
+- Keyboard-friendly flows, glassmorphism, and a reading-time heuristic.
+- API keys never touch the client; proxy sanitizes payloads + CORS.
+- Demo mode auto-switches when rate limits shout.
 
 ---
 
-## 📂 The Directory Matrix (`ls -la`)
+## 📂 Directory Matrix
 
 | Path | Purpose | Character |
 | :--- | :--- | :--- |
-| **`frontend/`** | NeuroNews Client | React, Vite, TypeScript, Tailwind |
-| **`backend/`** | News Proxy Server | Express, DTO Sanitization, CORS Shielding |
-| **`HTML/`** | [Elite Curriculum](file:///Users/sonamnarula/Desktop/COHORT/HTML/index.html) | 8 In-depth modules for total mastery |
-| **`JAVASCRIPT/`** | JS Lab Pack | Chapters 01–08 + Console-first experiments |
-| **`nike-store/`** | Commerce Sandbox | Transactional UI & Product Flow logic |
-| **`swiftmind/`** | AI R&D | Conversational interfaces & LLM design |
-| **`clones/`** | Perception Drill | Mintlify & Cursor landing page reconstructions |
+| **`frontend/`** | NeuroNews client | React • Vite • TS • Tailwind |
+| **`backend/`** | News proxy | Express • DTO sanitization • CORS shield |
+| **`api/`** | Serverless bridge | Vercel-style endpoints |
+| **`JAVASCRIPT/`** | JS Lab | Chapters 01–08 + source PDF |
+| **`HTML/` · `CSS/`** | Fundamentals | Structured markup & layout drills |
+| **`nike-store/`** | Commerce sandbox | Transactional UI & flows |
+| **`swiftmind/`** | AI R&D | Conversational interfaces |
+| **`mintlify_clone/`, `cursor_landing_clone/`** | Perception drills | High-fidelity UI recreations |
 
 ---
 
@@ -63,22 +67,26 @@ graph TD
 
 ---
 
-## 🛠 System Ignition Protocol
+## 🛠 System Ignition
 
 ```bash
-# 1) Synthesize Root Dependencies
+# Install once at root
 npm install
 
-# 2) Provision Backend telemetry
+# Backend env
 cat > backend/.env <<'EOF'
 PORT=5001
 GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
 EOF
 
-# 3) Ignite both Cores
+# Run both tiers
 npm run dev
-# Dashboard: http://localhost:5173 | Telemetry Proxy: http://localhost:5001
+# UI: http://localhost:5173  |  API: http://localhost:5001
 ```
+
+### 🎓 JS Lab (Console-first)
+Open `JAVASCRIPT/index.html` in a browser or Live Server → DevTools Console.  
+Chapters: 01 Variables · 02 Data Types · 03 Operators · 04 Control Flow · 05 Loops · 06 Functions & Closures · 07 Arrays · 08 Objects (source PDF: `JS_Learn_Everything.pdf`).
 
 ---
 
@@ -93,24 +101,9 @@ design_sensitivity     : calibrated
 debugging_style        : forensic
 tolerance_for_sloppy_ui: none
 relationship_with_bugs : adversarial but educational
-------------------------------------------------------------
 mission                : turn effort into craftsmanship
 ```
 
----
-
-<div align="center">
-
-```javascript
-while (alive) {
-  learn();
-  build();
-  refine();
-}
-```
-
-*Compiled with discipline, curiosity, and a healthy respect for elegant systems.*
-
-**[View Full Walkthrough](file:///Users/sonamnarula/.gemini/antigravity/brain/42619488-d600-4d44-a213-60809d3098fe/walkthrough.md)**
-
-</div>
+<p align="center">
+<em>while (alive) { learn(); build(); refine(); }</em>
+</p>
