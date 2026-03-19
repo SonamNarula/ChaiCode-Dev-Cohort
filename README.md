@@ -29,14 +29,14 @@ npm install
 Create a `.env` file inside the `backend` folder:
 
 ```env
-PORT=5001  
-GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE  
+PORT=5001
+GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
 ```
 
 Run the project:
 
 ```bash
-npm run dev  
+npm run dev
 ```
 
 - Backend → http://localhost:5001  
@@ -83,20 +83,11 @@ Open `JAVASCRIPT/index.html` (or use Live Server) and check DevTools Console.
 
 ## Tech Stack
 
-### languages  
-<img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
-
-### frontend  
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
-
-### backend  
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-
-### database  
-<img src="https://skillicons.dev/icons?i=mongodb,firebase" />
-
-### tools  
-<img src="https://skillicons.dev/icons?i=git,github,postman,docker" />
+- Frontend → React, Vite, TypeScript, Tailwind  
+- Backend → Node.js, Express  
+- Database → MongoDB  
+- Tools → Git, Docker, Postman  
+- DSA → C++  
 
 ---
 
