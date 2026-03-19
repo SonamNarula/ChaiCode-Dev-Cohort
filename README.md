@@ -72,9 +72,8 @@ npm run dev
 - **Classified Notes**: `JAVASCRIPT/JS_Learn_Everything.pdf`
 
 ### `CORE INTEL [TOPICS]`
-- Variables & Scope | Data Types | Operators
-- Control Flow | Loops | Functions & Closures
-- Arrays | Objects
+- Variables & Scope | Data Types | Operators | Control Flow
+- Loops | Functions & Closures | Arrays | Objects
 
 ---
 
@@ -83,22 +82,23 @@ npm run dev
 - **NeuroNews** → News ingestion, filtering, bookmarks, proxy-secured API.
 - **Nike Store** → Full-stack commerce flow with cart & UI logic.
 - **SwiftMind** → Conversational UI experiments.
-- **Perception Drills** → Mintlify & Cursor UI recreations (Forensic Detail).
+- **Perception Drills** → Mintlify & Cursor UI recreations (Pixel-Perfect).
 
 ---
 
-## `// ARSENAL [TECH STACK]`
+## `// SYSTEM CAPABILITIES [TECH STACK]`
 
-<div align="center">
+### `LANGUAGES`
+[![My Skills](https://skillicons.dev/icons?i=cpp,js,ts,html,css&theme=dark)](https://skillicons.dev)
 
-![React](https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=node.js&logoColor=3C873A)
-![MongoDB](https://img.shields.io/badge/MongoDB-0A0A0A?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![Tailwind](https://img.shields.io/badge/Tailwind-0A0A0A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
-![Git](https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=F05032)
-![C++](https://img.shields.io/badge/C++-0A0A0A?style=for-the-badge&logo=c%2B%2B&logoColor=F5A623)
+### `FRONTEND`
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite&theme=dark)](https://skillicons.dev)
 
-</div>
+### `BACKEND & DATABASE`
+[![My Skills](https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase&theme=dark)](https://skillicons.dev)
+
+### `TOOLS & INFRASTRUCTURE`
+[![My Skills](https://skillicons.dev/icons?i=git,github,postman,docker&theme=dark)](https://skillicons.dev)
 
 ---
 
