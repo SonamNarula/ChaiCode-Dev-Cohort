@@ -118,6 +118,3 @@ If you're exploring this:
 - understand why it broke  
 
 that’s the point.
-E: ACTIVE`
-
-</div>
