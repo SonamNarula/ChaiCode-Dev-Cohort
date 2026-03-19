@@ -79,13 +79,54 @@ Open `JAVASCRIPT/index.html` (or use Live Server) and check DevTools Console.
 
 ---
 
-## Tech Stack
 
-Frontend → React, Vite, TypeScript, Tailwind  
-Backend → Node.js, Express  
-Database → MongoDB  
-Tools → Git, Docker, Postman  
-DSA → C++  
+
+## tech stack
+---
+
+### languages  
+<div>
+<img src="https://skillicons.dev/icons?i=cpp" />
+<img src="https://skillicons.dev/icons?i=js" />
+<img src="https://skillicons.dev/icons?i=ts" />
+<img src="https://skillicons.dev/icons?i=html" />
+<img src="https://skillicons.dev/icons?i=css" />
+</div>
+
+---
+
+### frontend  
+<div>
+<img src="https://skillicons.dev/icons?i=react" />
+<img src="https://skillicons.dev/icons?i=tailwind" />
+<img src="https://skillicons.dev/icons?i=vite" />
+</div>
+
+---
+
+### backend  
+<div>
+<img src="https://skillicons.dev/icons?i=nodejs" />
+<img src="https://skillicons.dev/icons?i=express" />
+</div>
+
+---
+
+### database  
+<div>
+<img src="https://skillicons.dev/icons?i=mongodb" />
+<img src="https://skillicons.dev/icons?i=firebase" />
+</div>
+
+---
+
+### tools  
+<div>
+<img src="https://skillicons.dev/icons?i=git" />
+<img src="https://skillicons.dev/icons?i=github" />
+<img src="https://skillicons.dev/icons?i=postman" />
+<img src="https://skillicons.dev/icons?i=docker" />
+</div>
 
 ---
 
