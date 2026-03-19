@@ -1,34 +1,25 @@
-// var, let and const line-by-line comparison
-// declarations and initialisation
+console.log('I am a code in sc.js file');
 
-// var a = 12;
+var fname = 'Sonam';
+var lname = "Narula"
 
-// window me add krta h
-// function scoped hota hai
-// same name se declare kr skte ho nd error nhi aayega
+// js is loosely typed language
 
-// ========temporal dead zone========
-// console.log(a);
-// let a = 12;
-// let age = undefined;
-// console.log(age);
-// age = 20;
+function addNumbers(num1, num2){
+    var result = num1*num2;
+    console.log("result is ", result);
+}
 
+addNumbers(3,5);
+addNumbers(12,10);
 
-// var x = 1;
-// {
-//     var x = 2;
-// }
-// console.log(x);
+// conditional statements
 
-// let a = 10;
-// {
-//     a = 20;
-//     console.log("Inside : ", a);
-// }
-// console.log("outside: ", a);
+let age = 20;
 
-
-let x = 12;
-let y = x;
-x = x+2;
+if(age<18){
+    cconsole.log("allowed to vote");
+}
+else{
+    console.log("not allowed to vote");
+}
