@@ -83,12 +83,22 @@ node "JAVASCRIPT/BASICS - 1/day2.js"
 
 ---
 
-## Tech stack
-- Frontend → React, Vite, TypeScript, Tailwind
-- Backend → Node.js, Express
-- Data → MongoDB (planned), mock JSON, future Redis cache
-- Tooling → npm, Concurrently, Git, Docker, Postman
-- Languages → JavaScript, TypeScript, C++
+## Tech Stack
+
+### languages  
+<img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
+
+### frontend  
+<img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
+
+### backend  
+<img src="https://skillicons.dev/icons?i=nodejs,express" />
+
+### database  
+<img src="https://skillicons.dev/icons?i=mongodb,firebase" />
+
+### tools  
+<img src="https://skillicons.dev/icons?i=git,github,postman,docker" />
 
 ---
 
