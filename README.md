@@ -58,8 +58,8 @@ GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
 npm run dev
 ```
 
-- **Backend Uplink** → http://localhost:5001  
-- **Frontend Node** → http://localhost:5173 (or 5174)
+- **Backend Uplink** → [http://localhost:5001](http://localhost:5001)  
+- **Frontend Node** → [http://localhost:5173](http://localhost:5173) (or 5174)
 
 **Health Check:** `curl http://localhost:5001/api/news?query=ai`
 
