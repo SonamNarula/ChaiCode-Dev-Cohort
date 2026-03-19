@@ -1,20 +1,24 @@
-# ChaiCode Dev Cohort
+# ✨ ChaiCode Dev Cohort
+Living technical notebook for focused builds, clear thinking, and fast iteration.
 
-Living technical notebook for the cohort — build small, think clearly, ship often.
+[![Build Small](https://img.shields.io/badge/strategy-build_small-blueviolet?style=flat-square)]()
+[![Stack](https://img.shields.io/badge/frontend-React%2FVite%2FTS-0ea5e9?style=flat-square)]()
+[![Stack](https://img.shields.io/badge/backend-Express-orange?style=flat-square)]()
+[![Style](https://img.shields.io/badge/console-first-green?style=flat-square)]()
 
 ---
 
-## What’s inside
-- **Prime project:** `news-aggregator/` (NeuroNews) — React + Vite + TypeScript frontend with an Express proxy.
-- **JavaScript Lab:** `JAVASCRIPT/` console-first fundamentals and drills.
-- **UI drills:** Mintlify/Cursor recreations and other perception exercises.
+## 🔎 What’s inside
+- **Prime project:** `news-aggregator/` (NeuroNews) — React + Vite + TypeScript + Express proxy.
+- **JavaScript Lab:** `JAVASCRIPT/` console-first fundamentals & drills.
+- **UI drills:** Mintlify/Cursor recreations for perception training.
 - **Commerce + Conversational:** Nike Store (cart/checkout logic) and SwiftMind (chat-style UI).
 
-Repo map (high level):
+Repo map
 ```
 news-aggregator/
-  backend/       Express proxy + GNews integration
-  frontend/      React/Vite client
+  backend/   Express proxy + GNews integration
+  frontend/  React/Vite client
 JAVASCRIPT/
   BASICS - 1/    drills, labs, PDFs
   JS_Learn_Everything.pdf
@@ -23,93 +27,79 @@ JAVASCRIPT/
 
 ---
 
-## NeuroNews (news-aggregator)
-**Stack:** React, Vite, TypeScript, Tailwind, Express proxy, Axios, Concurrent dev runner  
-**Core behavior:** search, categories, bookmarks, dark mode, rate-limit-safe API handling with proxy fallback.
+## 🚀 NeuroNews (news-aggregator)
+**Stack:** React · Vite · TypeScript · Tailwind · Express proxy · Axios · Concurrent dev runner  
+**Behavior:** search, categories, bookmarks, dark mode, rate-limit-safe via proxy + mock fallback.
 
-### Run it locally
-Prereqs: Node 20+, npm.
-
+### Quickstart
 ```bash
 cd news-aggregator
-npm install                 # root (installs concurrently)
+npm install                 # root (concurrently)
 npm install --prefix backend
 npm install --prefix frontend
 
-# backend env
 cat > backend/.env <<'EOF'
 PORT=5001
 GNEWS_API_KEY=YOUR_GNEWS_KEY_HERE
 EOF
 
-# start both servers (proxy 5001, Vite 5173/5174)
-npm run dev
+npm run dev                  # proxy 5001, Vite 5173/5174
 ```
 
 Health checks:
-- Backend: `curl http://localhost:5001/api/news?query=ai`
-- Frontend: open `http://localhost:5173` (or 5174)
+- Backend → `curl http://localhost:5001/api/news?query=ai`
+- Frontend → open `http://localhost:5173`
 
 Troubleshooting:
-- Port in use → adjust `PORT` in `backend/.env` and Vite port via `frontend/vite.config`.
-- 429/limit hit → proxy will fall back to local JSON mocks; confirm in network tab.
+- Port clash? change `PORT` in `backend/.env` and Vite port in `frontend/vite.config`.
+- 429/limit? proxy auto-falls back to local JSON mocks (see Network tab).
 
-### Architecture highlights
-- Express proxy centralizes API key usage and CORS.
-- Axios instances with global timeout/retry envelope.
-- Mock data path for rate-limit resilience.
-- Planned: Redis caching layer and sentiment tagging (see Roadmap).
+### Architecture hits
+- Express proxy centralizes keys + CORS and guards rate limits.
+- Axios instance with shared timeout/retry envelope.
+- Mock data path keeps UI alive when API is down.
+- Roadmap: Redis cache + sentiment tagging.
 
 ---
 
-## JavaScript Lab (console-first)
+## 🧪 JavaScript Lab (console-first)
 - Open `JAVASCRIPT/index.html` directly or with Live Server; watch DevTools Console.
-- Drills: `JAVASCRIPT/BASICS - 1/script.js`, closure demo in `day2.js`, hoisting demo in `brain.js`.
+- Drills: `JAVASCRIPT/BASICS - 1/script.js`, closures in `day2.js`, hoisting in `brain.js`.
 - Topics: variables/scope, data types, operators, control flow, loops, functions & closures, arrays, objects.
-- Notes: `JAVASCRIPT/JS_Learn_Everything.pdf` for theory dumps.
+- Notes: `JAVASCRIPT/JS_Learn_Everything.pdf`.
 
-Quick run example (from repo root):
+Quick run:
 ```bash
 node "JAVASCRIPT/BASICS - 1/day2.js"
 ```
 
 ---
 
-## Learning tracks (how to practice)
-- **Fundamentals:** Console-first JavaScript; rewrite drills without looking; explain each log.
-- **UI perception:** Recreate tiny sections of Mintlify/Cursor until pixel-perfect.
-- **Commerce flows:** Nike Store cart math, checkout states, edge cases (empty cart, rapid add/remove).
-- **Conversational UI:** SwiftMind — handle message timing, loading states, keyboard focus.
+## 🎯 Learning tracks
+- Fundamentals → redo drills blind, narrate each log.
+- UI perception → pixel-match small sections of Mintlify/Cursor.
+- Commerce → Nike Store cart math & edge cases (empty cart, rapid add/remove).
+- Conversational UI → SwiftMind typing/latency/keyboard-focus polish.
 
 ---
 
-## Tech Stack
-
-### languages  
-<img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
-
-### frontend  
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
-
-### backend  
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-
-### database  
-<img src="https://skillicons.dev/icons?i=mongodb,firebase" />
-
-### tools  
-<img src="https://skillicons.dev/icons?i=git,github,postman,docker" />
+## 🛠️ Tech stack
+- Languages: <img src="https://skillicons.dev/icons?i=cpp,js,ts,html,css" />
+- Frontend: <img src="https://skillicons.dev/icons?i=react,vite,tailwind" />
+- Backend: <img src="https://skillicons.dev/icons?i=nodejs,express" />
+- Data: <img src="https://skillicons.dev/icons?i=mongodb,firebase,redis" />
+- Tooling: <img src="https://skillicons.dev/icons?i=npm,git,github,postman,docker" />
 
 ---
 
-## Roadmap
-- Add Redis caching + sentiment tagging to NeuroNews.
-- JS performance labs: event loop tracing, async patterns, GC hygiene.
-- Stabilize a light/dark design system shared across projects.
+## 🗺️ Roadmap
+- [ ] Redis caching + sentiment tagging (NeuroNews)
+- [ ] JS performance labs: event loop traces, async patterns, GC hygiene
+- [ ] Shared light/dark design system across projects
 
 ---
 
-## Working style
-- Prefer small commits with a single concern.
+## 🧭 Working style
+- Small, single-purpose commits.
 - Keep console instrumentation until behavior is stable, then trim.
-- When something breaks: reproduce → log state/inputs → fix → write down why.
+- When it breaks: reproduce → log inputs/state → fix → note the root cause.
