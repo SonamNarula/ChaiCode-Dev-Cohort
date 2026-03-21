@@ -19,4 +19,4 @@ function cartoon(){
 const anime = cartoon();
 // const result = anime();
 
-// console.log(anime);
+console.log(anime);
