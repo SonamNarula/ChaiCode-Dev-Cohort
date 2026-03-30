@@ -27,3 +27,10 @@ function cartoon(){
 }
 const anime = cartoon();
 anime() ;
+
+const fruits = ['apple', 'cheeku', true,'aadu' , 1 , ' santra'];
+
+fruits.push('kiwi');
+console.log(fruits.length);
+console.log(fruits);
+console.log(fruits.includes('aadu'));
