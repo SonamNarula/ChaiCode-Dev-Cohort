@@ -10,19 +10,23 @@ Living technical notebook for focused builds, clear thinking, and fast iteration
 
 ## 🔎 What’s inside
 - **Prime project:** `news-aggregator/` (NeuroNews) — React + Vite + TypeScript + Express proxy.
-- **JavaScript Lab:** `JAVASCRIPT/` console-first fundamentals & drills.
+- **JavaScript Lab:** `JAVASCRIPT/` console-first fundamentals & drills (Closures, Hoisting, Scope).
+- **HTML & CSS Foundations:** `HTML/` and `CSS/` modules with comprehensive practice sets.
+- **Assignments:** `ASSIGNMENT-1/` (HTML Resume) and `ASSIGNMENT-2/` (Portfolio/CV).
 - **UI drills:** Mintlify/Cursor recreations for perception training.
-- **Commerce + Conversational:** Nike Store (cart/checkout logic) and SwiftMind (chat-style UI).
+- **Commerce + Conversational:** Nike Store (cart/checkout logic), SwiftMind (chat UI), and Bharat_CV.
 
 Repo map
 ```
-news-aggregator/
-  backend/   Express proxy + GNews integration
-  frontend/  React/Vite client
-JAVASCRIPT/
-  BASICS - 1/    drills, labs, PDFs
-  JS_Learn_Everything.pdf
-...
+news-aggregator/    React/Vite + Express Proxy
+JAVASCRIPT/         Basics, Functions, Closures, Hoisting
+HTML/               Lessons 01-08 (Semantic, Tables, Forms)
+CSS/                Flexbox, Grid, Practice Sets 1-5
+ASSIGNMENT-1/       HTML Resume Assignment
+ASSIGNMENT-2/       Personal Portfolio/CV
+nike-store/         Tailwind-based Commerce Store
+swiftmind/          Conversational AI Chat UI
+Bharat_CV/          Premium Personal CV Portfolio
 ```
 
 ---
@@ -46,27 +50,20 @@ EOF
 npm run dev                  # proxy 5001, Vite 5173/5174
 ```
 
-Health checks:
-- Backend → `curl http://localhost:5001/api/news?query=ai`
-- Frontend → open `http://localhost:5173`
+---
 
-Troubleshooting:
-- Port clash? change `PORT` in `backend/.env` and Vite port in `frontend/vite.config`.
-- 429/limit? proxy auto-falls back to local JSON mocks (see Network tab).
-
-### Architecture hits
-- Express proxy centralizes keys + CORS and guards rate limits.
-- Axios instance with shared timeout/retry envelope.
-- Mock data path keeps UI alive when API is down.
-- Roadmap: Redis cache + sentiment tagging.
+## 🎨 HTML & CSS Foundations
+- **HTML Lab:** Lessons covering `structure_and_meta`, `semantic_web`, `tables_complex`, and `forms_complete`.
+- **CSS Lab:** Deep dives into `flexbox`, `grid`, `selectors`, and `background` properties.
+- **Practice Sets:** 5 comprehensive CSS practice sets from layout design to advanced styling.
 
 ---
 
 ## 🧪 JavaScript Lab (console-first)
 - Open `JAVASCRIPT/index.html` directly or with Live Server; watch DevTools Console.
-- Drills: `JAVASCRIPT/BASICS - 1/script.js`, functions warm-up in `functions.js`, closures in `day2.js`, hoisting in `brain.js`.
-- Topics: variables/scope, data types, operators, control flow, loops, functions & closures, arrays, objects.
-- Notes: `JAVASCRIPT/JS_Learn_Everything.pdf`.
+- **Drills:** `JAVASCRIPT/BASICS - 1/script.js`, functions warm-up in `functions.js`, closures in `day2.js`, hoisting in `brain.js`.
+- **Topics:** variables/scope, data types, operators, control flow, loops, functions, closures, hoisting, arrays, objects.
+- **Notes:** `JAVASCRIPT/JS_Learn_Everything.pdf`.
 
 Quick run:
 ```bash
@@ -77,10 +74,11 @@ node "JAVASCRIPT/BASICS - 1/functions.js"
 ---
 
 ## 🎯 Learning tracks
-- Fundamentals → redo drills blind, narrate each log.
-- UI perception → pixel-match small sections of Mintlify/Cursor.
-- Commerce → Nike Store cart math & edge cases (empty cart, rapid add/remove).
-- Conversational UI → SwiftMind typing/latency/keyboard-focus polish.
+- **Fundamentals:** Redo drills blind, narrate each log. [HTML/CSS/JS]
+- **UI perception:** Pixel-match sections of Mintlify/Cursor clones.
+- **Commerce:** Nike Store cart logic & edge cases.
+- **Conversational UI:** SwiftMind typing/latency/keyboard-focus polish.
+- **Personal Branding:** `ASSIGNMENT-2` and `Bharat_CV` implementations.
 
 ---
 
@@ -94,6 +92,8 @@ node "JAVASCRIPT/BASICS - 1/functions.js"
 ---
 
 ## 🗺️ Roadmap
+- [x] HTML & CSS Fundamentals
+- [x] JavaScript Basics & Closures
 - [ ] Redis caching + sentiment tagging (NeuroNews)
 - [ ] JS performance labs: event loop traces, async patterns, GC hygiene
 - [ ] Shared light/dark design system across projects
@@ -103,4 +103,4 @@ node "JAVASCRIPT/BASICS - 1/functions.js"
 ## 🧭 Working style
 - Small, single-purpose commits.
 - Keep console instrumentation until behavior is stable, then trim.
-- When it breaks: reproduce → log inputs/state → fix → note the root cause.
+- When it breaks: reproduce → log inputs/state → fix → note root cause.
