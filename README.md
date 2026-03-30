@@ -64,13 +64,14 @@ Troubleshooting:
 
 ## 🧪 JavaScript Lab (console-first)
 - Open `JAVASCRIPT/index.html` directly or with Live Server; watch DevTools Console.
-- Drills: `JAVASCRIPT/BASICS - 1/script.js`, closures in `day2.js`, hoisting in `brain.js`.
+- Drills: `JAVASCRIPT/BASICS - 1/script.js`, functions warm-up in `functions.js`, closures in `day2.js`, hoisting in `brain.js`.
 - Topics: variables/scope, data types, operators, control flow, loops, functions & closures, arrays, objects.
 - Notes: `JAVASCRIPT/JS_Learn_Everything.pdf`.
 
 Quick run:
 ```bash
 node "JAVASCRIPT/BASICS - 1/day2.js"
+node "JAVASCRIPT/BASICS - 1/functions.js"
 ```
 
 ---
