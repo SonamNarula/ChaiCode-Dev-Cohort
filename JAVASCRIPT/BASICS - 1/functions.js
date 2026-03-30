@@ -11,3 +11,4 @@ greetUser('Sonam');
 function add(num1,num2){
     console.log(`result is ${num1+num2}`)
 }
+add(2,5);
