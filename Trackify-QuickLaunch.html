@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trackify | Student Productivity & Placement Tracker</title>
+    <!-- React & Babel CDNs -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Icons & Charts CDNs -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-chartjs-2@5.2.0/dist/react-chartjs-2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --teal-50: #f0f7f7; --teal-100: #c3d7d8; --teal-500: #6aa7ab; --teal-600: #4e8b8f;
+            --bg-primary: #f8fafc; --bg-secondary: #ffffff; --text-primary: #1e293b; --text-secondary: #64748b;
+            --border-color: #e2e8f0; --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); --glass-effect: rgba(255, 255, 255, 0.7);
+        }
+        [data-theme="dark"] {
+            --bg-primary: #0f172a; --bg-secondary: #1e293b; --text-primary: #f1f5f9; --text-secondary: #94a3b8;
+            --border-color: #334155; --glass-effect: rgba(30, 41, 59, 0.7);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-primary); color: var(--text-primary); }
+        .glass-card { background: var(--glass-effect); backdrop-filter: blur(12px); border: 1px solid var(--border-color); border-radius: 1rem; box-shadow: var(--card-shadow); padding: 20px; }
+        .btn-teal { background: var(--teal-500); color: white; padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; }
+        .nav-btn { display: flex; width: 100%; align-items: center; gap: 12px; padding: 12px; border-radius: 10px; border: none; background: transparent; color: var(--text-secondary); cursor: pointer; text-align: left; font-weight: 600; margin-bottom: 5px; }
+        .nav-btn.active { background: var(--teal-100); color: var(--teal-600); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        const { Bar } = ReactChartjs2;
+
+        // --- Icons Helper (since lucide is a global object in browser) ---
+        const Icon = ({ name, size = 20, color = "currentColor" }) => {
+            const iconRef = React.useRef(null);
+            useEffect(() => {
+                if (iconRef.current) {
+                    const iconElement = lucide.createIcons({
+                        icons: { [name]: lucide[name] },
+                        attrs: { stroke: color, "stroke-width": 2, width: size, height: size }
+                    });
+                }
+            }, [name, size, color]);
+            return <div ref={iconRef} style={{ display: 'inline-flex' }}><i data-lucide={name}></i></div>;
+        };
+
+        // --- Components ---
+        const Dashboard = ({ user }) => (
+            <div style={{ animation: 'fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1)' }}>
+                <h2 style={{ fontSize: '2.5rem', marginBottom: '8px', color: 'var(--teal-600)', fontWeight: 800 }}>{greeting}, {user} 🎓</h2>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>Your placement preparation is looking strong!</p>
+                
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px', marginBottom: '40px' }}>
+                    <div className="glass-card" style={{ borderLeft: '6px solid var(--teal-500)' }}>
+                        <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Preparation XP</h4>
+                        <p style={{fontSize: '1.8rem', fontWeight: 900}}>2,450 XP</p>
+                    </div>
+                    <div className="glass-card" style={{ borderLeft: '6px solid #fbbf24' }}>
+                        <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Day Streak</h4>
+                        <p style={{fontSize: '1.8rem', fontWeight: 900, color: '#f59e0b'}}>12 Days 🔥</p>
+                    </div>
+                    <div className="glass-card" style={{ borderLeft: '6px solid var(--teal-100)' }}>
+                        <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Active Apps</h4>
+                        <p style={{fontSize: '1.8rem', fontWeight: 900}}>8 Pipeline</p>
+                    </div>
+                </div>
+
+                <div className="glass-card" style={{ background: 'linear-gradient(135deg, var(--teal-500), var(--teal-600))', color: 'white', padding: '40px', textAlign: 'center', boxShadow: '0 10px 20px rgba(106, 167, 171, 0.3)', border: 'none' }}>
+                    <h3 style={{ fontSize: '1.4rem', fontStyle: 'italic', marginBottom: '20px', fontWeight: 400 }}>"The secret of success is constancy to purpose."</h3>
+                    <p style={{ fontSize: '0.9rem', opacity: 0.9, letterSpacing: '1px' }}>— BENJAMIN DISRAELI</p>
+                </div>
+            </div>
+        );
+
+        const TaskManager = () => {
+            const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem('trackify-tasks')) || []);
+            const [input, setInput] = useState('');
+            useEffect(() => localStorage.setItem('trackify-tasks', JSON.stringify(tasks)), [tasks]);
+            return (
+                <div className="glass-card">
+                    <h3>Daily Tasks</h3>
+                    <div style={{ display: 'flex', gap: '10px', margin: '20px 0' }}>
+                        <input value={input} onChange={e => setInput(e.target.value)} style={{flex: 1, padding: '10px'}} placeholder="New Task..." />
+                        <button onClick={() => {setTasks([...tasks, {id: Date.now(), text: input, done: false}]); setInput('')}} className="btn-teal">Add</button>
+                    </div>
+                    {tasks.map(t => (
+                        <div key={t.id} style={{ display: 'flex', gap: '10px', marginBottom: '10px', opacity: t.done ? 0.5 : 1 }}>
+                            <input type="checkbox" checked={t.done} onChange={() => setTasks(tasks.map(x => x.id === t.id ? {...x, done: !x.done} : x))} />
+                            <span style={{ textDecoration: t.done ? 'line-through' : 'none' }}>{t.text}</span>
+                        </div>
+                    ))}
+                </div>
+            );
+        };
+
+        const PlacementTracker = () => {
+            const [apps, setApps] = useState(JSON.parse(localStorage.getItem('trackify-apps')) || []);
+            useEffect(() => localStorage.setItem('trackify-apps', JSON.stringify(apps)), [apps]);
+            return (
+                <div className="glass-card">
+                    <h3>Placement Pipeline</h3>
+                    <div style={{ marginTop: '20px' }}>
+                        {apps.map(a => <div key={a.id} style={{borderBottom: '1px solid #ddd', padding: '10px 0'}}>{a.company} - <b>{a.status}</b></div>)}
+                        <button onClick={() => setApps([...apps, {id: Date.now(), company: prompt("Company?"), status: "Applied"}])} className="btn-teal">Add App</button>
+                    </div>
+                </div>
+            );
+        };
+
+        // --- Main App ---
+        function App() {
+            const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+            const [tab, setTab] = useState('dashboard');
+            useEffect(() => document.documentElement.setAttribute('data-theme', theme), [theme]);
+
+            return (
+                <div style={{ display: 'flex', minHeight: '100vh', padding: '20px', gap: '20px' }}>
+                    <aside className="glass-card" style={{ width: '250px', display: 'flex', flexDirection: 'column' }}>
+                        <h2 style={{ color: 'var(--teal-500)', marginBottom: '30px' }}>Trackify</h2>
+                        <button className={`nav-btn ${tab==='dashboard'?'active':''}`} onClick={()=>setTab('dashboard')}>Dashboard</button>
+                        <button className={`nav-btn ${tab==='tasks'?'active':''}`} onClick={()=>setTab('tasks')}>Tasks</button>
+                        <button className={`nav-btn ${tab==='placement'?'active':''}`} onClick={()=>setTab('placement')}>Placement</button>
+                        <div style={{flex: 1}}></div>
+                        <button className="btn-teal" onClick={()=>setTheme(theme==='light'?'dark':'light')}>
+                            Toggle {theme==='light'?'Dark':'Light'}
+                        </button>
+                    </aside>
+                    <main style={{ flex: 1 }}>
+                        {tab === 'dashboard' && <Dashboard user="Sonam" />}
+                        {tab === 'tasks' && <TaskManager />}
+                        {tab === 'placement' && <PlacementTracker />}
+                    </main>
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

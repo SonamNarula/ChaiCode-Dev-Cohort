@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai-Station | Dev Workspace</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <main class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <span class="icon">☕</span>
+                <span class="text">Chai-Station</span>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-tab="sandbox"><span class="icon">⚡</span> <span class="text">Sandbox</span></li>
+                <li data-tab="timer"><span class="icon">⏲️</span> <span class="text">Focus</span></li>
+                <li data-tab="vault"><span class="icon">📓</span> <span class="text">Vault</span></li>
+            </ul>
+            <div class="user-profile">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sonam" alt="User">
+                <div class="user-info">
+                    <span class="name">Sonam</span>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <section class="content-area">
+            <header class="top-bar">
+                <h1 id="tab-title">Code Sandbox</h1>
+                <div class="controls">
+                    <button id="run-btn" class="btn primary">Run Code</button>
+                    <button id="save-btn" class="btn secondary">Save Snippet</button>
+                </div>
+            </header>
+
+            <div class="workspace">
+                    <!-- Sandbox Tab -->
+                    <div id="tab-sandbox" class="tab-content active">
+                        <div class="editor-pane">
+                            <div class="pane-header">HTML / CSS / JS</div>
+                            <textarea id="code-editor" spellcheck="false" placeholder="Write your code here..."></textarea>
+                        </div>
+                        <div class="preview-pane">
+                            <div class="pane-header">Live Preview</div>
+                            <iframe id="live-preview" sandbox="allow-scripts"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Timer Tab -->
+                    <div id="tab-timer" class="tab-content">
+                        <div class="timer-card glass">
+                            <div class="timer-display">25:00</div>
+                            <div class="timer-controls">
+                                <button id="start-timer" class="btn primary">Start Focus</button>
+                                <button id="reset-timer" class="btn secondary">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vault Tab -->
+                    <div id="tab-vault" class="tab-content">
+                        <div class="vault-grid" id="snippet-list">
+                            <!-- Snippets will be injected here -->
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

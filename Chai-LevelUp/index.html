@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai-LevelUp | Skill Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars-container" id="stars"></div>
+
+    <main class="dashboard">
+        <!-- Explorer Sidebar (Stats) -->
+        <aside class="stats-panel">
+            <div class="profile-card">
+                <div class="avatar-ring">
+                    <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Sonam" alt="Avatar">
+                </div>
+                <h2>Sonam</h2>
+                <p class="tagline">Junior Dev Explorer</p>
+            </div>
+
+            <div class="level-stats">
+                <div class="stat-header">
+                    <span>LEVEL <span id="current-level">1</span></span>
+                    <span id="xp-text">0 / 100 XP</span>
+                </div>
+                <div class="xp-bar-container">
+                    <div class="xp-bar" id="xp-fill"></div>
+                </div>
+            </div>
+
+            <div class="quest-log">
+                <h3>Daily Quests</h3>
+                <ul id="habit-list">
+                    <li class="quest-item">
+                        <label class="checkbox-container">
+                            <input type="checkbox" data-habit="code">
+                            <span class="checkmark"></span>
+                            30m Coding Drill
+                        </label>
+                    </li>
+                    <li class="quest-item">
+                        <label class="checkbox-container">
+                            <input type="checkbox" data-habit="read">
+                            <span class="checkmark"></span>
+                            Read Tech Docs
+                        </label>
+                    </li>
+                    <li class="quest-item">
+                        <label class="checkbox-container">
+                            <input type="checkbox" data-habit="review">
+                            <span class="checkmark"></span>
+                            Review README
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Central Skill Tree -->
+        <section class="tree-container">
+            <header class="tree-header">
+                <h1>KOHORT SKILL TREE</h1>
+                <p>Click nodes to unlock milestones and earn XP</p>
+            </header>
+            
+            <div class="svg-wrapper">
+                <svg id="skill-tree-svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 800 600">
+                    <!-- Connections will be rendered here -->
+                    <g id="connections-group"></g>
+                    <!-- Nodes will be rendered here -->
+                    <g id="nodes-group"></g>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Info Panel -->
+        <aside class="info-panel">
+            <div id="node-details" class="node-info-card glass">
+                <h3>Select a Node</h3>
+                <p>View your technical progress and milestones here.</p>
+                <div class="node-meta">
+                    <span class="xp-reward">+0 XP</span>
+                    <button id="unlock-btn" disabled>Unlock Node</button>
+                </div>
+            </div>
+
+            <div class="streak-card glass">
+                <span class="fire-icon">🔥</span>
+                <div class="streak-info">
+                    <span class="streak-count" id="streak-days">0</span>
+                    <span class="streak-label">Day Streak</span>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
