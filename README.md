@@ -15,6 +15,10 @@ The **ChaiCode Dev Cohort** repo is a curated collection of learning modules, as
 ### 🗺️ Repo Map
 | Module | Description | Path |
 | :--- | :--- | :--- |
+| **🚀 Minor Pro** | Trackify — Student & Placement OS | `trackify/` |
+| **🎮 Gamified** | Chai-LevelUp — Skill Tree Tracker | `Chai-LevelUp/` |
+| **🌟 Unique Build** | Chai-Station — Personal Dev Workspace | `Chai-Station/` |
+| **📈 Analytics** | Code-Stats-Tracker — Codeforces profile viz & stats | `Code-Stats-Tracker/` |
 | **🚀 Prime Project** | NeuroNews — React + Express Proxy | `news-aggregator/` |
 | **🧪 JS Lab** | Closures, Hoisting, Scope, and PDF notes | `JAVASCRIPT/` |
 | **🎨 HTML/CSS** | Semantic markup, Grid, and Flexbox drills | `HTML/`, `CSS/` |
@@ -25,12 +29,36 @@ The **ChaiCode Dev Cohort** repo is a curated collection of learning modules, as
 
 ---
 
-## 🚀 Featured Project: **NeuroNews**
+## 🕹️ Featured Project: **Chai-LevelUp**
+> **"A gamified skill tree for the modern developer."**
+
+*   **Stack:** HTML5 · CSS3 · Vanilla JS · SVG
+*   **Key Features:** Interactive Skill Tree · XP/Level Progression · Daily Habit Quests
+*   **Dev Run:** Open `Chai-LevelUp/index.html` in any modern browser.
+
+---
+
+## ☕ Featured Project: **Chai-Station**
+> **"A premium, glassmorphism-inspired Dev OS."**
+
+*   **Stack:** HTML5 · CSS3 · Vanilla JS · LocalStorage
+*   **Key Features:** Live Code Sandbox · Pomodoro Focus Engine · Persistent Snippet Vault
+*   **Dev Run:** Open `Chai-Station/index.html` in any modern browser.
 > **"Fast, rate-limit-safe, and bookmark-ready."**
 
 *   **Stack:** React · Vite · TypeScript · Tailwind · Express Proxy · Axios
 *   **Key Features:** Global Search · Bookmarks · Dark Mode · API Mock Fallback
 *   **Dev Run:** `npm run dev` (Simultaneous Proxy + Vite launch)
+
+---
+
+## 📊 Featured Project: **Code-Stats-Tracker**
+> **"One dashboard to monitor your Codeforces climb."**
+
+*   **Stack:** React 19 · Vite · Bootstrap 5 · Recharts
+*   **Key Features:** Handle lookup with error states · Rating history area chart with rank bands · Contest delta table · Recent submissions feed · Problem tag pie + rating bar charts
+*   **Dev Run:** `cd Code-Stats-Tracker && npm install && npm run dev`
+*   **Build:** `cd Code-Stats-Tracker && npm run build` (outputs to `dist/`; requires internet access for the Codeforces API)
 
 ---
 
