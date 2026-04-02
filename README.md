@@ -15,7 +15,7 @@ The **ChaiCode Dev Cohort** repo is a curated collection of learning modules, as
 ### 🗺️ Repo Map
 | Module | Description | Path |
 | :--- | :--- | :--- |
-| **🚀 Minor Pro** | Trackify (reset in progress — source cleared for rebuild) | `trackify/` |
+| **🚀 Minor Pro** | Trackify — Student & Placement OS ([Repo](https://github.com/SonamNarula/college_project) · [Live](https://trackify.wasmer.app)) | `trackify/` |
 | **🎮 Gamified** | Chai-LevelUp — Skill Tree Tracker | `Chai-LevelUp/` |
 | **🌟 Unique Build** | Chai-Station — Personal Dev Workspace | `Chai-Station/` |
 | **📈 Analytics** | Code-Stats-Tracker — Codeforces profile viz & stats | `Code-Stats-Tracker/` |
