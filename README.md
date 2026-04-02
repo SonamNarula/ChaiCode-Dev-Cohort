@@ -21,7 +21,7 @@ The **ChaiCode Dev Cohort** repo is a curated collection of learning modules, as
 | **📈 Analytics** | Code-Stats-Tracker — Codeforces profile viz & stats | `Code-Stats-Tracker/` |
 | **🚀 Prime Project** | NeuroNews — React + Express Proxy | `news-aggregator/` |
 | **🧪 JS Lab** | Closures, Hoisting, Scope, and PDF notes | `JAVASCRIPT/` |
-| **🧪 JS Essentials** | Console methods + variable basics + data types (01-console.js, 02-variables.js, 03-datatypes.js) | `JAVASCRIPT/ESSENTIALS - 1/` |
+| **🧪 JS Essentials** | Console methods, variables, data types, numbers (01-console.js → 04-numbers.js) | `JAVASCRIPT/ESSENTIALS - 1/` |
 | **🎨 HTML/CSS** | Semantic markup, Grid, and Flexbox drills | `HTML/`, `CSS/` |
 | **🎯 Assignments** | Portfolio builds and Resume assignments | `ASSIGNMENT-1/2` |
 | **🛍️ Commerce** | Nike Store (cart logic & animations) | `nike-store/` |
@@ -79,6 +79,7 @@ Focusing on the engine behind the web—understanding scope, execution contexts,
 - **Console Essentials 01:** `JAVASCRIPT/ESSENTIALS - 1/01-console.js` — quick tour of `console.log/warn/error`, `console.table`, `console.group`, `console.time`, and `console.count`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/01-console.js"`.
 - **Variables Essentials 02:** `JAVASCRIPT/ESSENTIALS - 1/02-variables.js` — `var` vs `let` scope, block leakage, const mutation vs reassignment, and array/object updates. Run with `node "JAVASCRIPT/ESSENTIALS - 1/02-variables.js"`.
 - **Data Types 03:** `JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js` — strings, numbers, booleans, null/undefined, objects, arrays, symbols, and BigInt with `typeof` outputs. Run with `node "JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js"`.
+- **Numbers 04:** `JAVASCRIPT/ESSENTIALS - 1/04-numbers.js` — parsing strings, hex, padding, rounding (`round/floor/ceil/trunc`), `Math.min/max`, `Infinity/NaN`, and floating-point precision via `Number.EPSILON`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/04-numbers.js"`.
 - **Core Topics:** Variables/Scope, HOFs, Closures, Hoisting, Arrays, Objects.
 - **Reference:** Comprehensive [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf).
 
