@@ -83,7 +83,7 @@ Focusing on the engine behind the web—understanding scope, execution contexts,
 - **Strings 05:** `JAVASCRIPT/ESSENTIALS - 1/05-string.js` — immutability, `length`, `charAt` vs `at`, casing, `indexOf`, slicing, `split`, array checks, and `padStart`/`padEnd`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/05-string.js"`.
 - **Conditionals:** `JAVASCRIPT/ESSENTIALS - 1/conditionals.js` — branching with `if`/logical operators and `switch` cases for simple game/course flows. Run with `node "JAVASCRIPT/ESSENTIALS - 1/conditionals.js"`.
 - **Arrays 06:** `JAVASCRIPT/ESSENTIALS - 1/06-array.js` — array literals vs constructors, `Array.of`, `Array.from`, slicing/cloning, `includes`/`indexOf`, and array type checks. Run with `node "JAVASCRIPT/ESSENTIALS - 1/06-array.js"`.
-- **Array Methods 07:** `JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js` — `map/filter/find/findIndex`, `push/pop` stack ops, and `reduce` for aggregations. Run with `node "JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js"`.
+- **Array Methods 07:** `JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js` — `forEach` logging, `map/filter/find/findIndex`, `some/every` checks, `push/pop` stack ops, `reduce` totals, and `join` for CSV output. Run with `node "JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js"`.
 - **Core Topics:** Variables/Scope, HOFs, Closures, Hoisting, Arrays, Objects.
 - **Reference:** Comprehensive [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf).
 
