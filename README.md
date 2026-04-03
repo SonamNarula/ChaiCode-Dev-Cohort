@@ -21,7 +21,7 @@ The **ChaiCode Dev Cohort** repo is a curated collection of learning modules, as
 | **📈 Analytics** | Code-Stats-Tracker — Codeforces profile viz & stats | `Code-Stats-Tracker/` |
 | **🚀 Prime Project** | NeuroNews — React + Express Proxy | `news-aggregator/` |
 | **🧪 JS Lab** | Closures, Hoisting, Scope, and PDF notes | `JAVASCRIPT/` |
-| **🧪 JS Essentials** | Console methods, variables, data types, numbers, strings (01-console.js → 05-string.js) | `JAVASCRIPT/ESSENTIALS - 1/` |
+| **🧪 JS Essentials** | Console methods, variables, data types, numbers, strings, conditionals (01-console.js → conditionals.js) | `JAVASCRIPT/ESSENTIALS - 1/` |
 | **🎨 HTML/CSS** | Semantic markup, Grid, and Flexbox drills | `HTML/`, `CSS/` |
 | **🎯 Assignments** | Portfolio builds and Resume assignments | `ASSIGNMENT-1/2` |
 | **🛍️ Commerce** | Nike Store (cart logic & animations) | `nike-store/` |
@@ -81,6 +81,7 @@ Focusing on the engine behind the web—understanding scope, execution contexts,
 - **Data Types 03:** `JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js` — strings, numbers, booleans, null/undefined, objects, arrays, symbols, and BigInt with `typeof` outputs. Run with `node "JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js"`.
 - **Numbers 04:** `JAVASCRIPT/ESSENTIALS - 1/04-numbers.js` — parsing strings, hex, padding, rounding (`round/floor/ceil/trunc`), `Math.min/max`, `Infinity/NaN`, and floating-point precision via `Number.EPSILON`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/04-numbers.js"`.
 - **Strings 05:** `JAVASCRIPT/ESSENTIALS - 1/05-string.js` — immutability, `length`, `charAt` vs `at`, casing, `indexOf`, slicing, `split`, array checks, and `padStart`/`padEnd`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/05-string.js"`.
+- **Conditionals 06:** `JAVASCRIPT/ESSENTIALS - 1/conditionals.js` — branching with `if`/logical operators and `switch` cases for simple game/course flows. Run with `node "JAVASCRIPT/ESSENTIALS - 1/conditionals.js"`.
 - **Core Topics:** Variables/Scope, HOFs, Closures, Hoisting, Arrays, Objects.
 - **Reference:** Comprehensive [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf).
 
