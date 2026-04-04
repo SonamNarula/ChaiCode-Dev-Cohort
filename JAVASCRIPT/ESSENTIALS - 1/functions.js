@@ -39,3 +39,10 @@ function add(num1, num2) {
 
 add(5, 6);
 add(11, 21);
+
+function adds(num1 = 0, num2 = 0) {
+    console.log(num1 + num2);
+}
+
+adds(3, 4);
+adds();
