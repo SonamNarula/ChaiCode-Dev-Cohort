@@ -105,13 +105,18 @@ counter(); // 3
 
 // lexical scoping
 function outer() {
-  let name = "Sonam";
+    let name = "Sonam";
 
-  function inner() {
-    console.log(name);
-  }
+    function inner() {
+        console.log(name);
+    }
 
-  inner();
+    inner();
 }
 
 outer();
+
+// iife
+(function () {
+    console.log("Hello");
+})();
