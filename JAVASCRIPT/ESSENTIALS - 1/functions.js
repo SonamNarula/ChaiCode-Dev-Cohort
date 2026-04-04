@@ -46,3 +46,13 @@ function adds(num1 = 0, num2 = 0) {
 
 adds(3, 4);
 adds();
+
+function xyz(v){
+    return 12 + v;
+}
+
+
+
+
+let vals = xyz(13);
+console.log(vals);
