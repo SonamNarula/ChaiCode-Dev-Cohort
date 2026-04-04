@@ -1,6 +1,6 @@
 // console.log("hey");
 
-function dance(){
+function dance() {
     console.log("dance");
     console.log("dance");
     console.log("dance");
@@ -8,13 +8,13 @@ function dance(){
     console.log("dance");
     console.log("dance");
 }
-function lolo(){
+function lolo() {
     console.log("Happy New Year");
 }
 lolo();
 
 
-let fnc = function(){
+let fnc = function () {
     console.log("heyeyeyeyeyeheyeye");
 }
 
@@ -23,3 +23,19 @@ let fnc = function(){
 let fun = () => {
     console.log("yoooooo");
 }
+
+
+function dancee(v1) {
+    console.log(`${v1} naach rha h`)
+}
+dancee("ghoda")
+dancee("gadha")
+dancee("monkey")
+dancee("python")
+
+function add(num1, num2) {
+    console.log(num1 + num2);
+}
+
+add(5, 6);
+add(11, 21);
