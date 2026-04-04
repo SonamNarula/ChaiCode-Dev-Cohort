@@ -76,7 +76,7 @@ A deep-dive into UI/UX fundamentals, from pixel-perfect layout to semantic struc
 Focusing on the engine behind the web—understanding scope, execution contexts, and async patterns.
 
 - **Warm-ups:** `functions.js`, `brain.js` (hoisting logic), `day2.js` (closures).
-- **Functions Drill:** `JAVASCRIPT/ESSENTIALS - 1/functions.js` — declaration vs expression, arrow syntax, template-literal logging, a default-parameter sum helper, and a return-value demo. Run with `node "JAVASCRIPT/ESSENTIALS - 1/functions.js"`.
+- **Functions Drill:** `JAVASCRIPT/ESSENTIALS - 1/functions.js` — declaration vs expression, arrow syntax, template-literal logging, default-parameter sum helper, return-value demo, and a tiny callback invocation. Run with `node "JAVASCRIPT/ESSENTIALS - 1/functions.js"`.
 - **Console Essentials 01:** `JAVASCRIPT/ESSENTIALS - 1/01-console.js` — quick tour of `console.log/warn/error`, `console.table`, `console.group`, `console.time`, and `console.count`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/01-console.js"`.
 - **Variables Essentials 02:** `JAVASCRIPT/ESSENTIALS - 1/02-variables.js` — `var` vs `let` scope, block leakage, const mutation vs reassignment, and array/object updates. Run with `node "JAVASCRIPT/ESSENTIALS - 1/02-variables.js"`.
 - **Data Types 03:** `JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js` — strings, numbers, booleans, null/undefined, objects, arrays, symbols, and BigInt with `typeof` outputs. Run with `node "JAVASCRIPT/ESSENTIALS - 1/03-datatypes.js"`.
