@@ -33,12 +33,12 @@ dancee("gadha")
 dancee("monkey")
 dancee("python")
 
-function add(num1, num2) {
+function addAndLog(num1, num2) {
     console.log(num1 + num2);
 }
 
-add(5, 6);
-add(11, 21);
+addAndLog(5, 6);
+addAndLog(11, 21);
 
 function adds(num1 = 0, num2 = 0) {
     console.log(num1 + num2);
@@ -51,9 +51,6 @@ function xyz(v) {
     return 12 + v;
 }
 
-
-
-
 let vals = xyz(13);
 console.log(vals);
 
@@ -64,3 +61,57 @@ function pqrs(val) {
 pqrs(function () {
     console.log("hey");
 });
+
+function greet(name, callback) {
+    console.log("Hello " + name);
+    callback();
+}
+
+greet("Sonam", function () {
+    console.log("Welcome!");
+});
+
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(add(2, 3)); // 5
+
+let globalCount = 0;
+
+function increment() {
+    globalCount++;
+    return globalCount;
+}
+
+console.log(increment()); // 1
+console.log(increment()); // 2
+
+function createCounter() {
+    let count = 0;
+
+    function inner() {
+        count++;
+        console.log(count);
+    }
+
+    return inner;
+}
+
+let counter = createCounter();
+counter(); // 1
+counter(); // 2
+counter(); // 3
+
+// lexical scoping
+function outer() {
+  let name = "Sonam";
+
+  function inner() {
+    console.log(name);
+  }
+
+  inner();
+}
+
+outer();
