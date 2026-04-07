@@ -234,6 +234,44 @@ REASON:
 - Normal → this = object
 - Arrow → this = global
 */
+// ==============================
+// 12. IIFE (Immediately Invoked Function Expression)
+// ==============================
+// A self-starting potion shop: runs once, keeps its secret inside.
+const potionShop = (function () {
+    const secret = "dragon scale";
+    console.log("IIFE runs once. Secret stored:", secret);
+    return { featured: secret };
+})();
 
-// IIFE (Immediately Invoke Function Expression)
-const potionShop = (function(){})()
+/*
+OUTPUT:
+IIFE runs once. Secret stored: dragon scale
+
+REASON:
+- Wrapped in () to force expression
+- Second () executes immediately
+- Creates a private scope
+*/
+
+// ==============================
+// 13. FUNCTION THAT RETURNS A FUNCTION
+// ==============================
+// A recipe factory: give it a multiplier, it hands back a custom mixer.
+function makeMultiplier(multiplier) {
+    return function (value) {
+        return value * multiplier;
+    };
+}
+
+const double = makeMultiplier(2);
+console.log(double(5));
+
+/*
+OUTPUT:
+10
+
+REASON:
+- Higher-order: returns a new function
+- The inner function remembers `multiplier` via closure
+*/
