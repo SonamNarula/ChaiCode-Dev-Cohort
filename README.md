@@ -67,7 +67,7 @@
 | 07 Array Methods | forEach/map/filter/find, some/every, push/pop, reduce, join | `node "JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js"` |
 | 08 Objects | add/update/delete, computed keys, nullish coalescing, spreads, keys/values/entries | `node "JAVASCRIPT/ESSENTIALS - 1/08-objects.js"` |
 | 09 Object Methods | method shorthand, chaining, call reuse, clone vs freeze, property checks | `node "JAVASCRIPT/ESSENTIALS - 1/09-object-methods.js"` |
-| 10 Functions | declarations/expressions/arrows, default/rest params, callbacks/HOFs, arguments vs rest, `this` behavior | `node "JAVASCRIPT/ESSENTIALS - 1/10-functions.js"` |
+| 10 Functions | declarations/expressions/arrows, default/rest params, callbacks/HOFs, arguments vs rest, `this` behavior (potion-kitchen analogies) | `node "JAVASCRIPT/ESSENTIALS - 1/10-functions.js"` |
 
 ### JavaScript Lab (Console-First)
 - Warm-ups: `functions.js`, `brain.js` (hoisting), `day2.js` (closures)

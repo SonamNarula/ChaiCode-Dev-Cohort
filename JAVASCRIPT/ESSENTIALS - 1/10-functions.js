@@ -1,6 +1,9 @@
+// Quick tour of JavaScript functions—explained like we’re chatting in a potion kitchen.
+
 // ==============================
 // 1. FUNCTION DECLARATION
 // ==============================
+// Think of this as the official recipe card everyone can see.
 function brewPotion(ingredient, dose) {
     return `Brewing potion with ${ingredient} (x${dose})...Potion ready`;
 }
@@ -22,7 +25,8 @@ REASON:
 // ==============================
 // 2. FUNCTION EXPRESSION
 // ==============================
-const mixElixir = function(ingredient) {
+// Same recipe, but stored in a labeled jar (variable) first.
+const mixElixir = function (ingredient) {
     return `Mixing elixir with ${ingredient}`;
 };
 
@@ -41,6 +45,7 @@ REASON:
 // ==============================
 // 3. ARROW FUNCTION
 // ==============================
+// Slimmer note stuck to the fridge—short syntax, different `this`.
 const distilEssence = (ingredient) => {
     return `Distilling essence of ${ingredient}`;
 };
@@ -61,6 +66,7 @@ REASON:
 // ==============================
 // 4. ARROW FUNCTION (IMPLICIT RETURN)
 // ==============================
+// No braces, no fuss—auto-returns the string.
 const quickMix = ingredient => `Quick mix with ${ingredient}`;
 
 console.log(quickMix("Rose"));
@@ -78,6 +84,7 @@ REASON:
 // ==============================
 // 5. DEFAULT PARAMETERS
 // ==============================
+// If you don’t tell me the dose, I’ll assume one spoon.
 function createPotion(ingredient, dose = 1) {
     return `Potion: ${ingredient} x${dose}`;
 }
@@ -97,6 +104,7 @@ REASON:
 // ==============================
 // 6. REST PARAMETERS (MODERN)
 // ==============================
+// Scoop up any extra ingredients into one basket (an array).
 function collectIngredients(...items) {
     console.log(items);
 }
@@ -116,6 +124,7 @@ REASON:
 // ==============================
 // 7. ARGUMENTS OBJECT (OLD WAY)
 // ==============================
+// The old cardboard box of numbered slots—array-like, not an array.
 function oldBrewingLogs() {
     console.log("type:", typeof arguments);
     console.log(arguments);
@@ -139,7 +148,8 @@ REASON:
 // ==============================
 // 8. ANONYMOUS FUNCTION
 // ==============================
-setTimeout(function() {
+// A mystery chef walks in, does the job, and leaves—no name needed.
+setTimeout(function () {
     console.log("Anonymous function executed");
 }, 1000);
 
@@ -156,12 +166,13 @@ REASON:
 // ==============================
 // 9. CALLBACK FUNCTION
 // ==============================
+// Hand a helper function to finish the job after prep.
 function processIngredient(ingredient, callback) {
     console.log("Processing:", ingredient);
     callback();
 }
 
-processIngredient("Neem", function() {
+processIngredient("Neem", function () {
     console.log("Done processing");
 });
 
@@ -179,6 +190,7 @@ REASON:
 // ==============================
 // 10. HIGHER ORDER FUNCTION
 // ==============================
+// A function that eats another function for breakfast.
 function operate(a, b, fn) {
     return fn(a, b);
 }
@@ -199,9 +211,10 @@ REASON:
 // ==============================
 // 11. THIS BEHAVIOR
 // ==============================
+// Regular functions bind `this` to the caller; arrows borrow it from the outer world.
 const user = {
     name: "Sonam",
-    normalFn: function() {
+    normalFn: function () {
         console.log("Normal:", this.name);
     },
     arrowFn: () => {
@@ -221,3 +234,6 @@ REASON:
 - Normal → this = object
 - Arrow → this = global
 */
+
+// IIFE (Immediately Invoke Function Expression)
+const potionShop = (function(){})()
