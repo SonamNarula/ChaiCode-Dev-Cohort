@@ -275,3 +275,34 @@ REASON:
 - Higher-order: returns a new function
 - The inner function remembers `multiplier` via closure
 */
+
+// ==============================
+// 14. MODULE PATTERN WITH IIFE
+// ==============================
+// A tiny potion shop module: state stays private, public methods return data.
+const candyShop = (() => {
+    let inventory = 0;
+
+    return {
+        brew() {
+            inventory++;
+            return `Brew potion #${inventory}`;
+        },
+        getStock() {
+            return inventory;
+        },
+    };
+})();
+
+console.log(candyShop.brew());
+console.log(candyShop.getStock());
+
+/*
+POSSIBLE OUTPUT:
+Brew potion #1
+1
+
+REASON:
+- IIFE creates a closed-over `inventory`
+- Returned object exposes only the methods, not the raw state
+*/
