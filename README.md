@@ -87,6 +87,7 @@ Focusing on the engine behind the web—understanding scope, execution contexts,
 - **Array Methods 07:** `JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js` — `forEach` logging, `map/filter/find/findIndex`, `some/every` checks, `push/pop` stack ops, `reduce` totals, and `join` for CSV output. Run with `node "JAVASCRIPT/ESSENTIALS - 1/07-array-methods.js"`.
 - **Objects 08:** `JAVASCRIPT/ESSENTIALS - 1/08-objects.js` — add/update/delete props, computed keys, nullish coalescing, destructuring, spreads for merging, and `Object.keys/values/entries`. Run with `node "JAVASCRIPT/ESSENTIALS - 1/08-objects.js"`.
 - **Object Methods 09:** `JAVASCRIPT/ESSENTIALS - 1/09-object-methods.js` — method shorthand with `this`, chaining, `call` reuse, spread clone vs `Object.freeze`, and property checks (`hasOwnProperty`, `in`). Run with `node "JAVASCRIPT/ESSENTIALS - 1/09-object-methods.js"`.
+- **Functions 10:** `JAVASCRIPT/ESSENTIALS - 1/10-functions.js` — potion-brewing helpers, function expression vs arrow syntax, and `arguments` object inspection. Run with `node "JAVASCRIPT/ESSENTIALS - 1/10-functions.js"`.
 - **Core Topics:** Variables/Scope, HOFs, Closures, Hoisting, Arrays, Objects.
 - **Reference:** Comprehensive [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf).
 
