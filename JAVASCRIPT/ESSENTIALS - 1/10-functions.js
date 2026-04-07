@@ -306,3 +306,29 @@ REASON:
 - IIFE creates a closed-over `inventory`
 - Returned object exposes only the methods, not the raw state
 */
+
+// ==============================
+// 15. CLOSURE IN ACTION
+// ==============================
+// A helper that remembers its kitchen label even after the outer function finishes.
+function makeLabel() {
+    const label = "Mint Elixir";
+
+    function printLabel() {
+        console.log(label);
+    }
+
+    return printLabel; // inner function closes over `label`
+}
+
+const mintLabel = makeLabel();
+mintLabel();
+
+/*
+OUTPUT:
+Mint Elixir
+
+REASON:
+- `printLabel` keeps a reference to `label` after `makeLabel` is done
+- That preserved scope is the closure
+*/
