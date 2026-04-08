@@ -34,6 +34,7 @@
 - JS revision snippet: `node "JAVASCRIPT REVISION/01_basics/test.js"`
 - Basics refresher: `node "JAVASCRIPT REVISION/01_basics/01-var.js"` — var/let/const demo with table output
 - Data types refresher: `node "JAVASCRIPT REVISION/01_basics/02-Data-Types.js"` — primitives overview + typeof
+- Conversion refresher: `node "JAVASCRIPT REVISION/01_basics/03-ConversionOperator.js"` — Number/Boolean/String conversions
 - JavaScript drills: `node "JAVASCRIPT/ESSENTIALS - 1/<file>.js"` (see lessons below)
 
 ---
@@ -78,6 +79,7 @@
 - Quick refreshers: `JAVASCRIPT REVISION/01_basics/test.js` — console log sanity check (`node "JAVASCRIPT REVISION/01_basics/test.js"`)
 - Basics refresher: `JAVASCRIPT REVISION/01_basics/01-var.js` — var/let/const table demo (`node "JAVASCRIPT REVISION/01_basics/01-var.js"`)
 - Data types refresher: `JAVASCRIPT REVISION/01_basics/02-Data-Types.js` — primitives overview (`number`, `string`, `boolean`, `null`, `undefined`, `symbol`, `bigint`) and `typeof`
+- Conversion refresher: `JAVASCRIPT REVISION/01_basics/03-ConversionOperator.js` — Number/Boolean/String conversions and gotchas
 - Core topics: Variables/Scope, Higher-Order Functions, Closures, Hoisting, Arrays, Objects
 - Reference: [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf)
 
