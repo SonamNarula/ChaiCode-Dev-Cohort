@@ -32,6 +32,7 @@
 - React/Vite dashboards: `cd Code-Stats-Tracker && npm install && npm run dev`
 - React + Express proxy: `cd news-aggregator && npm install && npm run dev`
 - JS revision snippet: `node "JAVASCRIPT REVISION/01_basics/test.js"`
+- Basics refresher: `node "JAVASCRIPT REVISION/01_basics/01-var.js"` — var/let/const demo with table output
 - JavaScript drills: `node "JAVASCRIPT/ESSENTIALS - 1/<file>.js"` (see lessons below)
 
 ---
@@ -74,7 +75,7 @@
 ### JavaScript Lab (Console-First)
 - Warm-ups: `functions.js`, `brain.js` (hoisting), `day2.js` (closures)
 - Quick refreshers: `JAVASCRIPT REVISION/01_basics/test.js` — console log sanity check (`node "JAVASCRIPT REVISION/01_basics/test.js"`)
-- Basics refresher: `JAVASCRIPT REVISION/01_basics/01_variables.js` — var/let/const table demo (`node "JAVASCRIPT REVISION/01_basics/01_variables.js"`)
+- Basics refresher: `JAVASCRIPT REVISION/01_basics/01-var.js` — var/let/const table demo (`node "JAVASCRIPT REVISION/01_basics/01-var.js"`)
 - Core topics: Variables/Scope, Higher-Order Functions, Closures, Hoisting, Arrays, Objects
 - Reference: [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf)
 
