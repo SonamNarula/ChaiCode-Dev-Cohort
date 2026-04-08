@@ -31,6 +31,7 @@
 - Static builds: open `Chai-LevelUp/index.html` or `Chai-Station/index.html` directly in a modern browser.
 - React/Vite dashboards: `cd Code-Stats-Tracker && npm install && npm run dev`
 - React + Express proxy: `cd news-aggregator && npm install && npm run dev`
+- JS revision snippet: `node "JAVASCRIPT REVISION/test.js"`
 - JavaScript drills: `node "JAVASCRIPT/ESSENTIALS - 1/<file>.js"` (see lessons below)
 
 ---
