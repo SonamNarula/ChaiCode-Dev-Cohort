@@ -44,6 +44,7 @@
 | **📈 Analytics** | Code-Stats-Tracker — Codeforces profile viz & stats | `Code-Stats-Tracker/` |
 | **🚀 Prime Project** | NeuroNews — React + Express Proxy | `news-aggregator/` |
 | **🧪 JS Lab** | Closures, Hoisting, Scope, and PDF notes | `JAVASCRIPT/` |
+| **🧪 JS Revision** | Quick console practice snippets | `JAVASCRIPT REVISION/` |
 | **🧪 JS Essentials** | Console methods, variables, data types, numbers, strings, conditionals, arrays, array methods, objects, object methods, functions (01–10) | `JAVASCRIPT/ESSENTIALS - 1/` |
 | **🎨 HTML/CSS** | Semantic markup, Grid, and Flexbox drills | `HTML/`, `CSS/` |
 | **🎯 Assignments** | Portfolio builds and Resume assignments | `ASSIGNMENT-1/2` |
@@ -71,6 +72,7 @@
 
 ### JavaScript Lab (Console-First)
 - Warm-ups: `functions.js`, `brain.js` (hoisting), `day2.js` (closures)
+- Quick refreshers: `JAVASCRIPT REVISION/test.js` — console log sanity check (`node "JAVASCRIPT REVISION/test.js"`)
 - Core topics: Variables/Scope, Higher-Order Functions, Closures, Hoisting, Arrays, Objects
 - Reference: [JS_Learn_Everything.pdf](file:///Users/sonamnarula/Desktop/COHORT/JAVASCRIPT/JS_Learn_Everything.pdf)
 
