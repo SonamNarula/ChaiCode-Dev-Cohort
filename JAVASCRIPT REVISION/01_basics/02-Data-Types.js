@@ -1,1 +1,18 @@
-"use strict"; // treat all JS as modern\n\n// Quick primer on JS data types and typeof\nconsole.log(3 + 3);\nconsole.log(\"Sonam\");\n\nlet name = \"sonam\";\nlet age = 20;\nlet isLoggedIn = true;\n\n// number, bigint, string, boolean, null (standalone value), undefined, symbol (unique), object\n\nconsole.log(typeof \" sonam \"); // string\nconsole.log(typeof age);        // number\nconsole.log(typeof null);       // object (quirk in JS)\nconsole.log(typeof undefined);  // undefined\nconsole.log(typeof Symbol(\"id\")); // symbol\n*** End Patch​
+"use strict"; // treat all JS as modern
+
+// Quick primer on JS data types and typeof
+console.log(3 + 3);
+console.log("Sonam");
+
+let name = "sonam";
+let age = 20;
+let isLoggedIn = true;
+
+// number, bigint, string, boolean, null (standalone), undefined, symbol (unique), object
+
+console.log(typeof " sonam ");      // string
+console.log(typeof age);            // number
+console.log(typeof isLoggedIn);     // boolean
+console.log(typeof null);           // object (JS quirk)
+console.log(typeof undefined);      // undefined
+console.log(typeof Symbol("id"));   // symbol
